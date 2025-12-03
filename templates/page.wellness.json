@@ -103,7 +103,7 @@
         "section_heading_size": "h2",
         "subheading": "Outcome → Plan → Protocol",
         "dot": true,
-        "columns_per_row": 2,
+        "columns_per_row": 3,
         "swipe_on_mobile": true,
         "card_heading_size": "h2",
         "margin_top": "m",
@@ -114,7 +114,7 @@
       "type": "rich-text",
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "section_layout": "row",
+        "section_layout": "column",
         "subheading": "",
         "heading": "",
         "section_heading_tag": "h2",
@@ -128,12 +128,83 @@
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
+    },
+    "multicolumn_RxqcA6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_n8x7yN": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "View Details",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_U4hnhi": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "View Details",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_EGXNEX": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "View Details",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_n8x7yN",
+        "column_U4hnhi",
+        "column_EGXNEX"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "section_heading": "Key features here",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "subheading": "Highlight product categories or brand values",
+        "dot": true,
+        "columns_per_row": 3,
+        "content_alignment": "left",
+        "swipe_on_mobile": true,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
     }
   },
   "order": [
     "main",
     "slideshow_DdUc3g",
     "numbered_list_c8gnFK",
-    "rich_text_xxW6iy"
+    "rich_text_xxW6iy",
+    "multicolumn_RxqcA6"
   ]
 }
