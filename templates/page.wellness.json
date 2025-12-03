@@ -212,7 +212,7 @@
           "type": "accordion",
           "settings": {
             "question": "Core Protocol May Include",
-            "answer": "<ul><li>IV Energy Drip (B vitamins, amino acids, hydration).</li><li>Optional NAD+ add-on for mitochondrial support.</li><li>Infrared or Red Light Therapy for nervous system and cellular support.</li><li>Breathwork / light coaching around sleep and rhythm.<br/><br/></li></ul>",
+            "answer": "<ul><li>Immunity IV (Vitamin C, zinc, key immune-supporting nutrients).</li><li>Lymphatic drainage or compression therapy.</li><li>Cryotherapy or cold exposure to stimulate circulation and resilience.</li><li>Optional glutathione push for antioxidant support.</li></ul>",
             "default_open": false
           }
         },
