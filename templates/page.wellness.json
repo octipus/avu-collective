@@ -686,6 +686,25 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "rich_text_7tnVk3": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_layout": "row",
+        "subheading": "",
+        "heading": "Your Body Is Already Talking. Let’s Actually Listen.",
+        "section_heading_tag": "h2",
+        "heading_size": "h4",
+        "dot": true,
+        "text": "<p> If you’re tired of guessing, Googling, or trying one-off “wellness trends,” AVU Wellness gives you something better: <strong>outcomes, mapped to a real plan.</strong></p>",
+        "button_label": "Call for action",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -701,6 +720,7 @@
     "collapsible_content_GHwTey",
     "collapsible_content_BbnKPc",
     "card_list_RTLL8M",
-    "collapsible_content_txYQLW"
+    "collapsible_content_txYQLW",
+    "rich_text_7tnVk3"
   ]
 }
