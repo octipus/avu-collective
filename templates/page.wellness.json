@@ -555,6 +555,73 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "card_list_RTLL8M": {
+      "type": "card-list",
+      "blocks": {
+        "card_NcqN3t": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/0823_b29cc5cf-3e06-41fd-9723-f384b1f28206.png",
+            "badge": "Badge",
+            "badge_style": "primary",
+            "subheading": "Outcome-first, not menu-first. ",
+            "text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+          }
+        },
+        "card_Tp7Pq7": {
+          "type": "card",
+          "settings": {
+            "badge": "Badge",
+            "badge_style": "primary",
+            "subheading": "Describe This Column's Purpose",
+            "text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+          }
+        },
+        "card_TQfNkt": {
+          "type": "card",
+          "settings": {
+            "badge": "Badge",
+            "badge_style": "primary",
+            "subheading": "Describe This Column's Purpose",
+            "text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+          }
+        },
+        "card_K3k6wW": {
+          "type": "card",
+          "settings": {
+            "badge": "Badge",
+            "badge_style": "primary",
+            "subheading": "Describe This Column's Purpose",
+            "text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+          }
+        }
+      },
+      "block_order": [
+        "card_NcqN3t",
+        "card_Tp7Pq7",
+        "card_TQfNkt",
+        "card_K3k6wW"
+      ],
+      "name": "t:sections.card-list.presets.name",
+      "settings": {
+        "text-number-visible": true,
+        "text-always-visible": false,
+        "section_heading": "Why AVU Wellness Is Not “Just Another IV Bar”",
+        "heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "subheading_tag": "h4",
+        "columns_per_row": 4,
+        "image_ratio": "3/4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_arrows": false,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -568,6 +635,7 @@
     "collapsible_content_4WXgWw",
     "collapsible_content_yd4tyF",
     "collapsible_content_GHwTey",
-    "collapsible_content_BbnKPc"
+    "collapsible_content_BbnKPc",
+    "card_list_RTLL8M"
   ]
 }
