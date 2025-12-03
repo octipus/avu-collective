@@ -204,7 +204,7 @@
           "type": "accordion",
           "settings": {
             "question": "Who This Is For",
-            "answer": "<ul><li>High-performers, entrepreneurs, executives.</li><li>Parents who are tired of being tired.</li><li>Anyone relying on sugar or caffeine just to feel normal.</li></ul>",
+            "answer": "<ul><li>Frequent travelers.</li><li>Parents / teachers / healthcare workers.</li><li>People who feel like they’re always on the edge of getting sick.</li></ul>",
             "default_open": false
           }
         },
