@@ -125,6 +125,10 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
+        "button2_label": "",
+        "button2_link": "",
+        "button2_style": "primary",
+        "button2_dot": true,
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
@@ -702,6 +706,10 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
+        "button2_label": "Call for action",
+        "button2_link": "",
+        "button2_style": "primary",
+        "button2_dot": true,
         "margin_top": "s",
         "margin_bottom": "s"
       }
