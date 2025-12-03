@@ -219,8 +219,8 @@
         "accordion_4YJeeF": {
           "type": "accordion",
           "settings": {
-            "question": "Sample Pathway Layout",
-            "answer": "<ul><li>Week 1–2: Load phase (2–3 drips + infrared sessions) </li><li>Week 3–4: Stabilize energy, fine-tune dosing </li><li>Week 5–6: Decide on maintenance or upgrade to performance plan<br/><br/></li></ul>",
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Immune Prep (3-Week Series)</strong> – 3 IV Immunity Drips + 3 Lymphatic Sessions</li><li><strong>Travel Armor Plan</strong> – 1 drip before travel, 1 after return, optional cryo visit</li><li><strong>Maintenance:</strong> Monthly “Immune Top-Up” IV<br/> </li></ul>",
             "default_open": false
           }
         }
@@ -241,7 +241,7 @@
         "section_subheading": "Outcome: Get Sick Less. Recover Faster.",
         "dot": false,
         "collapse_heading_tag": "h4",
-        "section_button_label": "Start Energy & Focus Boost Plan",
+        "section_button_label": "Build Your Immunity Shield",
         "section_button_link": "",
         "button_dot": true,
         "section_button_style": "primary",
