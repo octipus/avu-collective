@@ -428,6 +428,66 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "collapsible_content_GHwTey": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_kgU7bV": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Better energy and appetite regulation.</li><li>Support for body composition and fat metabolism.</li><li>A path that prioritizes <strong>health first</strong>, aesthetics second.</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_wDxzN8": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>Clients stuck in yo-yo cycles.</li><li>People whose energy and cravings are all over the place.</li><li>Those wanting to pair body contouring with internal support.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_TMnbT8": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>Clients stuck in yo-yo cycles.</li><li>People whose energy and cravings are all over the place.</li><li>Those wanting to pair body contouring with internal support.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_x8PUed": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Metabolic Kickstart (8-Week)</strong> – IVs + contour + basic tracking</li><li>Option to transition into <strong>Performance or Longevity</strong> plans afterward.</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_kgU7bV",
+        "accordion_wDxzN8",
+        "accordion_TMnbT8",
+        "accordion_x8PUed"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "WEIGHT OPTIMIZATION",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "Outcome: A Metabolism That Works With You, Not Against You.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Build Your Performance & Recovery Plan",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -439,6 +499,7 @@
     "collapsible_content_rfnHHL",
     "collapsible_content_7GHHFQ",
     "collapsible_content_4WXgWw",
-    "collapsible_content_yd4tyF"
+    "collapsible_content_yd4tyF",
+    "collapsible_content_GHwTey"
   ]
 }
