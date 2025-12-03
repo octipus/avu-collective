@@ -143,8 +143,8 @@
         "accordion_gQXQJM": {
           "type": "accordion",
           "settings": {
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "Who This Is For",
+            "answer": "<ul><li>High-performers, entrepreneurs, executives.</li><li>Parents who are tired of being tired.</li><li>Anyone relying on sugar or caffeine just to feel normal.</li></ul>",
             "default_open": false
           }
         },
