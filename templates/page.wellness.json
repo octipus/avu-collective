@@ -520,7 +520,7 @@
           "type": "accordion",
           "settings": {
             "question": "Package Snapshot",
-            "answer": "<ul><li><strong>Metabolic Kickstart (8-Week)</strong> – IVs + contour + basic tracking</li><li>Option to transition into <strong>Performance or Longevity</strong> plans afterward.</li></ul>",
+            "answer": "<ul><li><strong>Longevity Starter (8-Week)</strong> – NAD+ Series + Glutathione + Check-ins</li><li><strong>Beauty from Within Plan</strong> – Combines IV longevity work with skin/hair protocols.</li></ul>",
             "default_open": false
           }
         }
@@ -541,7 +541,7 @@
         "section_subheading": "Outcome: Extend Your Healthspan, Not Just Your Lifespan.",
         "dot": true,
         "collapse_heading_tag": "h4",
-        "section_button_label": "Start Weight Optimization Plan",
+        "section_button_label": "Explore Longevity & Beauty Plan",
         "section_button_link": "",
         "button_dot": true,
         "section_button_style": "primary",
