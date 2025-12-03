@@ -640,16 +640,24 @@
         "accordion_UjGina": {
           "type": "accordion",
           "settings": {
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "How fast will I feel a difference?",
+            "answer": "<p>Some outcomes (energy, recovery) can feel different after the first or second visit. Others (weight, longevity) are built over <strong>weeks to months</strong>, not days.</p>",
             "default_open": false
           }
         },
         "accordion_Eztq8V": {
           "type": "accordion",
           "settings": {
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "Can I combine wellness visits with skin or med spa treatments? ",
+            "answer": "<p>Yes — and you should. Many clients stack an IV with a skin treatment or recovery session to maximize time and results.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_qgVnKR": {
+          "type": "accordion",
+          "settings": {
+            "question": "Is this a replacement for my doctor? ",
+            "answer": "<p>No. AVU Wellness is a <strong>supportive, adjunct layer</strong>, not a substitute for primary or specialist care.</p>",
             "default_open": false
           }
         }
@@ -657,7 +665,8 @@
       "block_order": [
         "accordion_GTb6Ab",
         "accordion_UjGina",
-        "accordion_Eztq8V"
+        "accordion_Eztq8V",
+        "accordion_qgVnKR"
       ],
       "name": "t:sections.collapsible-content.name",
       "settings": {
@@ -670,7 +679,7 @@
         "section_subheading": "",
         "dot": false,
         "collapse_heading_tag": "h4",
-        "section_button_label": "Read FAQs",
+        "section_button_label": "",
         "section_button_link": "",
         "button_dot": true,
         "section_button_style": "primary",
