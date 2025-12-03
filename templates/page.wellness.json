@@ -481,7 +481,67 @@
         "section_subheading": "Outcome: A Metabolism That Works With You, Not Against You.",
         "dot": true,
         "collapse_heading_tag": "h4",
-        "section_button_label": "Build Your Performance & Recovery Plan",
+        "section_button_label": "Start Weight Optimization Plan",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "collapsible_content_BbnKPc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_abmjyq": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Support for cellular health and aging.</li><li>Improvements that show up as better skin, hair, and energy.</li><li>A proactive, data-aware approach to how you age.</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_VKPz93": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>Support for cellular health and aging.</li><li>Improvements that show up as better skin, hair, and energy.</li><li>A proactive, data-aware approach to how you age.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_PhndcF": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>NAD+ IV or IM series.</li><li>Glutathione pushes for antioxidant support.<br/> Collagen + skin-supporting formulations.</li><li>Integration with AVU Skin Bar and Med Bar for visible + internal alignment.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_pWzMe7": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Metabolic Kickstart (8-Week)</strong> – IVs + contour + basic tracking</li><li>Option to transition into <strong>Performance or Longevity</strong> plans afterward.</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_abmjyq",
+        "accordion_VKPz93",
+        "accordion_PhndcF",
+        "accordion_pWzMe7"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "LONGEVITY & BEAUTY FROM WITHIN",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "Outcome: Extend Your Healthspan, Not Just Your Lifespan.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Start Weight Optimization Plan",
         "section_button_link": "",
         "button_dot": true,
         "section_button_style": "primary",
@@ -500,6 +560,7 @@
     "collapsible_content_7GHHFQ",
     "collapsible_content_4WXgWw",
     "collapsible_content_yd4tyF",
-    "collapsible_content_GHwTey"
+    "collapsible_content_GHwTey",
+    "collapsible_content_BbnKPc"
   ]
 }
