@@ -179,7 +179,7 @@
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
         "section_subheading": "Outcome: Wake Up Energized. Stay Sharp All Day.",
-        "dot": false,
+        "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Start Energy & Focus Boost Plan",
         "section_button_link": "",
@@ -239,7 +239,67 @@
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
         "section_subheading": "Outcome: Get Sick Less. Recover Faster.",
-        "dot": false,
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Build Your Immunity Shield",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "collapsible_content_7GHHFQ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_HenVCy": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Deeper, more consistent sleep.</li><li>Less wired-but-tired feeling at night.</li><li>A body that slowly exits permanent fight-or-flight mode.</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_hLaH9L": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>High-stress professionals.</li><li>People who “can’t turn their brain off” at night.</li><li>Anyone tracking sleep data and not liking what they see.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_Uenx9k": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>Immunity IV (Vitamin C, zinc, key immune-supporting nutrients).</li><li>Lymphatic drainage or compression therapy.</li><li>Cryotherapy or cold exposure to stimulate circulation and resilience.</li><li>Optional glutathione push for antioxidant support.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_rQkDmx": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Immune Prep (3-Week Series)</strong> – 3 IV Immunity Drips + 3 Lymphatic Sessions</li><li><strong>Travel Armor Plan</strong> – 1 drip before travel, 1 after return, optional cryo visit</li><li><strong>Maintenance:</strong> Monthly “Immune Top-Up” IV<br/> </li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_HenVCy",
+        "accordion_hLaH9L",
+        "accordion_Uenx9k",
+        "accordion_rQkDmx"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "STRESS RECOVERY & SLEEP",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": " Outcome: A Nervous System That Actually Calms Down.",
+        "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Build Your Immunity Shield",
         "section_button_link": "",
@@ -256,6 +316,7 @@
     "numbered_list_c8gnFK",
     "rich_text_xxW6iy",
     "collapsible_content_HRiqKt",
-    "collapsible_content_rfnHHL"
+    "collapsible_content_rfnHHL",
+    "collapsible_content_7GHHFQ"
   ]
 }
