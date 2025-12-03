@@ -129,74 +129,55 @@
         "margin_bottom": "xs"
       }
     },
-    "multicolumn_RxqcA6": {
-      "type": "multicolumn",
+    "collapsible_content_HRiqKt": {
+      "type": "collapsible-content",
       "blocks": {
-        "column_n8x7yN": {
-          "type": "column",
+        "accordion_VEhCDc": {
+          "type": "accordion",
           "settings": {
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
-            "button_label": "View Details",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "full_link": false
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Smooth, sustained energy (not just a caffeine spike).</li><li>Better mental clarity and focus.</li><li>Fewer afternoon crashes and “I’m done by 3 PM” days.<br/></li></ul>",
+            "default_open": true
           }
         },
-        "column_U4hnhi": {
-          "type": "column",
+        "accordion_gQXQJM": {
+          "type": "accordion",
           "settings": {
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
-            "button_label": "View Details",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "full_link": false
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
           }
         },
-        "column_EGXNEX": {
-          "type": "column",
+        "accordion_6k3Y7a": {
+          "type": "accordion",
           "settings": {
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
-            "button_label": "View Details",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "full_link": false
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
           }
         }
       },
       "block_order": [
-        "column_n8x7yN",
-        "column_U4hnhi",
-        "column_EGXNEX"
+        "accordion_VEhCDc",
+        "accordion_gQXQJM",
+        "accordion_6k3Y7a"
       ],
-      "name": "t:sections.multicolumn.name",
+      "name": "t:sections.collapsible-content.name",
       "settings": {
-        "section_heading": "Key features here",
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "ENERGY & FOCUS BOOST",
         "section_heading_tag": "h2",
-        "section_heading_size": "h1",
-        "subheading": "Highlight product categories or brand values",
-        "dot": true,
-        "columns_per_row": 3,
-        "content_alignment": "left",
-        "swipe_on_mobile": true,
-        "card_heading_tag": "h4",
-        "card_heading_size": "h4",
-        "margin_top": "m",
-        "margin_bottom": "m"
+        "section_heading_size": "h2",
+        "section_subheading": "Outcome: Wake Up Energized. Stay Sharp All Day.",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Read FAQs",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     }
   },
@@ -205,6 +186,6 @@
     "slideshow_DdUc3g",
     "numbered_list_c8gnFK",
     "rich_text_xxW6iy",
-    "multicolumn_RxqcA6"
+    "collapsible_content_HRiqKt"
   ]
 }
