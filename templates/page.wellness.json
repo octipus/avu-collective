@@ -155,12 +155,21 @@
             "answer": "<ul><li>IV Energy Drip (B vitamins, amino acids, hydration).</li><li>Optional NAD+ add-on for mitochondrial support.</li><li>Infrared or Red Light Therapy for nervous system and cellular support.</li><li>Breathwork / light coaching around sleep and rhythm.<br/><br/></li></ul>",
             "default_open": false
           }
+        },
+        "accordion_byfKfk": {
+          "type": "accordion",
+          "settings": {
+            "question": "Sample Pathway Layout",
+            "answer": "<ul><li>Week 1–2: Load phase (2–3 drips + infrared sessions) </li><li>Week 3–4: Stabilize energy, fine-tune dosing </li><li>Week 5–6: Decide on maintenance or upgrade to performance plan<br/><br/></li></ul>",
+            "default_open": false
+          }
         }
       },
       "block_order": [
         "accordion_VEhCDc",
         "accordion_gQXQJM",
-        "accordion_6k3Y7a"
+        "accordion_6k3Y7a",
+        "accordion_byfKfk"
       ],
       "name": "t:sections.collapsible-content.name",
       "settings": {
