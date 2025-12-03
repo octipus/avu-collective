@@ -25,15 +25,26 @@
         {{ section.settings.text }}
       </div>
     {% endif %}
-    {% if section.settings.button_label != blank %}
-      {% render 'button',
-        btn_label: section.settings.button_label,
-        btn_link: section.settings.button_link,
-        btn_style: section.settings.button_style,
-        button_dot: section.settings.button_dot,
-        add_classes: 'rich-text__button focus-inset'
-      %}
-    {%- endif -%}
+    <div class="rich-text__buttons">
+      {% if section.settings.button_label != blank %}
+        {% render 'button',
+          btn_label: section.settings.button_label,
+          btn_link: section.settings.button_link,
+          btn_style: section.settings.button_style,
+          button_dot: section.settings.button_dot,
+          add_classes: 'rich-text__button focus-inset'
+        %}
+      {%- endif -%}
+      {% if section.settings.button2_label != blank %}
+        {% render 'button',
+          btn_label: section.settings.button2_label,
+          btn_link: section.settings.button2_link,
+          btn_style: section.settings.button2_style,
+          button_dot: section.settings.button2_dot,
+          add_classes: 'rich-text__button focus-inset'
+        %}
+      {%- endif -%}
+    </div>
   </div>
 </div>
 
@@ -196,6 +207,43 @@
 		{
 			"type": "checkbox",
 			"id": "button_dot",
+			"default": true,
+			"label": "t:sections.all.button.button_dot.label"
+		},
+    {
+			"type": "text",
+			"id": "button2_label",
+			"default": "t:sections.rich-text.settings.button.label",
+			"label": "t:sections.all.button.button_label.label"
+		},
+		{
+			"type": "url",
+			"id": "button2_link",
+			"label": "t:sections.all.button.button_link.label"
+		},
+		{
+			"type": "select",
+			"id": "button2_style",
+			"options": [
+				{
+					"value": "primary",
+					"label": "t:sections.all.button.button_style.options__1.label"
+				},
+				{
+					"value": "secondary",
+					"label": "t:sections.all.button.button_style.options__2.label"
+				},
+				{
+					"value": "tertiary",
+					"label": "t:sections.all.button.button_style.options__3.label"
+				}
+			],
+			"default": "primary",
+			"label": "t:sections.all.button.button_style.label"
+		},
+		{
+			"type": "checkbox",
+			"id": "button2_dot",
 			"default": true,
 			"label": "t:sections.all.button.button_dot.label"
 		},
