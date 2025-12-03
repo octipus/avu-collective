@@ -13,6 +13,7 @@
         {% render 'section-header',
           section_heading: section.settings.section_heading,
           section_preheading: section.settings.section_preheading,
+          section_subheading: section.settings.section_subheading,
           dot: section.settings.dot,
           section_heading_size: section.settings.section_heading_size,
           section_heading_tag: section.settings.section_heading_tag
@@ -203,6 +204,12 @@
       "id": "section_preheading",
       "default": "t:sections.collapsible-content.settings.preheading.default",
       "label": "t:sections.all.section-header.preheading.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "section_subheading",
+      "default": "t:sections.collapsible-content.settings.subheading.default",
+      "label": "t:sections.all.section-header.subheading.label"
     },
     {
       "type": "checkbox",

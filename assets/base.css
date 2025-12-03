@@ -5444,6 +5444,7 @@ body.mouse-focus .header__icons .header__icon--cart:focus-visible {
 }
 .section-header__subtitle + .section-header__title {
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .section-header__subtitle {
   display: flex;
