@@ -53,7 +53,7 @@
     "cart_show_vendor": false,
     "currency_code_enabled": false,
     "show_back_to_top": true,
-    "enable_breadcrumbs": true,
+    "enable_breadcrumbs": false,
     "type_section_header_font": "dm_sans_n5",
     "sale_badge_color_scheme": "background-1",
     "sections": {

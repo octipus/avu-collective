@@ -1,1 +1,107 @@
-{"sections":{"main":{"type":"main-page","settings":{"section_heading_tag":"h1","heading_size":"h3","margin_top":"no-indent","margin_bottom":"m"}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "section_heading_tag": "h1",
+        "heading_size": "h3",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "slideshow_DdUc3g": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item_BGm4Y4": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "heading": "Showcase What Matters Most",
+            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
+            "text_width": "small",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
+          }
+        },
+        "slideshow_item_rpPWKi": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "heading": "Showcase What Matters Most",
+            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
+            "text_width": "small",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
+          }
+        },
+        "slideshow_item_Nk7Mq8": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "heading": "Showcase What Matters Most",
+            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
+            "text_width": "small",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item_BGm4Y4",
+        "slideshow_item_rpPWKi",
+        "slideshow_item_Nk7Mq8"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "header_overlay": false,
+        "header_transparent": false,
+        "color_scheme_header": "",
+        "light_logo": true,
+        "section_layout": "full",
+        "text_position": "left",
+        "pagination_position": "bottom",
+        "image_size": "16/9",
+        "heading_tag": "h1",
+        "image_size_mobile": "3/4",
+        "text_position_mobile": "bottom-left",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "slideshow_speed": 0.8,
+        "slideshow_delay": 3,
+        "slide_effects": "custom",
+        "text_animation": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_DdUc3g"
+  ]
+}
