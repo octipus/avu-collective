@@ -86,7 +86,7 @@
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
-            "heading": "03 · Track, Adjust, Maintain",
+            "heading": "Track, Adjust, Maintain",
             "text": "○ Regular check-ins to see what’s working.\n○ Protocol evolves as your body responds.\n○ Transition into a maintenance membership once you hit your goal."
           }
         }
@@ -107,13 +107,33 @@
         "swipe_on_mobile": true,
         "card_heading_size": "h2",
         "margin_top": "m",
-        "margin_bottom": "m"
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_xxW6iy": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_layout": "row",
+        "subheading": "",
+        "heading": "",
+        "section_heading_tag": "h2",
+        "heading_size": "h2",
+        "dot": true,
+        "text": "",
+        "button_label": "Book Your Wellness Assessment",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "xs"
       }
     }
   },
   "order": [
     "main",
     "slideshow_DdUc3g",
-    "numbered_list_c8gnFK"
+    "numbered_list_c8gnFK",
+    "rich_text_xxW6iy"
   ]
 }
