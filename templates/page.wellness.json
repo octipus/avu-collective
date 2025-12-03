@@ -625,6 +625,58 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "collapsible_content_txYQLW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_GTb6Ab": {
+          "type": "accordion",
+          "settings": {
+            "question": "Do I need labs before starting?",
+            "answer": "<p>Not always. Many clients start with history + assessment alone. For more complex or long-term goals, we may recommend partnering with your existing physician for labs.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_UjGina": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_Eztq8V": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_GTb6Ab",
+        "accordion_UjGina",
+        "accordion_Eztq8V"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "column",
+        "icon_style": "secondary",
+        "section_heading": "Frequently Asked Questions",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": " Wellness Outcomes – Common Questions",
+        "section_subheading": "",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Read FAQs",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -639,6 +691,7 @@
     "collapsible_content_yd4tyF",
     "collapsible_content_GHwTey",
     "collapsible_content_BbnKPc",
-    "card_list_RTLL8M"
+    "card_list_RTLL8M",
+    "collapsible_content_txYQLW"
   ]
 }
