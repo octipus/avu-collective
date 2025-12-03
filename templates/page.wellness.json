@@ -73,21 +73,21 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Wellness Assessment ",
-            "text": "○ Deep dive intake: lifestyle, sleep, stress, meds, goals. <br>\n○ Vitals + relevant labs (if available).\n○ We identify what’s actually driving your low energy, stress, or recovery issues."
+            "text": "○ Deep dive intake: lifestyle, sleep, stress, meds, goals. <br>\n○ Vitals + relevant labs (if available).<br>\n○ We identify what’s actually driving your low energy, stress, or recovery issues."
           }
         },
         "numbered_item_TCNhYF": {
           "type": "numbered_item",
           "settings": {
             "heading": "Custom Protocol Design ",
-            "text": "○ Your clinician designs a stacked plan: IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks.\n○ Clear timeline: what happens in Week 1, Week 4, Week 8.M\n○ You know exactly why each element is in your plan."
+            "text": "○ Your clinician designs a stacked plan: IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks.<br>\n○ Clear timeline: what happens in Week 1, Week 4, Week 8.M<br>\n○ You know exactly why each element is in your plan."
           }
         },
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
             "heading": "Track, Adjust, Maintain",
-            "text": "○ Regular check-ins to see what’s working.\n○ Protocol evolves as your body responds.\n○ Transition into a maintenance membership once you hit your goal."
+            "text": "○ Regular check-ins to see what’s working.<br>\n○ Protocol evolves as your body responds.<br>\n○ Transition into a maintenance membership once you hit your goal."
           }
         }
       },
@@ -188,6 +188,66 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "collapsible_content_rfnHHL": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_BDk3L7": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Stronger overall immune resilience.</li><li>Faster bounce-back when exposed to stress, travel, or illness.</li><li>Support for people constantly “picking up everything that’s going around.”</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_C7L9F3": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>High-performers, entrepreneurs, executives.</li><li>Parents who are tired of being tired.</li><li>Anyone relying on sugar or caffeine just to feel normal.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_j4ENGf": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>IV Energy Drip (B vitamins, amino acids, hydration).</li><li>Optional NAD+ add-on for mitochondrial support.</li><li>Infrared or Red Light Therapy for nervous system and cellular support.</li><li>Breathwork / light coaching around sleep and rhythm.<br/><br/></li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_4YJeeF": {
+          "type": "accordion",
+          "settings": {
+            "question": "Sample Pathway Layout",
+            "answer": "<ul><li>Week 1–2: Load phase (2–3 drips + infrared sessions) </li><li>Week 3–4: Stabilize energy, fine-tune dosing </li><li>Week 5–6: Decide on maintenance or upgrade to performance plan<br/><br/></li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_BDk3L7",
+        "accordion_C7L9F3",
+        "accordion_j4ENGf",
+        "accordion_4YJeeF"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "IMMUNITY SHIELD",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "Outcome: Get Sick Less. Recover Faster.",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Start Energy & Focus Boost Plan",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -195,6 +255,7 @@
     "slideshow_DdUc3g",
     "numbered_list_c8gnFK",
     "rich_text_xxW6iy",
-    "collapsible_content_HRiqKt"
+    "collapsible_content_HRiqKt",
+    "collapsible_content_rfnHHL"
   ]
 }
