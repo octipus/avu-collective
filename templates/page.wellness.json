@@ -332,7 +332,7 @@
           "type": "accordion",
           "settings": {
             "question": "Core Protocol May Include",
-            "answer": "<ul><li>Magnesium-rich IV or calm-focused nutritional drip.</li><li>Red Light Therapy session to support circadian balance.</li><li>Breathwork / nervous system tools (short, repeatable practices).</li><li>Optional add-ons: low-stim sauna, guided recovery session.</li></ul>",
+            "answer": "<ul><li>Detox-focused IV Drip (supporting liver and lymph).</li><li>Infrared sauna for sweat + detox.</li><li>Lymphatic compression therapy.</li><li>Gut-support suggestions (basic, not full functional medicine).</li></ul>",
             "default_open": false
           }
         },
@@ -340,7 +340,7 @@
           "type": "accordion",
           "settings": {
             "question": "Package Snapshot",
-            "answer": "<ul><li><strong>Calm Reset (4-Week)</strong> – 3 IV Calm Drips + 4 Red Light Sessions</li><li><strong>Deep Sleep Focus (6-Week)</strong> – Weekly Calm Drip + Red Light + Breathwork Coaching</li><li><strong>Maintenance:</strong> Monthly Calm Drip + Red Light tune-up</li></ul>",
+            "answer": "<ul><li><strong>4-Week Reset</strong> – 3 Detox Drips + 4 Sauna Sessions + 2 Lymphatic Sessions</li><li><strong>8-Week Deep Reset</strong> – Expanded series for clients starting from burnout or long stress cycles.</li></ul>",
             "default_open": false
           }
         }
@@ -361,7 +361,7 @@
         "section_subheading": " Outcome: A Nervous System That Actually Calms Down.",
         "dot": true,
         "collapse_heading_tag": "h4",
-        "section_button_label": "Start Stress & Sleep Recovery Plan",
+        "section_button_label": "Start Detox & Reset Plan",
         "section_button_link": "",
         "button_dot": true,
         "section_button_style": "primary",
