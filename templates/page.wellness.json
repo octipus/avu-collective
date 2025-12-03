@@ -22,46 +22,15 @@
     "slideshow_DdUc3g": {
       "type": "slideshow",
       "blocks": {
-        "slideshow_item_BGm4Y4": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "",
-            "heading": "Showcase What Matters Most",
-            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
-            "text_width": "small",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0,
-            "overlay_opacity_mobile": 0
-          }
-        },
         "slideshow_item_rpPWKi": {
           "type": "slideshow_item",
           "settings": {
-            "color_scheme": "",
-            "heading": "Showcase What Matters Most",
-            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
+            "desktop_image": "shopify://shop_images/rosa-rafael-Pe9IXUuC6QU-unsplash.jpg",
+            "color_scheme": "background-3",
+            "heading": "<strong>What Do You Want to Feel?</strong>",
+            "text": "<p> At AVU Wellness, we don’t sell random IV drips and biohacks. We start with the outcome you want — <strong>more energy, better sleep, faster recovery, long-term vitality</strong> — and build a protocol around it.</p>",
             "text_width": "small",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0,
-            "overlay_opacity_mobile": 0
-          }
-        },
-        "slideshow_item_Nk7Mq8": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "",
-            "heading": "Showcase What Matters Most",
-            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
-            "text_width": "small",
-            "button_label": "Shop Now",
+            "button_label": "Start Your Wellness plan",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
@@ -72,9 +41,7 @@
         }
       },
       "block_order": [
-        "slideshow_item_BGm4Y4",
-        "slideshow_item_rpPWKi",
-        "slideshow_item_Nk7Mq8"
+        "slideshow_item_rpPWKi"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
@@ -98,10 +65,63 @@
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
+    },
+    "numbered_list_c8gnFK": {
+      "type": "numbered-list",
+      "blocks": {
+        "numbered_item_HcQreb": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Wellness Assessment ",
+            "text": "○ Deep dive intake: lifestyle, sleep, stress, meds, goals. <br>\n○ Vitals + relevant labs (if available).\n○ We identify what’s actually driving your low energy, stress, or recovery issues."
+          }
+        },
+        "numbered_item_TCNhYF": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Explore features tailored to your needs",
+            "text": "Discover tools and content designed to help you get the most out of the platform"
+          }
+        },
+        "numbered_item_qm4mMk": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Explore features tailored to your needs",
+            "text": "Discover tools and content designed to help you get the most out of the platform"
+          }
+        },
+        "numbered_item_c6gtXW": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Explore features tailored to your needs",
+            "text": "Discover tools and content designed to help you get the most out of the platform"
+          }
+        }
+      },
+      "block_order": [
+        "numbered_item_HcQreb",
+        "numbered_item_TCNhYF",
+        "numbered_item_qm4mMk",
+        "numbered_item_c6gtXW"
+      ],
+      "name": "Numbered items list",
+      "settings": {
+        "section_heading": "How It Works",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "Outcome → Plan → Protocol",
+        "dot": true,
+        "columns_per_row": 2,
+        "swipe_on_mobile": false,
+        "card_heading_size": "h3",
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_DdUc3g"
+    "slideshow_DdUc3g",
+    "numbered_list_c8gnFK"
   ]
 }
