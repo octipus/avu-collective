@@ -566,34 +566,37 @@
             "badge": "Badge",
             "badge_style": "primary",
             "subheading": "Outcome-first, not menu-first. ",
-            "text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+            "text": "You don’t pick a random drip off a wall. We start with: “What do you want to feel?”"
           }
         },
         "card_Tp7Pq7": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/182371.png",
             "badge": "Badge",
             "badge_style": "primary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+            "subheading": "Stacked protocols, not single tricks. ",
+            "text": "IV + light + cryo + nervous system work — combined into a plan."
           }
         },
         "card_TQfNkt": {
           "type": "card",
           "settings": {
-            "badge": "Badge",
+            "image": "shopify://shop_images/928347.png",
+            "badge": "Integrated",
             "badge_style": "primary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+            "subheading": "Integrated with Skin Bar + Med Bar. ",
+            "text": "Internal wellness supports your skin, body, and aesthetic outcomes."
           }
         },
         "card_K3k6wW": {
           "type": "card",
           "settings": {
-            "badge": "Badge",
+            "image": "shopify://shop_images/813712.png",
+            "badge": "Measured",
             "badge_style": "primary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+            "subheading": "Measured and adjustable. ",
+            "text": "We track your responses, not just your visits."
           }
         }
       },
@@ -606,7 +609,7 @@
       "name": "t:sections.card-list.presets.name",
       "settings": {
         "text-number-visible": true,
-        "text-always-visible": false,
+        "text-always-visible": true,
         "section_heading": "Why AVU Wellness Is Not “Just Another IV Bar”",
         "heading_tag": "h2",
         "section_heading_size": "h3",
