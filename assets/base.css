@@ -331,7 +331,7 @@
   .shopify-policy__container-md, .container-sm,
   .shopify-policy__container-sm, .container,
   .shopify-policy__container {
-    max-width: 1440px;
+    max-width: 1600px;
   }
 }
 /* Base */
@@ -839,12 +839,12 @@ h2,
     font-size: calc(var(--font-heading-h2-scale) * 3rem);
   }
 }
-@media only screen and (min-width: 1360px) {
+/* @media only screen and (min-width: 1360px) {
   h2,
   .h2 {
     font-size: calc(var(--font-heading-h2-scale) * 3.6rem);
   }
-}
+} */
 
 h3,
 .h3 {

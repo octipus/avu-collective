@@ -1194,6 +1194,9 @@
 				"subheading": {
 					"label": "Subheading"
 				},
+				"preheading": {
+					"label": "Preheading"
+				},
 				"dot": {
 					"label": "Show subheading dot"
 				},
@@ -1980,8 +1983,11 @@
 				"heading": {
 					"default": "Frequently Asked Questions"
 				},
+				"preheading": {
+					"default": "Preheading"
+				},
 				"subheading": {
-					"default": "Brief intro to the collapsible content"
+					"default": "Subheading"
 				},
 				"button": {
 					"label": "Label",
