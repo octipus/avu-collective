@@ -368,6 +368,66 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "collapsible_content_yd4tyF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_3J6XEV": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Faster muscle recovery and less soreness.</li><li>Improved readiness for next training sessions.</li><li>Better performance metrics (strength, time, HRV trends).</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_xw9t3x": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>Athletes, lifters, runners, cyclists.</li><li>Weekend warriors who don’t want Monday to hurt as much.</li><li>Clients stacking gym + wellness protocols.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_8cJThW": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>Athletes, lifters, runners, cyclists.</li><li>Weekend warriors who don’t want Monday to hurt as much.</li><li>Clients stacking gym + wellness protocols.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_7YRpTf": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Race Prep & Recover Pack</strong> – Pre-race IV + post-race IV + 2 Cryo Sessions</li><li><strong>Athlete Recovery Series (4-Week)</strong> – Weekly IV + 2 Cryo + 2 Compression sessions</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_3J6XEV",
+        "accordion_xw9t3x",
+        "accordion_8cJThW",
+        "accordion_7YRpTf"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "PERFORMANCE & RECOVERY",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "Outcome: Train Harder. Recover Faster.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Build Your Performance & Recovery Plan",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -378,6 +438,7 @@
     "collapsible_content_HRiqKt",
     "collapsible_content_rfnHHL",
     "collapsible_content_7GHHFQ",
-    "collapsible_content_4WXgWw"
+    "collapsible_content_4WXgWw",
+    "collapsible_content_yd4tyF"
   ]
 }
