@@ -227,24 +227,6 @@
         "margin_bottom": "no-indent"
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "background-1",
-        "v_align": "column",
-        "heading": "Heading for subscribe form",
-        "section_heading_tag": "h2",
-        "heading_size": "h1",
-        "newsletter_text": "",
-        "section_button_style": "primary",
-        "button_dot": true,
-        "margin_top": "m",
-        "margin_bottom": "m",
-        "padding_top": "m",
-        "padding_bottom": "m"
-      }
-    },
     "image_with_text_zWPrep": {
       "type": "image-with-text",
       "name": "t:sections.image-with-text.presets.name",
@@ -267,6 +249,41 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "background-1",
+        "v_align": "column",
+        "heading": "<strong>WHERE WE’RE GOING</strong>",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "newsletter_text": "<strong>Always evolving. Never chasing hype. Join us!</strong>",
+        "section_button_style": "primary",
+        "button_dot": true,
+        "margin_top": "m",
+        "margin_bottom": "m",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "blockquote_3pcGLA": {
+      "type": "blockquote",
+      "name": "t:sections.blockquote.name",
+      "settings": {
+        "section_subheading": "Our north star:",
+        "dot": true,
+        "blockquote": "<strong>Aesthetic care that’s data-driven, intelligent, integrated, and outcome-driven—delivered with zero fluff and maximum follow-through.</strong>",
+        "section_blockquote_size": "h1",
+        "author_name": "",
+        "author_position": "",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -277,7 +294,8 @@
     "rich_text_bQ83dh",
     "numbered_list_ighUVj",
     "brand_image_9aRipG",
+    "image_with_text_zWPrep",
     "newsletter",
-    "image_with_text_zWPrep"
+    "blockquote_3pcGLA"
   ]
 }
