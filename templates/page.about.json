@@ -171,7 +171,7 @@
         "columns_per_row": 2,
         "swipe_on_mobile": false,
         "card_heading_size": "h3",
-        "margin_top": "xl",
+        "margin_top": "l",
         "margin_bottom": "no-indent"
       }
     },
@@ -181,36 +181,28 @@
         "column_nkQH4k": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/AVU_Logo_-_Med_Bar_9bab987a-1541-4fa0-b88a-4f899f62dd38.png",
             "image_width": 140
           }
         },
         "column_pCUx7D": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/AVU_Logo_-_Skin_Bar_52a4b750-c8e0-4792-b41f-bcc8f544028c.png",
             "image_width": 140
           }
         },
         "column_T9HDGy": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/AVU_Logo_-_Wellness_2ffcc108-0b37-439b-88f5-afcca10f1c90.png",
             "image_width": 140
           }
         },
         "column_ieYBAj": {
           "type": "column",
           "settings": {
-            "image_width": 140
-          }
-        },
-        "column_dhKVFm": {
-          "type": "column",
-          "settings": {
-            "image_width": 140
-          }
-        },
-        "column_6xJXDQ": {
-          "type": "column",
-          "settings": {
+            "image": "shopify://shop_images/AVU_Logo_-_Hair_Lab_4e704d40-5015-414d-8259-82fa37608252.png",
             "image_width": 140
           }
         }
@@ -219,12 +211,10 @@
         "column_nkQH4k",
         "column_pCUx7D",
         "column_T9HDGy",
-        "column_ieYBAj",
-        "column_dhKVFm",
-        "column_6xJXDQ"
+        "column_ieYBAj"
       ],
       "settings": {
-        "layout": "static",
+        "layout": "horizontal-carousel",
         "section_heading": "",
         "heading_tag": "h2",
         "section_heading_size": "h3",
@@ -233,8 +223,8 @@
         "line": true,
         "slideshow_speed": 5,
         "slides_gap": 10,
-        "margin_top": "xl",
-        "margin_bottom": "xl"
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
       }
     },
     "newsletter": {
@@ -261,8 +251,8 @@
     "rich-text",
     "gallery_carousel_QUkeeh",
     "rich_text_bQ83dh",
-    "numbered_list_ighUVj",
     "brand_image_9aRipG",
+    "numbered_list_ighUVj",
     "newsletter"
   ]
 }
