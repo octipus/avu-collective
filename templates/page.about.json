@@ -124,57 +124,6 @@
         "margin_bottom": "no-indent"
       }
     },
-    "numbered_list_ighUVj": {
-      "type": "numbered-list",
-      "blocks": {
-        "numbered_item_kWnGAL": {
-          "type": "numbered_item",
-          "settings": {
-            "heading": "Outcome First. Service Second.",
-            "text": "<p>We don’t start with “What do you want to book?”<br/>We start with: “What outcome are you actually chasing?”</p><ul><li>Smoother, clearer skin</li><li>Sharper jawline or balanced profile</li><li>Hair restored and maintaine</li><li>Energy, confidence, and presence back</li></ul><p><br/>Once the outcome is clear, we build the stack:  treatments, memberships, at-home protocols, and follow-ups that support that outcome over time.</p>"
-          }
-        },
-        "numbered_item_48NQq9": {
-          "type": "numbered_item",
-          "settings": {
-            "heading": "Protocols, Not Products",
-            "text": "<p>We love great devices and skincare. But at AVU, they’re tools—not the star. We speak in:</p><ul><li>Protocols, not products</li><li>Plans, not one-offs</li><li>Refills and reformulations, not random reorders</li></ul><p>Your plan adapts with you—season changes, hormones, stress, travel, and lifestyle are all part of the equation.<br/></p>"
-          }
-        },
-        "numbered_item_9PXgjz": {
-          "type": "numbered_item",
-          "settings": {
-            "heading": "Data Over Vibes",
-            "text": "<p>You should feel good in the room.  But your results shouldn’t be left to \"hope it works\". We focus on:</p><ul><li>Baseline photos and real assessments</li><li>Defined treatment paths and timelines</li><li>Check-ins and adjustments based on how you actually respond</li></ul><p>Think of it as modern performance medicine for your aesthetics, not just a pretty treatment menu.</p>"
-          }
-        },
-        "numbered_item_FHWKX6": {
-          "type": "numbered_item",
-          "settings": {
-            "heading": "Integration, Not Silos",
-            "text": "<p>Most places treat skin, body, or hair in isolation. We assume they’re all talking to each other—because they are. So we:</p><ul><li>Connect decisions across skin, injectables, wellness, and hair</li><li>Consider sleep, stress, and recovery where it matters</li><li>Build packages and memberships that sync inside + outside, not just one area</li></ul><p>Your life is integrated. Your aesthetics should be too.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "numbered_item_kWnGAL",
-        "numbered_item_48NQq9",
-        "numbered_item_9PXgjz",
-        "numbered_item_FHWKX6"
-      ],
-      "settings": {
-        "section_heading": "OUR PHILOSOPHY",
-        "section_heading_tag": "h2",
-        "section_heading_size": "h2",
-        "subheading": "",
-        "dot": true,
-        "columns_per_row": 2,
-        "swipe_on_mobile": false,
-        "card_heading_size": "h3",
-        "margin_top": "l",
-        "margin_bottom": "no-indent"
-      }
-    },
     "brand_image_9aRipG": {
       "type": "brand-image",
       "blocks": {
@@ -227,6 +176,57 @@
         "margin_bottom": "no-indent"
       }
     },
+    "numbered_list_ighUVj": {
+      "type": "numbered-list",
+      "blocks": {
+        "numbered_item_kWnGAL": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Outcome First. Service Second.",
+            "text": "<p>We don’t start with “What do you want to book?”<br/>We start with: “What outcome are you actually chasing?”</p><ul><li>Smoother, clearer skin</li><li>Sharper jawline or balanced profile</li><li>Hair restored and maintaine</li><li>Energy, confidence, and presence back</li></ul><p><br/>Once the outcome is clear, we build the stack:  treatments, memberships, at-home protocols, and follow-ups that support that outcome over time.</p>"
+          }
+        },
+        "numbered_item_48NQq9": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Protocols, Not Products",
+            "text": "<p>We love great devices and skincare. But at AVU, they’re tools—not the star. We speak in:</p><ul><li>Protocols, not products</li><li>Plans, not one-offs</li><li>Refills and reformulations, not random reorders</li></ul><p>Your plan adapts with you—season changes, hormones, stress, travel, and lifestyle are all part of the equation.<br/></p>"
+          }
+        },
+        "numbered_item_9PXgjz": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Data Over Vibes",
+            "text": "<p>You should feel good in the room.  But your results shouldn’t be left to \"hope it works\". We focus on:</p><ul><li>Baseline photos and real assessments</li><li>Defined treatment paths and timelines</li><li>Check-ins and adjustments based on how you actually respond</li></ul><p>Think of it as modern performance medicine for your aesthetics, not just a pretty treatment menu.</p>"
+          }
+        },
+        "numbered_item_FHWKX6": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Integration, Not Silos",
+            "text": "<p>Most places treat skin, body, or hair in isolation. We assume they’re all talking to each other—because they are. So we:</p><ul><li>Connect decisions across skin, injectables, wellness, and hair</li><li>Consider sleep, stress, and recovery where it matters</li><li>Build packages and memberships that sync inside + outside, not just one area</li></ul><p>Your life is integrated. Your aesthetics should be too.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "numbered_item_kWnGAL",
+        "numbered_item_48NQq9",
+        "numbered_item_9PXgjz",
+        "numbered_item_FHWKX6"
+      ],
+      "settings": {
+        "section_heading": "OUR PHILOSOPHY",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "columns_per_row": 2,
+        "swipe_on_mobile": false,
+        "card_heading_size": "h3",
+        "margin_top": "l",
+        "margin_bottom": "no-indent"
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -251,8 +251,8 @@
     "rich-text",
     "gallery_carousel_QUkeeh",
     "rich_text_bQ83dh",
-    "brand_image_9aRipG",
     "numbered_list_ighUVj",
+    "brand_image_9aRipG",
     "newsletter"
   ]
 }
