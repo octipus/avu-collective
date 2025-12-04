@@ -78,7 +78,9 @@
         },
         "carousel_slide_qgKE6R": {
           "type": "carousel_slide",
-          "settings": {}
+          "settings": {
+            "slide_img": "shopify://shop_images/819238.png"
+          }
         }
       },
       "block_order": [
@@ -97,6 +99,28 @@
         "slideshow_speed": 6,
         "stop_btn": true,
         "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_bQ83dh": {
+      "type": "rich-text",
+      "settings": {
+        "section_layout": "row",
+        "subheading": "",
+        "heading": "We’ve designed everything to work as one integrated system:",
+        "section_heading_tag": "h2",
+        "heading_size": "h4",
+        "dot": true,
+        "text": "<ul><li><strong>AVU Med Bar</strong> – injectables, regenerative treatments, contouring.</li><li><strong>AVU Skin Bar</strong> – lasers, facials, corrective + corrective-plus care.</li><li><strong>AVU Wellness</strong> – internal support, recovery, longevity, performance.</li><li><strong>AVU Wellness</strong> – internal support, recovery, longevity, performance.</li></ul><p></p><p>No more random services. No more “try this once and see.” Just an intelligent, outcome-driven aesthetic OS built around you.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "button2_label": "",
+        "button2_link": "",
+        "button2_style": "primary",
+        "button2_dot": true,
+        "margin_top": "xs",
         "margin_bottom": "no-indent"
       }
     },
@@ -236,6 +260,7 @@
     "image_banner_cqTVez",
     "rich-text",
     "gallery_carousel_QUkeeh",
+    "rich_text_bQ83dh",
     "numbered_list_ighUVj",
     "brand_image_9aRipG",
     "newsletter"
