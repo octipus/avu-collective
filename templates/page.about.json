@@ -57,7 +57,7 @@
         "button2_link": "",
         "button2_style": "primary",
         "button2_dot": true,
-        "margin_top": "xl",
+        "margin_top": "m",
         "margin_bottom": "no-indent"
       }
     },
@@ -66,11 +66,15 @@
       "blocks": {
         "carousel_slide_DPN3nH": {
           "type": "carousel_slide",
-          "settings": {}
+          "settings": {
+            "slide_img": "shopify://shop_images/7136153.png"
+          }
         },
         "carousel_slide_UQQwKV": {
           "type": "carousel_slide",
-          "settings": {}
+          "settings": {
+            "slide_img": "shopify://shop_images/012381.png"
+          }
         },
         "carousel_slide_qgKE6R": {
           "type": "carousel_slide",
@@ -83,10 +87,10 @@
         "carousel_slide_qgKE6R"
       ],
       "settings": {
-        "section_heading": "",
+        "section_heading": "WHO WE ARE",
         "section_heading_tag": "h2",
         "section_heading_size": "h3",
-        "subheading": "",
+        "subheading": "We’re not a med spa or wellness center. We’re an ecosystem.",
         "dot": true,
         "line": false,
         "image_ratio": "3/2",
