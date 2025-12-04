@@ -38,7 +38,21 @@ if (!customElements.get('product-form')) {
       fetch(`${routes.cart_add_url}`, config)
         .then((response) => response.json())
         .then((response) => {
+
           if (response.status) {
+            // CART ERROR EVENT
+            document.dispatchEvent(
+							new CustomEvent('cart:error', {
+								detail: {
+									source: 'product-form',
+									productVariantId: formData.get('id'),
+									errors: response.description,
+									message: response.message,
+								},
+							})
+							// -------------------------------------------
+						)
+
             publish(PUB_SUB_EVENTS.cartError, {source: 'product-form', productVariantId: formData.get('id'), errors: response.description, message: response.message});
             this.handleErrorMessage(response.description);
             const soldOutMessage = this.submitButton.querySelector('.sold-out-message');
@@ -53,8 +67,37 @@ if (!customElements.get('product-form')) {
             return;
           }
 
-          if (!this.error) publish(PUB_SUB_EVENTS.cartUpdate, {source: 'product-form', productVariantId: formData.get('id')});
-          this.error = false;
+          // VARIANT ADDED EVENT
+          document.dispatchEvent(
+            new CustomEvent("variant:add", {
+              detail: {
+                variant: {
+                  id: formData.get("id"),
+                },
+                quantity: Number(formData.get("quantity") || 1),
+                formElement: this.form,
+                sectionId: this.dataset.section,
+              },
+            })
+          );
+          // -------------------------------------------
+
+          if (!this.error) {
+						publish(PUB_SUB_EVENTS.cartUpdate, {
+							source: 'product-form',
+							productVariantId: formData.get('id'),
+						})
+						this.error = false
+
+						// CART CHANGE EVENT
+						document.dispatchEvent(
+							new CustomEvent('cart:change', {
+								detail: response,
+								bubbles: true,
+							})
+						)
+					}
+
           const quickAddModal = this.closest('quick-add-modal');
           if (quickAddModal) {
             document.body.addEventListener('modalClosed', () => {

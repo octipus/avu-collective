@@ -36,6 +36,7 @@ function quickView() {
 			$(newDiv).find(".product__media-toggle").remove();
 			$(newDiv).find(".product__media-icon").remove();
 			$(newDiv).find(".product-recommendations--single").remove();
+			$(newDiv).find('.breadcrumb').remove()
 			let scripts = $(newDiv).find("script");
 
 			for (let i = 0; i < scripts.length; i++) {

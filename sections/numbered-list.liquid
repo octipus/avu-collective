@@ -48,8 +48,9 @@
 										</h4>
 									{%- endif -%}
 									{%- if block.settings.text != blank -%}
+										<p class='numbered-items-card__text richtext__content h3'>
 											{{ block.settings.text }}
-									
+										</p>
 									{%- endif -%}
 								</div>
 							{% endif %}
@@ -286,7 +287,7 @@
 					"label": "t:sections.numbered_items_list.blocks.numbered_item.settings.heading.label"
 				},
 				{
-					"type": "richtext",
+					"type": "textarea",
 					"id": "text",
 					"default": "t:sections.numbered_items_list.blocks.numbered_item.settings.text.default",
 					"label": "t:sections.numbered_items_list.blocks.numbered_item.settings.text.label"

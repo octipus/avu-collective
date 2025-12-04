@@ -63,6 +63,9 @@
   height: calc(var(--vh, 1vh) * 100);
   overflow: hidden;
 }
+.drawer__inner:focus-visible, .drawer__inner:focus {
+  outline: none;
+}
 @media screen and (min-width: 1100px) {
   .drawer__inner {
     padding: 4.4rem 3.2rem;

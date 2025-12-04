@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
 	"settings_schema": {
 		"dark_mode": {
@@ -1194,9 +1203,6 @@
 				"subheading": {
 					"label": "Subheading"
 				},
-				"preheading": {
-					"label": "Preheading"
-				},
 				"dot": {
 					"label": "Show subheading dot"
 				},
@@ -1983,11 +1989,8 @@
 				"heading": {
 					"default": "Frequently Asked Questions"
 				},
-				"preheading": {
-					"default": "Preheading"
-				},
 				"subheading": {
-					"default": "Subheading"
+					"default": "Brief intro to the collapsible content"
 				},
 				"button": {
 					"label": "Label",
@@ -4187,17 +4190,23 @@
 					}
 				},
 				"dropdown_information": {
-					"name": "Dropdown information",
-					"settings": {
-						"characteristics": {
-							"label": "Assign product characteristics",
-							"info": "If this setting is selected, the title and description metafield namespace must be characteristics.name and characteristics.description, and only \"Heading\" setting below will be available for it"
-						},
-						"default_open": {
-							"label": "Open by default"
-						}
-					}
-				},
+          "name": "Dropdown information",
+          "settings": {
+            "characteristics": {
+              "label": "Assign product characteristics",
+              "info": "If this setting is selected, the title and description metafield namespace must be characteristics.name and characteristics.description, and only \"Heading\" setting below will be available for it"
+            },
+            "default_open": {
+              "label": "Opened by default"
+            },
+            "heading": {
+              "default": "Specification name"
+            },
+            "description": {
+              "default": "<p>This section should contain relevant information that helps customers make an informed decision, whether it’s warranty details, material breakdowns, or installation instructions.</p>"
+            }
+          }
+        },
 				"popup": {
 					"name": "Popup",
 					"settings": {
@@ -4268,6 +4277,18 @@
 					},
 					"options__2": {
 						"label": "Slider with Previews"
+					}
+				},
+				"variant_media_display": {
+					"label": "Variant display",
+					"options__1": {
+						"label": "Show all media"
+					},
+					"options__2": {
+						"label": "Hide unselected variant media"
+					},
+					"options__3": {
+						"label": "Show only selected variant media"
 					}
 				},
 				"image_fit": {

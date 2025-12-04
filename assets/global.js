@@ -1196,13 +1196,32 @@ class VariantSelects extends HTMLElement {
 			this.toggleAddButton(true, '', true)
 			this.setUnavailable()
 		} else {
-			if (!this.closest('floated-form')) {
+			if (!this.closest('floated-form') || (this.currentVariant?.featured_media &&
+				this.dataset?.variantMediaDisplay === 'show_all')) {
 				this.updateMedia()
 			}
 			this.updateURL()
 			this.updateVariantInput()
 			this.resetProductFormState()
 			this.renderProductInfo()
+		}
+
+		if (this.currentVariant) {
+			document.dispatchEvent(
+				new CustomEvent('variant:change', {
+					detail: {
+						variant: this.currentVariant,
+						previousVariant: this.previousVariant || null,
+						formElement: document.querySelector(
+							`#product-form-${this.dataset.section}`
+						),
+						sectionId: this.dataset.section,
+					},
+				})
+			)
+
+			// сохраняем предыдущий вариант
+			this.previousVariant = this.currentVariant
 		}
 	}
 
@@ -1338,6 +1357,8 @@ class VariantSelects extends HTMLElement {
 				const newMedia = elem.querySelector(
 					`[data-media-id="${this.dataset.section}-${this.currentVariant.featured_media.id}"]`
 				)
+
+				if (!newMedia) return;
 
 				if (elem.querySelector('.js-media-list')) {
 					elem
@@ -1519,7 +1540,47 @@ class VariantSelects extends HTMLElement {
 					!this.currentVariant.available,
 					window.variantStrings.soldOut
 				)
-			})
+				// product media
+				if (this.dataset?.variantMediaDisplay !== 'show_all') {
+					const sourceSectionId = this.dataset.originalSection
+						? this.dataset.originalSection
+						: this.dataset.section
+					const currentSectionId = this.dataset.section
+
+					const mediaSource = html.querySelector(
+						`[data-section="product-media-${sourceSectionId}"]`
+					)
+					const mediaDestination = document.querySelector(
+						`[data-section="product-media-${currentSectionId}"]`
+					)
+
+					if (mediaSource && mediaDestination) {
+						mediaDestination.innerHTML = mediaSource.innerHTML
+
+						const parentQuickView = this.closest('quick-view-modal')
+						if (parentQuickView) {
+							if (typeof parentQuickView.removeDOMElements === 'function') {
+								parentQuickView.removeDOMElements(mediaDestination)
+							}
+							if (typeof parentQuickView.initSlider === 'function') {
+								parentQuickView.initSlider()
+							}
+						} else {
+							const section = document.getElementById(
+								`shopify-section-${currentSectionId}`
+							)
+
+							if (section && typeof initProductPage === 'function') {
+								initProductPage(section)
+							}
+						}
+						if (document.querySelector('.js-media-list')) {
+							subSliderInit(true)
+							sliderInit(true)
+						}
+					}
+				}
+			});
 	}
 
 	toggleAddButton(disable = true, text, modifyClass = true) {
@@ -2523,3 +2584,37 @@ function formatMoney(cents, format = '') {
 
 	return formatString.replace(placeholderRegex, value)
 }
+
+// cart:refresh
+
+document.documentElement.addEventListener('cart:refresh', () => {
+	const sectionsToUpdate = [
+		{id: 'main-cart-items', selector: '.js-contents'},
+		{id: 'main-cart-footer', selector: '.js-contents-totals'},
+		{id: 'cart-icon-bubble', selector: '.shopify-section'},
+		{id: 'cart-live-region-text', selector: '.shopify-section'},
+	]
+
+	const shipping = document.getElementById('main-cart-shipping')
+	if (shipping) {
+		sectionsToUpdate.push({
+			id: 'main-cart-shipping',
+			selector: '.js-contents-shipping',
+		})
+	}
+
+	sectionsToUpdate.forEach((section) => {
+		fetch(`${routes.cart_url}?section_id=${section.id}`)
+			.then((r) => r.text())
+			.then((html) => {
+				const doc = new DOMParser().parseFromString(html, 'text/html')
+				const src = doc.querySelector(section.selector)
+				const dst = document.querySelector(`#${section.id} ${section.selector}`)
+
+				if (src && dst) dst.innerHTML = src.innerHTML
+			})
+			.catch((e) => console.error('[cart:refresh] error:', e))
+	})
+})
+
+// end cart:refresh

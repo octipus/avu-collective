@@ -1219,6 +1219,49 @@
 									{{ block.settings.custom_liquid }}
 								</div>
 							{% endif %}
+						{%- when 'dropdown_information' -%}
+							<div class="about">
+                <div class="about__accordion-item" {{ block.shopify_attributes }}>
+                  <button
+                    class="about__accordion-toggle{% if block.settings.default_open %} active{% endif %} button button--unstyled"
+                    area-label="toggle"
+                  >
+                    <span class="h5">{{ block.settings.heading | escape }}</span>
+                    <div class="about__accordion-toggle-icon">
+                     	{% render 'icon-minus' %}
+											{% render 'icon-plus' %}
+                    </div>
+                  </button>
+                  <div class="about__accordion-description rte {% if settings.rte_type == 'custom' %} rte__container{% endif %} {% if block.settings.default_open %} active{% endif %}">
+                    {%- if block.settings.characteristics and product.metafields.characteristics.name.value.size > 0 -%}
+                      {%- for item in product.metafields.characteristics.name.value -%}
+                        <div class="about__row">
+                          <span>{{ item }}</span>
+                          <span>{{ product.metafields.characteristics.description.value[forloop.index0] }}</span>
+                        </div>
+                      {%- endfor -%}
+                    {%- else -%}
+                      {%- if block.settings.description != blank -%}
+                        {{- block.settings.description -}}
+                      {%- endif -%}
+
+                      {%- if block.settings.button_show -%}
+                        <a
+                          {% if block.settings.button_link != blank %}
+                            href="{{ block.settings.button_link }}"
+                          {% endif %}
+                          class="about__button button button--underline focus-inset"
+                          {% if block.settings.button_link == blank %}
+                            aria-disabled="true"
+                          {% endif %}
+                        >
+                          <span>{{- block.settings.button_label -}}</span>
+                        </a>
+                      {%- endif -%}
+                    {%- endif -%}
+                  </div>
+                </div>
+              </div>
 					{%- endcase -%}
 				{%- endfor -%}
 
@@ -1973,7 +2016,59 @@
 					"info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
 				}
 			]
-		}
+		},
+		{
+      "type": "dropdown_information",
+      "name": "t:sections.main-product.blocks.dropdown_information.name",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "characteristics",
+          "default": false,
+          "label": "t:sections.main-product.blocks.dropdown_information.settings.characteristics.label",
+          "info": "t:sections.main-product.blocks.dropdown_information.settings.characteristics.info"
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "label": "t:sections.all.heading.label",
+          "default": "t:sections.main-product.blocks.dropdown_information.settings.heading.default"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "t:sections.all.text.label",
+          "default": "t:sections.main-product.blocks.dropdown_information.settings.description.default"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.all.button.header_button.content"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_show",
+          "default": false,
+          "label": "t:sections.all.button.button_show.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "t:sections.all.button.button_label.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.all.button.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "default_open",
+          "default": false,
+          "label": "t:sections.main-product.blocks.dropdown_information.settings.default_open.label"
+        }
+      ]
+    }
 	],
 	"presets": [
 		{

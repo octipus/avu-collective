@@ -697,6 +697,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  max-height: 688px;
 }
 @media (min-width: 990px) {
   .product__media-list-wrapper {
@@ -1093,7 +1094,7 @@
 }
 .product-parameters .select .icon-caret {
   position: absolute;
-  right: 1rem;
+  right: 0.25rem;
   pointer-events: none;
   transition: color var(--duration-default);
 }
@@ -1544,6 +1545,37 @@ variant-radios .product-form__controls-group {
 }
 .about__accordion-toggle:focus, .about__accordion-toggle:focus-visible, .about__accordion-toggle:focus-within {
   outline-offset: -0.2rem;
+}
+.about__accordion-toggle.active .about__accordion-toggle-icon .icon-plus {
+  display: none;
+}
+.about__accordion-toggle.active .about__accordion-toggle-icon .icon-minus {
+  display: block;
+}
+.about__accordion-toggle.active .about__accordion-toggle-text .text-show {
+  display: none;
+}
+.about__accordion-toggle.active .about__accordion-toggle-text .text-hide {
+  display: block;
+}
+.about__accordion-toggle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  color: rgb(var(--color-foreground));
+  margin-bottom: 0.1rem;
+}
+.about__accordion-toggle-icon .icon {
+  width: 2rem;
+  height: 2rem;
+}
+.about__accordion-toggle-icon .icon-plus {
+  display: block;
+}
+.about__accordion-toggle-icon .icon-minus {
+  display: none;
 }
 .about__accordion-title {
   font-size: 1.2rem;

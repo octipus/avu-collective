@@ -574,24 +574,30 @@
 				defer='defer'
 			></script>
 		{%- endif -%}
-		<script>
-      if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {
-        const themeKey = `dataSent_{{ theme.name }}`;
-        if (!localStorage.getItem(themeKey)) {
-          navigator.sendBeacon('https://cdn.ashstonestudios.com/shopify-beacon/sent/', new URLSearchParams({
-            shop: window.Shopify.shop,
-            role: window.Shopify.theme.role,
-            route: window.location.pathname,
-            themeId: window.Shopify.theme.id,
-            themeStoreId: window.Shopify.theme.theme_store_id || 0,
-            isThemeEditor: !!window.Shopify.designMode,
-            themeName: "{{ theme.name }}",
-            shopName: "{{ shop.name }}",
-            shopEmail: "{{ shop.email }}"
-          }));
-          localStorage.setItem(themeKey, 'true');
-        }
-      }
-		</script>
+		{%- if request.design_mode -%}
+			<script>
+				if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {
+					const themeKey = `dataSent_{{ theme.name }}`;
+					if (!localStorage.getItem(themeKey)) {
+						navigator.sendBeacon(
+							'https://cdn.ashstonestudios.com/shopify-beacon/sent/',
+							new URLSearchParams({
+								slug: window.Shopify.theme.schema_name,
+								shop: window.Shopify.shop,
+								role: window.Shopify.theme.role,
+								route: window.location.pathname,
+								themeId: window.Shopify.theme.id,
+								themeStoreId: window.Shopify.theme.theme_store_id || 0,
+								isThemeEditor: !!window.Shopify.designMode,
+								themeName: '{{ theme.name }}',
+								shopName: '{{ shop.name }}',
+								shopEmail: '{{ shop.email }}',
+							})
+						);
+						localStorage.setItem(themeKey, 'true');
+					}
+				}
+			</script>
+		{%- endif -%}
 	</body>
 </html>

@@ -149,13 +149,13 @@ if (!customElements.get('quick-add-modal')) {
 				const modal = this.productElement.querySelector('product-modal')
 				if (modal) modal.remove()
 
-				const breadcrumb = this.productElement.querySelectorAll('.breadcrumb')
-				breadcrumb.forEach((el) => {
-					const container = el.closest('.container')
-					if (container) {
-						container.remove()
-					}
-				})
+				//const breadcrumb = this.productElement.querySelectorAll('.breadcrumb')
+				//breadcrumb.forEach((el) => {
+				//	const container = el.closest('.container')
+				//	if (container) {
+				//		container.remove()
+				//	}
+				//})
 
 				const popup = this.productElement.querySelectorAll('.product-popup')
 				popup.forEach((el) => {

@@ -53,7 +53,7 @@
     "cart_show_vendor": false,
     "currency_code_enabled": false,
     "show_back_to_top": true,
-    "enable_breadcrumbs": false,
+    "enable_breadcrumbs": true,
     "type_section_header_font": "dm_sans_n5",
     "sale_badge_color_scheme": "background-1",
     "sections": {
@@ -90,7 +90,7 @@
           "colors_tertiary_text": "#afafaf",
           "colors_text_title": "#3f3f3f",
           "colors_background_1": "#f9f9f9",
-          "colors_background_2": "#fafafa",
+          "colors_background_2": "#ffffff",
           "background_gradient": "",
           "colors_solid_button_labels": "#3f3f3f",
           "colors_solid_button_labels_hover": "#3f3f3f",

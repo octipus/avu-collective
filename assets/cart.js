@@ -184,10 +184,34 @@ class CartItems extends HTMLElement {
 				if (parsedState.errors) {
 					quantityElement.value = quantityElement.getAttribute('value')
 					this.updateLiveRegions(line, parsedState.errors)
+
+					// dispatch cart:error
+					document.dispatchEvent(
+						new CustomEvent('cart:error', {
+							detail: {line, errors: parsedState.errors},
+						})
+					)
+
 					return
 				}
 
+				// dispatch line-item:change for the modified element
+				document.dispatchEvent(
+					new CustomEvent('line-item:change', {
+						detail: {
+							lineItem: parsedState.items[line - 1] || null,
+							cart: parsedState,
+						},
+					})
+				)
+
 				this.classList.toggle('is-empty', parsedState.item_count === 0)
+
+				// dispatch cart:change for the entire basket
+				document.dispatchEvent(
+					new CustomEvent('cart:change', {detail: {cart: parsedState}})
+				)
+
 				const cartDrawerWrapper = document.querySelector('cart-drawer')
 				const cartFooter = document.getElementById('main-cart-footer')
 
@@ -250,7 +274,7 @@ class CartItems extends HTMLElement {
 						document.querySelector('.cart-item__name')
 					)
 				}
-				publish(PUB_SUB_EVENTS.cartUpdate, { source: 'cart-items' })
+				publish(PUB_SUB_EVENTS.cartUpdate, {source: 'cart-items'})
 			})
 			.catch(() => {
 				this.querySelectorAll('.loading-overlay').forEach((overlay) =>
@@ -263,6 +287,13 @@ class CartItems extends HTMLElement {
 					document.getElementById('cart-errors') ||
 					document.getElementById('CartDrawer-CartErrors')
 				if (errors) errors.textContent = window.cartStrings.error
+
+				// dispatch cart:error when fetch fail
+				document.dispatchEvent(
+					new CustomEvent('cart:error', {
+						detail: {errors: window.cartStrings.error},
+					})
+				)
 			})
 			.finally(() => {
 				this.querySelectorAll('.quantity__button').forEach((button) =>

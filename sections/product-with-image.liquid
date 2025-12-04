@@ -61,7 +61,8 @@
 	style='--bullet-duration : {{ slideshow_delay }}s'
 >
 	<div class='product-with-image__wrapper color-{{ section.settings.color_scheme }}'>
-		<div class='product-with-image__image-slider__box'>
+
+		<div class='product-with-image__image-slider__box' style="--slide-height: {{ section_size }}">
 			{% liquid
 				assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
 				assign adapt_height = 1 | divided_by: section.settings.image.aspect_ratio | times: 100 | append: '%'
@@ -69,11 +70,7 @@
 					assign section_size = adapt_height
 				endif
 			%}
-			{% style %}
-
-
-			{% endstyle %}
-
+			
 			{% if section.settings.image != blank %}
 				{{
 					section.settings.image

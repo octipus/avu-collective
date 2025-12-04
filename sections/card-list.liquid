@@ -11,22 +11,22 @@
 {%- endstyle -%}
 
 <div
-	class='card-list'
+	class='card-list-section card-list'
 	data-id='shopify-section-{{ section.id }}'
 	data-speed='{{ slideshow_speed }}'
-	id='card-list'
+	id='shopify-section-{{ section.id }}'
 >
-	<div class='container'>
-		{% render 'section-header',
-			section_heading: section.settings.section_heading,
-			section_subheading: section.settings.subheading,
-			section_heading_size: section.settings.section_heading_size,
-			section_heading_tag: section.settings.heading_tag,
-			dot: section.settings.dot,
-			line: section.settings.line
-		%}
-		<div class='{% if section.settings.swipe_on_mobile %}swiper card-list__swiper{% endif %}'>
-			{% if section.settings.swipe_on_mobile %}
+  <div class='container'>
+    {% render 'section-header',
+      section_heading: section.settings.section_heading,
+      section_subheading: section.settings.subheading,
+      section_heading_size: section.settings.section_heading_size,
+      section_heading_tag: section.settings.heading_tag,
+      dot: section.settings.dot,
+      line: section.settings.line
+    %}
+    <div class='{% if section.settings.swipe_on_mobile %}swiper card-list__swiper{% endif %}'>
+      {% if section.settings.swipe_on_mobile %}
 				{% if section.settings.show_arrows %}
 					<button class='swiper-button swiper-button-prev swiper-button-disabled'>
 						<span>{% render 'icon-arrow' %}</span>
@@ -38,78 +38,75 @@
 					<div class='card-list-pagination swiper-pagination'></div>
 				{% endif %}
 			{% endif %}
-			<ul class='card-list__list card-list__list--{{ columns_per_row }} {% if section.settings.swipe_on_mobile %}swiper-wrapper{% endif %} columns_mobile--{{section.settings.columns_mobile}}'>
-				{% for block in section.blocks %}
-					{% if block.settings.image %}
-						{% liquid
-							assign adapt_height = 1 | divided_by: block.settings.image.aspect_ratio | times: 100
-						%}
-					{% else %}
-						{% liquid
-							assign adapt_height = 58
-						%}
-					{% endif %}
-					{% style %}
-						#shopify-section-{{ section.id }} [data-id="{{ block.id }}"].card-list__item  {
-							{% if section.settings.image_ratio == 'adapt' %}
-								--aspect-ratio: {{adapt_height}};
-							{% else %}
-								--aspect-ratio: {{ section.settings.image_ratio }};
-							{% endif %}
-						}
-					{% endstyle %}
-					<li
-						class='card-list__item {% if section.settings.text-always-visible == true %} text-always-visible  {% endif %}  {% if section.settings.image_ratio != 'adapt' %} item_aspect_ratio {% endif %} {% if block.settings.text != blank %} card-list__item_active {% endif %} {% if section.settings.swipe_on_mobile %}swiper-slide{% endif %}'
-						data-id='{{ block.id }}'
-						data-text-always-visible='{{ section.settings.text-always-visible }}'
-					>
-						<div class='card-list__item_img {% if block.settings.text != blank %} card-list__item_img_active {% endif %} '>
-							{%- if block.settings.image != blank -%}
-								{%- assign widths = '360, 535, 720, 940, 1070, 1200, 1500, 1780, 2000, 2400, 2800' -%}
-								{%- capture sizes -%}
-									(min-width: 1100px) calc((100vw - 128px)), calc((100vw - 40px))
-									{%- endcapture -%}
-								{{
-									block.settings.image
-									| image_url: width: block.settings.image.width
-									| image_tag: loading: 'lazy', sizes: sizes, widths: widths
-								}}
-							{%- else -%}
-								{% assign card_index = forloop.index | modulo: 3 | plus: 1 %}
-								{{
-									'hero-apparel-'
-									| append: card_index
-									| placeholder_svg_tag: 'placeholder-svg'
-								}}
-							{% endif %}
-							{%- if block.settings.badge != blank -%}
-								<span class='card-list__badge badge--{{ block.settings.badge_style }}'>
-									{{ block.settings.badge }}
-								</span>
-							{% endif %}
-						</div>
-						{%- if block.settings.text != blank
-							or block.settings.subheading != blank
-						-%}
-							<div class='card-list__text {% if section.settings.text-number-visible == true %}number-visible{% endif %}'>
-								<div>
-									{% assign subheading_tag = section.settings.subheading_tag %}
-									{%- if block.settings.subheading != blank -%}
-										<{{ subheading_tag }} class='h4'>
-											{{ block.settings.subheading }}
-										</{{ subheading_tag }}>
-									{% endif %}
-									{%- if block.settings.text != blank -%}
-										<p>{{ block.settings.text }}</p>
-									{% endif %}
-								</div>
-							</div>
-						{% endif %}
-					</li>
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
+
+      <ul class='card-list__list card-list__list--{{ columns_per_row }} {% if section.settings.swipe_on_mobile %}swiper-wrapper{% endif %} columns_mobile--{{section.settings.columns_mobile}}'>
+        {% for block in section.blocks %}
+          {%- if block.settings.image -%}
+            {% liquid assign adapt_height = 1 | divided_by: block.settings.image.aspect_ratio | times: 100 %}
+          {%- else -%}
+            {% liquid assign adapt_height = 58 %}
+          {%- endif %}
+          {% style %}
+            #shopify-section-{{ section.id }} [data-id="{{ block.id }}"].card-list__item  {
+              {% if section.settings.image_ratio == 'adapt' %}
+                --aspect-ratio: {{adapt_height}};
+              {% else %}
+                --aspect-ratio: {{ section.settings.image_ratio }};
+              {% endif %}
+            }
+          {% endstyle %}
+
+          <li
+            class='card-list__item {% if section.settings.text-always-visible == true %} text-always-visible  {% endif %}  {% if section.settings.image_ratio != 'adapt' %} item_aspect_ratio {% endif %} {% if block.settings.text != blank %} card-list__item_active {% endif %} {% if section.settings.swipe_on_mobile %}swiper-slide{% endif %}'
+            data-id='{{ block.id }}'
+            data-text-always-visible='{{ section.settings.text-always-visible }}'
+          >
+            <div class='card-list__item_img {% if block.settings.text != blank %} card-list__item_img_active {% endif %} '>
+              {%- if block.settings.image != blank -%}
+                {%- assign widths = '360, 535, 720, 940, 1070, 1200, 1500, 1780, 2000, 2400, 2800' -%}
+                {%- capture sizes -%}
+                  (min-width: 1100px) calc((100vw - 128px)), calc((100vw - 40px))
+                {%- endcapture -%}
+                {{
+                  block.settings.image
+                  | image_url: width: block.settings.image.width
+                  | image_tag: loading: 'lazy', sizes: sizes, widths: widths
+                }}
+              {%- else -%}
+                {% assign card_index = forloop.index | modulo: 3 | plus: 1 %}
+                {{
+                  'hero-apparel-'
+                  | append: card_index
+                  | placeholder_svg_tag: 'placeholder-svg'
+                }}
+              {% endif %}
+              {%- if block.settings.badge != blank -%}
+                <span class='card-list__badge badge--{{ block.settings.badge_style }}'>
+                  {{ block.settings.badge }}
+                </span>
+              {%- endif -%}
+            </div>
+
+            {%- if block.settings.text != blank or block.settings.subheading != blank -%}
+              <div class='card-list__text {% if section.settings.text-number-visible == true %}number-visible{% endif %}'>
+                <div>
+                  {% assign subheading_tag = section.settings.subheading_tag %}
+                  {%- if block.settings.subheading != blank -%}
+                    <{{ subheading_tag }} class='h4'>
+                      {{ block.settings.subheading }}
+                    </{{ subheading_tag }}>
+                  {%- endif -%}
+                  {%- if block.settings.text != blank -%}
+                    <p>{{ block.settings.text }}</p>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endif -%}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
 
 {% schema %}

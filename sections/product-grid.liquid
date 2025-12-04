@@ -160,12 +160,14 @@
 							{%- endif -%}
 						</div>
 						<div class="product-grid__content_explore">
+							{% assign btn_link = product.url | default: '#' %}
+
 							{% render 'button',
-								btn_label: section.settings.button_label,
-								btn_link: product.url | default: '#',
-								btn_style: section.settings.button_style,
-								button_dot: section.settings.button_dot,
-								add_classes: 'focus-inset'
+									btn_label: section.settings.button_label,
+									btn_link: btn_link,
+									btn_style: section.settings.button_style,
+									button_dot: section.settings.button_dot,
+									add_classes: 'focus-inset'
 							%}
 							{% render 'price', product: product, price_class: '' %}
 						</div>
@@ -215,12 +217,14 @@
 								</{{ product_heading_tag }}>
 							</div>
 							<div class="product-grid__content_explore">
+								{% assign btn_link = product.url | default: '#' %}
+
 								{% render 'button',
-									btn_label: section.settings.button_label,
-									btn_link: product.url | default: '#',
-									btn_style: section.settings.button_style,
-									button_dot: section.settings.button_dot,
-									add_classes: 'focus-inset'
+										btn_label: section.settings.button_label,
+										btn_link: btn_link,
+										btn_style: section.settings.button_style,
+										button_dot: section.settings.button_dot,
+										add_classes: 'focus-inset'
 								%}
 								<span class="price price-item price-item--sale">
 									100$
