@@ -8,6 +8,7 @@
 		- show_desc: {Boolean} Show the product vendor. Default: false
 		- section_id: {String} The ID of the section that contains this card.
 		- show_sku: {Boolean} Show sku. Default: false
+		- hide_title: {Boolean} Hide the product title. Default: false
 		Usage:
 	{% render 'product-card', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
@@ -122,7 +123,9 @@ defer="defer"
 	data-product="{{ product_card_product.handle }}"
 	data-section={{ section.id }}
 >
-	<span class="visually-hidden">{{ product_card_product.title | escape }}</span>
+	{% unless hide_title %}
+		<span class="visually-hidden">{{ product_card_product.title | escape }}</span>
+	{% endunless %}
 	<div class="card card--product" tabindex="-1">
 		<a
 			href="{{ product_card_product.url | default: '#' }}"

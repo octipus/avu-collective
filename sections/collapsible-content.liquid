@@ -21,7 +21,7 @@
 
         {% if section.settings.product != blank %}
           <div class="collapsible-content__product">
-            {% render 'product-card', product_card_product: section.settings.product, media_size: 'square' %}
+            {% render 'product-card', product_card_product: section.settings.product, media_size: 'square', hide_title: section.settings.hide_product_title %}
           </div>
         {% endif %}
       </div>
@@ -389,7 +389,14 @@
       "type": "product",
       "id": "product",
       "label": "Featured Product"
-    }
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_product_title",
+      "label": "Hide Product Title",
+      "default": true,
+      "info": "If enabled, the product title will be hidden."
+    },
   ],
   "blocks": [
     {
