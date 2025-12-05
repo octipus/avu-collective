@@ -193,7 +193,7 @@
         "header_overlay": true,
         "show_navigation": true,
         "section_layout": "container",
-        "section_aspect_ratio": "129.0%",
+        "section_aspect_ratio": "100%",
         "desktop_alignment": "left",
         "mobile_alignment": "before",
         "gallery_type": "thumbs_aside",
@@ -207,6 +207,13 @@
         "slideshow_delay": 3,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
+      }
+    },
+    "custom_liquid_JdXk47": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<iframe id=\"blvd\" title=\"Boulevard\" width=\"100%\" height=\"700\" src=\"https://www.joinblvd.com/b/avu-collective/widget#/online-booking-unavailable\">\n</iframe>"
       }
     },
     "blockquote": {
@@ -453,6 +460,7 @@
   },
   "order": [
     "main-product",
+    "custom_liquid_JdXk47",
     "blockquote",
     "image-banner",
     "card-list",
