@@ -21,8 +21,20 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "description": ""
+          }
+        },
+        "popup_m4K339": {
+          "type": "popup",
+          "settings": {
+            "label": "Book NOW",
+            "button_type": "button",
+            "page": "",
+            "heading": "Almost There",
+            "text": "<p><br/></p>",
+            "custom_html": "<iframe src=\"https://www.joinblvd.com/b/avu-collective/widget#/cart/menu/Other%20Memberships/p_7b729075-9f73-4397-84d4-fde146048bbd\"></iframe>"
           }
         },
         "price": {
@@ -65,9 +77,11 @@
           "disabled": true,
           "settings": {
             "label": "Popup label text",
+            "button_type": "button",
             "page": "",
             "heading": "Almost There!",
-            "text": "<p>You’re just one click away from owning this amazing product. Add it to your cart now and enjoy the benefits!</p>"
+            "text": "<p>You’re just one click away from owning this amazing product. Add it to your cart now and enjoy the benefits!</p>",
+            "custom_html": "<div></div>"
           }
         },
         "buy_buttons": {
@@ -167,20 +181,12 @@
             "show_share_reddit": true,
             "show_share_copy": true
           }
-        },
-        "popup_m4K339": {
-          "type": "popup",
-          "settings": {
-            "label": "Book NOW",
-            "page": "",
-            "heading": "Almost There",
-            "text": "<p><br/></p>"
-          }
         }
       },
       "block_order": [
         "title",
         "description",
+        "popup_m4K339",
         "price",
         "variant_picker",
         "inventory",
@@ -195,8 +201,7 @@
         "dropdown_information_tBiDcf",
         "dropdown_information_pfmfYF",
         "custom_liquid_main_fWLnTx",
-        "share",
-        "popup_m4K339"
+        "share"
       ],
       "settings": {
         "color_scheme": "",
@@ -217,13 +222,6 @@
         "slideshow_delay": 3,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
-      }
-    },
-    "custom_liquid_JdXk47": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<iframe id=\"blvd\" title=\"Boulevard\" width=\"100%\" height=\"700\" src=\"https://www.joinblvd.com/b/avu-collective/widget#/cart/menu/Other%20Memberships/p_7b729075-9f73-4397-84d4-fde146048bbd\">\n</iframe>"
       }
     },
     "blockquote": {
@@ -470,7 +468,6 @@
   },
   "order": [
     "main-product",
-    "custom_liquid_JdXk47",
     "blockquote",
     "image-banner",
     "card-list",
