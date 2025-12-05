@@ -1192,17 +1192,20 @@
 				"label": "Badge",
 				"info": "20 characters max."
 			},
-			"section-header": {
-				"label": "Section heading options",
-				"heading": {
-					"header": {
-						"content": "Heading options"
-					},
-					"label": "Heading"
+		"section-header": {
+			"label": "Section heading options",
+			"preheading": {
+				"label": "Preheading"
+			},
+			"heading": {
+				"header": {
+					"content": "Heading options"
 				},
-				"subheading": {
-					"label": "Subheading"
-				},
+				"label": "Heading"
+			},
+			"subheading": {
+				"label": "Subheading"
+			},
 				"dot": {
 					"label": "Show subheading dot"
 				},
