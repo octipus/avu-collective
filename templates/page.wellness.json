@@ -219,12 +219,13 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Start Energy & Focus Boost Plan",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/energy-focus-boost",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "energy-focus-boost"
+        "product": "energy-focus-boost",
+        "hide_product_title": true
       }
     },
     "collapsible_content_rfnHHL": {
@@ -286,7 +287,8 @@
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "immunity-shield"
+        "product": "immunity-shield",
+        "hide_product_title": true
       }
     },
     "collapsible_content_7GHHFQ": {
@@ -348,7 +350,8 @@
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "stress-recovery-sleep"
+        "product": "stress-recovery-sleep",
+        "hide_product_title": true
       }
     },
     "collapsible_content_4WXgWw": {
@@ -410,7 +413,8 @@
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "detox-reset"
+        "product": "detox-reset",
+        "hide_product_title": true
       }
     },
     "collapsible_content_yd4tyF": {
@@ -472,7 +476,8 @@
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "performance-recovery"
+        "product": "performance-recovery",
+        "hide_product_title": true
       }
     },
     "collapsible_content_GHwTey": {
@@ -534,7 +539,8 @@
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "weight-optimization"
+        "product": "weight-optimization",
+        "hide_product_title": true
       }
     },
     "collapsible_content_BbnKPc": {
@@ -596,7 +602,8 @@
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "longevity-beauty-from-within"
+        "product": "longevity-beauty-from-within",
+        "hide_product_title": true
       }
     },
     "card_list_RTLL8M": {
@@ -728,7 +735,8 @@
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": ""
+        "product": "",
+        "hide_product_title": true
       }
     },
     "rich_text_7tnVk3": {
