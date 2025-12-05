@@ -121,6 +121,42 @@
             "button_link": "",
             "default_open": true
           }
+        },
+        "dropdown_information_hxVE6h": {
+          "type": "dropdown_information",
+          "settings": {
+            "characteristics": false,
+            "heading": "Who is it for",
+            "description": "{{ product.metafields.custom.who_is_it_for | metafield_tag }}",
+            "button_show": false,
+            "button_label": "",
+            "button_link": "",
+            "default_open": true
+          }
+        },
+        "dropdown_information_tBiDcf": {
+          "type": "dropdown_information",
+          "settings": {
+            "characteristics": false,
+            "heading": "Service Outcome",
+            "description": "<p>{{ product.metafields.custom.service_outcome | metafield_tag }}</p>",
+            "button_show": false,
+            "button_label": "",
+            "button_link": "",
+            "default_open": true
+          }
+        },
+        "dropdown_information_pfmfYF": {
+          "type": "dropdown_information",
+          "settings": {
+            "characteristics": false,
+            "heading": "Service Outcome",
+            "description": "<p>{{ product.metafields.custom.service_outcome | metafield_tag }}</p>",
+            "button_show": false,
+            "button_label": "",
+            "button_link": "",
+            "default_open": true
+          }
         }
       },
       "block_order": [
@@ -136,7 +172,10 @@
         "text_with_icon",
         "text_with_icon_FqPMQz",
         "share",
-        "dropdown_information_9zKpVD"
+        "dropdown_information_9zKpVD",
+        "dropdown_information_hxVE6h",
+        "dropdown_information_tBiDcf",
+        "dropdown_information_pfmfYF"
       ],
       "settings": {
         "color_scheme": "",
