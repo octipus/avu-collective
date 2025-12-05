@@ -101,8 +101,8 @@
         "heading_size": "h2",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
-        "padding_top": "m",
-        "padding_bottom": "m"
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
       }
     },
     "product_slider_XAHzUr": {
