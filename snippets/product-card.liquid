@@ -460,9 +460,7 @@ defer="defer"
 				{%- if product_heading_tag != blank -%}
 					<{{ product_heading_tag }} class="card__title">
 				{%- else -%}
-					{% unless hide_title %}	
-						<h3 class="card__title">
-					{% endunless %}
+						<h3 class="card__title {% if hide_title %}visually-hidden{% endif %}">
 				{%- endif -%}
 					<a
 						class="unstyled-link "
