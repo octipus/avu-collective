@@ -213,7 +213,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<iframe id=\"blvd\" title=\"Boulevard\" width=\"100%\" height=\"700\" src=\"https://dashboard.boulevard.io/booking/businesses/6e3ae49d-25cb-4dfd-a4a4-8b7a53588d92/widget?path=%2Fcart%2Fmenu%2FAVU%2520Wellness%2520-%2520Services&locationId=5b68557a-c072-40e0-8787-f15a0b926d14&visitType=SELF_VISIT\">\n</iframe>"
+        "custom_liquid": "<iframe id=\"blvd\" title=\"Boulevard\" width=\"100%\" height=\"700\" src=\"https://www.joinblvd.com/b/avu-collective/widget#/cart/menu/Other%20Memberships/p_7b729075-9f73-4397-84d4-fde146048bbd\">\n</iframe>"
       }
     },
     "blockquote": {
