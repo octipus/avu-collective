@@ -1124,6 +1124,15 @@
   opacity: 0.5;
   --alpha-button-background: 0;
   overflow: visible;
+
+  &:has(.btn) {
+    width:100%;
+    opacity: 1;
+  }
+
+  .button {
+    width:100%;
+  }  
 }
 .product-popup modal-opener button span {
   position: relative;
@@ -1229,6 +1238,19 @@
 .product-popup-modal__content::-webkit-scrollbar-thumb {
   background-color: rgb(var(--color-border));
   border-radius: 2rem;
+}
+
+.product-popup-modal__content {
+  iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    max-width: 104rem;
+    max-height: 85rem;
+    object-fit: contain;
+  }
 }
 .product-popup-modal__text p {
   font-size: 1.5rem;
