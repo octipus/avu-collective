@@ -112,7 +112,7 @@
             "button_show": false,
             "button_label": "",
             "button_link": "",
-            "default_open": true
+            "default_open": false
           }
         },
         "dropdown_information_hxVE6h": {
@@ -124,7 +124,7 @@
             "button_show": false,
             "button_label": "",
             "button_link": "",
-            "default_open": true
+            "default_open": false
           }
         },
         "dropdown_information_tBiDcf": {
@@ -136,7 +136,7 @@
             "button_show": false,
             "button_label": "",
             "button_link": "",
-            "default_open": true
+            "default_open": false
           }
         },
         "dropdown_information_pfmfYF": {
@@ -148,7 +148,7 @@
             "button_show": false,
             "button_label": "",
             "button_link": "",
-            "default_open": true
+            "default_open": false
           }
         },
         "custom_liquid_main_fWLnTx": {
@@ -166,6 +166,15 @@
             "show_share_telegram": true,
             "show_share_reddit": true,
             "show_share_copy": true
+          }
+        },
+        "popup_m4K339": {
+          "type": "popup",
+          "settings": {
+            "label": "Book NOW",
+            "page": "",
+            "heading": "Almost There",
+            "text": "<p><br/></p>"
           }
         }
       },
@@ -186,7 +195,8 @@
         "dropdown_information_tBiDcf",
         "dropdown_information_pfmfYF",
         "custom_liquid_main_fWLnTx",
-        "share"
+        "share",
+        "popup_m4K339"
       ],
       "settings": {
         "color_scheme": "",
