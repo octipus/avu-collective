@@ -117,7 +117,15 @@
         "dot": true,
         "line": true,
         "collection": "hair-lab-services",
-        "product_list": [],
+        "product_list": [
+          "weight-optimization",
+          "stress-recovery-sleep",
+          "performance-recovery",
+          "longevity-beauty-from-within",
+          "immunity-shield",
+          "energy-focus-boost",
+          "detox-reset"
+        ],
         "autoplay": false,
         "mobile_autoplay": false,
         "stop_autoplay": true,
