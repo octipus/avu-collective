@@ -150,8 +150,8 @@
           "type": "dropdown_information",
           "settings": {
             "characteristics": false,
-            "heading": "Service Outcome",
-            "description": "<p>{{ product.metafields.custom.service_outcome | metafield_tag }}</p>",
+            "heading": "Sample Pathways Layout",
+            "description": "{{ product.metafields.custom.sample_pathway_layout | metafield_tag }}",
             "button_show": false,
             "button_label": "",
             "button_link": "",
