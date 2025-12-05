@@ -40,6 +40,7 @@
         },
         "inventory": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "show_inventory_quantity": false
           }
@@ -100,16 +101,6 @@
             "text_with_icon_text-second": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "show_share_facebook": true,
-            "show_share_twitter": true,
-            "show_share_telegram": true,
-            "show_share_reddit": true,
-            "show_share_copy": true
-          }
-        },
         "dropdown_information_9zKpVD": {
           "type": "dropdown_information",
           "settings": {
@@ -157,6 +148,22 @@
             "button_link": "",
             "default_open": true
           }
+        },
+        "custom_liquid_main_fWLnTx": {
+          "type": "custom_liquid_main",
+          "settings": {
+            "custom_liquid": "<div style=\"padding-top:1em\"></div>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "show_share_facebook": true,
+            "show_share_twitter": true,
+            "show_share_telegram": true,
+            "show_share_reddit": true,
+            "show_share_copy": true
+          }
         }
       },
       "block_order": [
@@ -171,11 +178,12 @@
         "pickup_availability",
         "text_with_icon",
         "text_with_icon_FqPMQz",
-        "share",
         "dropdown_information_9zKpVD",
         "dropdown_information_hxVE6h",
         "dropdown_information_tBiDcf",
-        "dropdown_information_pfmfYF"
+        "dropdown_information_pfmfYF",
+        "custom_liquid_main_fWLnTx",
+        "share"
       ],
       "settings": {
         "color_scheme": "",
