@@ -18,6 +18,12 @@
           section_heading_size: section.settings.section_heading_size,
           section_heading_tag: section.settings.section_heading_tag
         %}
+
+        {% if section.settings.product != blank %}
+          <div class="collapsible-content__product">
+            {% render 'product-card', product_card_product: section.settings.product, media_size: 'square' %}
+          </div>
+        {% endif %}
       </div>
 
       <div class="collapsible-content-main-container">
@@ -374,6 +380,15 @@
       ],
       "default": "s",
       "label": "t:sections.all.section-margin.margin_bottom.label"
+    },
+    {
+      "type": "header",
+      "content": "Product"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Featured Product"
     }
   ],
   "blocks": [

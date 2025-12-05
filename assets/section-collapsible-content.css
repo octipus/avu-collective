@@ -8,6 +8,11 @@
   width: 100%;
   display: flex;
 }
+
+.collapsible-content__product {
+  max-width: 100%;
+  max-width: 46.2rem;
+}
 .collapsible-content__wrapper > div {
   flex: 1;
   width: 50%;
