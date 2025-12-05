@@ -219,12 +219,13 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Start Energy & Focus Boost Plan",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/energy-focus-boost",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "energy-focus-boost"
+        "product": "energy-focus-boost",
+        "hide_product_title": true
       }
     },
     "collapsible_content_rfnHHL": {
@@ -281,12 +282,13 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Build Your Immunity Shield",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/immunity-shield",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "immunity-shield"
+        "product": "immunity-shield",
+        "hide_product_title": true
       }
     },
     "collapsible_content_7GHHFQ": {
@@ -343,12 +345,13 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Start Stress & Sleep Recovery Plan",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/stress-recovery-sleep",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "stress-recovery-sleep"
+        "product": "stress-recovery-sleep",
+        "hide_product_title": true
       }
     },
     "collapsible_content_4WXgWw": {
@@ -405,12 +408,13 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Start Detox & Reset Plan",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/detox-reset",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "detox-reset"
+        "product": "detox-reset",
+        "hide_product_title": true
       }
     },
     "collapsible_content_yd4tyF": {
@@ -467,12 +471,13 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Build Your Performance & Recovery Plan",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/performance-recovery",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "performance-recovery"
+        "product": "performance-recovery",
+        "hide_product_title": true
       }
     },
     "collapsible_content_GHwTey": {
@@ -529,12 +534,13 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Start Weight Optimization Plan",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/weight-optimization",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "weight-optimization"
+        "product": "weight-optimization",
+        "hide_product_title": true
       }
     },
     "collapsible_content_BbnKPc": {
@@ -591,12 +597,13 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Explore Longevity & Beauty Plan",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/longevity-beauty-from-within",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "longevity-beauty-from-within"
+        "product": "longevity-beauty-from-within",
+        "hide_product_title": true
       }
     },
     "card_list_RTLL8M": {
@@ -728,7 +735,8 @@
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": ""
+        "product": "",
+        "hide_product_title": true
       }
     },
     "rich_text_7tnVk3": {
