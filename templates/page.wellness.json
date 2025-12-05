@@ -282,7 +282,7 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Build Your Immunity Shield",
-        "section_button_link": "",
+        "section_button_link": "shopify://products/immunity-shield",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
