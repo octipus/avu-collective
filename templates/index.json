@@ -1,1 +1,487 @@
-{"sections":{"slideshow_column_TKX7eU":{"type":"slideshow-column","blocks":{"split_screen_slid_yA7wWW":{"type":"split_screen_slid","settings":{"color_scheme":"background-2","heading":"Power your skin","text":"<p>Revitalize and energize your skin.<\/p>","image_second":"shopify:\/\/shop_images\/192381.png","button_label":"Shop Now","button_link":"","button_dot":true,"button_style":"primary","overlay_enable":true,"overlay_opacity":0}},"split_screen_slid_MtTkxf":{"type":"split_screen_slid","settings":{"color_scheme":"background-2","heading":"Enhance skin vitality","text":"<p>Boost hydration and youthful glow daily.<\/p>","image_second":"shopify:\/\/shop_images\/813176.png","button_label":"Shop Now","button_link":"","button_dot":true,"button_style":"primary","overlay_enable":true,"overlay_opacity":0}},"split_screen_slid_HCTbpJ":{"type":"split_screen_slid","settings":{"color_scheme":"background-2","heading":"Glow and renew","text":"<p>Bring back your skin’s natural radiance.<\/p>","image_second":"shopify:\/\/shop_images\/9182317.png","button_label":"Shop Now","button_link":"","button_dot":true,"button_style":"primary","overlay_enable":true,"overlay_opacity":0}}},"block_order":["split_screen_slid_yA7wWW","split_screen_slid_MtTkxf","split_screen_slid_HCTbpJ"],"settings":{"section_layout":"full","text_alignment":"center","heading_tag":"h1","image_size":"adapt","image_size_mobile":"1\/1","is_autoplay":true,"slideshow_speed":1,"slideshow_delay":3,"slide_effects":"slide","margin_top":"no-indent","margin_bottom":"no-indent"}},"product_slider_XAHzUr":{"type":"product-slider","settings":{"columns_per_row":3,"slides_per_view_mobile":"1","section_heading":"Ultimate skincare solutions","heading_tag":"h2","section_heading_size":"h2","subheading":"","dot":true,"line":true,"collection":"hair-lab-services","product_list":[],"autoplay":false,"mobile_autoplay":false,"stop_autoplay":true,"show_arrows":true,"slideshow_speed":1.1,"slideshow_delay":3,"button_style":"tertiary","product_heading_tag":"h3","image_ratio":"square","image_fit":"cover","show_collection_name":false,"show_secondary_image":true,"show_sku":false,"show_vendor":false,"show_desc":false,"margin_top":"xl","margin_bottom":"no-indent"}},"card-list":{"type":"card-list","blocks":{"product_1":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/817311.png","badge":"Hydrate and rejuvenate","badge_style":"primary","subheading":"Describe This Column's Purpose","text":"Experience deep hydration and rejuvenation with our expertly formulated products that leave your skin feeling fresh and revitalized."}},"product_2":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/986432.png","badge":"Glow with confidence","badge_style":"tertiary","subheading":"Describe This Column's Purpose","text":"Unlock your skin's natural glow and radiance with our powerful ingredients that enhance luminosity for a vibrant, youthful appearance."}},"product_3":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/819238.png","badge":"Molecule-enhanced formula","badge_style":"tertiary","subheading":"Describe This Column's Purpose","text":"Harness the power of advanced molecular technology in our formulas, delivering targeted benefits for smoother, healthier skin."}}},"block_order":["product_1","product_2","product_3"],"settings":{"text-number-visible":true,"text-always-visible":false,"section_heading":"","heading_tag":"h2","section_heading_size":"h3","subheading":"","dot":true,"line":false,"subheading_tag":"h4","columns_per_row":3,"image_ratio":"3\/4","columns_mobile":"1","swipe_on_mobile":false,"show_arrows":false,"margin_top":"xl","margin_bottom":"no-indent"}},"blockquote_rwtxJE":{"type":"blockquote","settings":{"section_subheading":"About","dot":true,"blockquote":"Dedicated to delivering skincare that transforms, we blend science and nature to create products that nourish, protect, and elevate your skin’s natural beauty.","section_blockquote_size":"h1","author_name":"","author_position":"","section_button_label":"Read about us","section_button_link":"","button_dot":true,"section_button_style":"primary","margin_top":"xl","margin_bottom":"no-indent"}},"collections_list_R46PWM":{"type":"collections-list","blocks":{"collection_item_GkBznN":{"type":"collection_item","settings":{"collection":"","color_scheme":"background-3","image":"shopify:\/\/shop_images\/124971.png","image_has_container":false,"collection_heading_size":"h2","overlay_enable":true,"overlay_opacity":0.2}},"collection_item_LgVA6D":{"type":"collection_item","settings":{"collection":"skincare","color_scheme":"","image":"shopify:\/\/shop_images\/97654.png","image_has_container":false,"collection_heading_size":"h2","overlay_enable":true,"overlay_opacity":0.2}},"collection_item_6q7LCk":{"type":"collection_item","settings":{"collection":"nutrition","color_scheme":"","image":"shopify:\/\/shop_images\/0823.png","image_has_container":false,"collection_heading_size":"h2","overlay_enable":true,"overlay_opacity":0.2}},"collection_item_3MC4My":{"type":"collection_item","settings":{"collection":"sets","color_scheme":"background-3","image":"shopify:\/\/shop_images\/1831162.png","image_has_container":false,"collection_heading_size":"h2","overlay_enable":true,"overlay_opacity":0.2}}},"block_order":["collection_item_GkBznN","collection_item_LgVA6D","collection_item_6q7LCk","collection_item_3MC4My"],"settings":{"section_heading":"","section_heading_tag":"h2","section_heading_size":"h2","subheading":"","dot":false,"content-align":"align-left","columns_per_row":3,"collection_heading_tag":"div","swipe_on_mobile":false,"image_ratio":"adapt","margin_top":"xl","margin_bottom":"no-indent"}},"before_after_XyBdfz":{"type":"before-after","settings":{"color_scheme":"","section_heading":"Discover visible skin changes and impressive results","section_heading_tag":"h2","section_heading_size":"h1","subheading":"compare","dot":true,"text":"Discover the transformative power of our skincare products. Experience visible skin changes and impressive results that enhance your natural beauty and boost your confidence.","button_label":"","button_link":"","button_dot":true,"button_style":"primary","image_before":"shopify:\/\/shop_images\/012381.png","before_heading":"","image_after":"shopify:\/\/shop_images\/371831.png","after_heading":"","margin_top":"l","margin_bottom":"no-indent"}},"testimonials_jbRNEW":{"type":"testimonials","blocks":{"testimonials_slide_r9Vn7C":{"type":"testimonials_slide","settings":{"text":"“I absolutely love these products! My skin feels rejuvenated and looks radiant. Highly recommend for anyone seeking real results.”","author_name":"Laura Mitchell","position_name":"Marketing Manager","enable_stars":true,"rating":5}},"testimonials_slide_N9La3b":{"type":"testimonials_slide","settings":{"text":"“These skincare items changed my routine for the better! My complexion is smoother, and I can see a noticeable difference.”","author_name":"Samantha Green","position_name":"Graphic Designer","enable_stars":true,"rating":5}},"testimonials_slide_gAjdFa":{"type":"testimonials_slide","settings":{"text":"“Finally found a brand that delivers. My skin has never felt this good. Impressive results and amazing quality. Will repurchase.”","author_name":"Megan Davis","position_name":"Product Manager","enable_stars":true,"rating":5}}},"block_order":["testimonials_slide_r9Vn7C","testimonials_slide_N9La3b","testimonials_slide_gAjdFa"],"settings":{"section_heading":"","heading_tag":"h2","section_heading_size":"h2","subheading":"Testimonials","dot":true,"is_autoplay":true,"is_hover_stop_autoplay":true,"slideshow_speed":1.1,"slideshow_delay":4,"button_style":"tertiary","margin_top":"xl","margin_bottom":"no-indent"}},"image_collage_ixzMfh":{"type":"image-collage","blocks":{"image_6LQ4d4":{"type":"image","settings":{"slide_img":"shopify:\/\/shop_images\/481416.png"}},"image_T9QkqF":{"type":"image","settings":{"slide_img":"shopify:\/\/shop_images\/813712.png"}},"image_yqnkBY":{"type":"image","settings":{"slide_img":"shopify:\/\/shop_images\/127161.png"}},"image_nPhQK4":{"type":"image","settings":{"slide_img":"shopify:\/\/shop_images\/98751.png"}},"image_yYjNEV":{"type":"image","settings":{"slide_img":"shopify:\/\/shop_images\/901233.png"}},"image_mGbpHk":{"type":"image","settings":{"slide_img":"shopify:\/\/shop_images\/812387.png"}},"image_btWwQr":{"type":"image","settings":{"slide_img":"shopify:\/\/shop_images\/813716.png"}}},"block_order":["image_6LQ4d4","image_T9QkqF","image_yqnkBY","image_nPhQK4","image_yYjNEV","image_mGbpHk","image_btWwQr"],"settings":{"color_scheme":"","image-collage_heading":"Find More in Instagram","text":"Explore our latest skincare tips, products, and exclusive offers on Instagram.","image_ratio":"1\/1","author_name":"@motto","followers":"13k Followers","button_label":"follow @motto","button_link":"\/","button_dot":false,"button_style":"primary","slideshow_speed":6,"margin_top":"xl","margin_bottom":"no-indent"}},"image_banner_QepikD":{"type":"image-banner","settings":{"color_scheme":"","heading":"","image_heading_tag":"h2","section_heading":"","section_heading_tag":"h2","section_heading_size":"h2","subheading":"","dot":true,"image":"shopify:\/\/shop_images\/138122.png","image_1":"shopify:\/\/shop_images\/182371.png","image_ratio":"adapt","animation":false,"overlay_enable":false,"overlay_opacity":0.2,"margin_top":"xl","margin_bottom":"no-indent"}},"newsletter_fp7GUw":{"type":"newsletter","settings":{"color_scheme":"background-1","v_align":"row","heading":"Sign up for releases and product updates","section_heading_tag":"h2","heading_size":"h2","newsletter_text":"","section_button_style":"primary","button_dot":false,"margin_top":"m","margin_bottom":"m","padding_top":"no-indent","padding_bottom":"no-indent"}}},"order":["slideshow_column_TKX7eU","product_slider_XAHzUr","card-list","blockquote_rwtxJE","collections_list_R46PWM","before_after_XyBdfz","testimonials_jbRNEW","image_collage_ixzMfh","image_banner_QepikD","newsletter_fp7GUw"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_column_TKX7eU": {
+      "type": "slideshow-column",
+      "blocks": {
+        "split_screen_slid_yA7wWW": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "background-2",
+            "heading": "Power your skin",
+            "text": "<p>Revitalize and energize your skin.</p>",
+            "image_second": "shopify://shop_images/192381.png",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0
+          }
+        },
+        "split_screen_slid_MtTkxf": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "background-2",
+            "heading": "Enhance skin vitality",
+            "text": "<p>Boost hydration and youthful glow daily.</p>",
+            "image_second": "shopify://shop_images/813176.png",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0
+          }
+        },
+        "split_screen_slid_HCTbpJ": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "background-2",
+            "heading": "Glow and renew",
+            "text": "<p>Bring back your skin’s natural radiance.</p>",
+            "image_second": "shopify://shop_images/9182317.png",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "split_screen_slid_yA7wWW",
+        "split_screen_slid_MtTkxf",
+        "split_screen_slid_HCTbpJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "full",
+        "text_alignment": "center",
+        "heading_tag": "h1",
+        "image_size": "adapt",
+        "image_size_mobile": "1/1",
+        "is_autoplay": true,
+        "slideshow_speed": 1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "video_NgDy34": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "height": "16/9",
+        "overlay_enable": true,
+        "opacity_overlay": 0.2,
+        "video": "shopify://files/videos/ElevenLabs_video_open-ai-sora-2-pro_This video f..._2025-10-29T20_47_43.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_fit": "contain",
+        "video_autoplay": false,
+        "video_muted": true,
+        "video_loop": false,
+        "video_controls": true,
+        "description": "",
+        "subheading": "Intro to featured content",
+        "heading": "Video title",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
+    "product_slider_XAHzUr": {
+      "type": "product-slider",
+      "settings": {
+        "columns_per_row": 3,
+        "slides_per_view_mobile": "1",
+        "section_heading": "Ultimate skincare solutions",
+        "heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "collection": "hair-lab-services",
+        "product_list": [],
+        "autoplay": false,
+        "mobile_autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_style": "tertiary",
+        "product_heading_tag": "h3",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_desc": false,
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "card-list": {
+      "type": "card-list",
+      "blocks": {
+        "product_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/817311.png",
+            "badge": "Hydrate and rejuvenate",
+            "badge_style": "primary",
+            "subheading": "Describe This Column's Purpose",
+            "text": "Experience deep hydration and rejuvenation with our expertly formulated products that leave your skin feeling fresh and revitalized."
+          }
+        },
+        "product_2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/986432.png",
+            "badge": "Glow with confidence",
+            "badge_style": "tertiary",
+            "subheading": "Describe This Column's Purpose",
+            "text": "Unlock your skin's natural glow and radiance with our powerful ingredients that enhance luminosity for a vibrant, youthful appearance."
+          }
+        },
+        "product_3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/819238.png",
+            "badge": "Molecule-enhanced formula",
+            "badge_style": "tertiary",
+            "subheading": "Describe This Column's Purpose",
+            "text": "Harness the power of advanced molecular technology in our formulas, delivering targeted benefits for smoother, healthier skin."
+          }
+        }
+      },
+      "block_order": [
+        "product_1",
+        "product_2",
+        "product_3"
+      ],
+      "settings": {
+        "text-number-visible": true,
+        "text-always-visible": false,
+        "section_heading": "",
+        "heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "",
+        "dot": true,
+        "line": false,
+        "subheading_tag": "h4",
+        "columns_per_row": 3,
+        "image_ratio": "3/4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_arrows": false,
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "blockquote_rwtxJE": {
+      "type": "blockquote",
+      "settings": {
+        "section_subheading": "About",
+        "dot": true,
+        "blockquote": "Dedicated to delivering skincare that transforms, we blend science and nature to create products that nourish, protect, and elevate your skin’s natural beauty.",
+        "section_blockquote_size": "h1",
+        "author_name": "",
+        "author_position": "",
+        "section_button_label": "Read about us",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "collections_list_R46PWM": {
+      "type": "collections-list",
+      "blocks": {
+        "collection_item_GkBznN": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "color_scheme": "background-3",
+            "image": "shopify://shop_images/124971.png",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_LgVA6D": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "skincare",
+            "color_scheme": "",
+            "image": "shopify://shop_images/97654.png",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_6q7LCk": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "nutrition",
+            "color_scheme": "",
+            "image": "shopify://shop_images/0823.png",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_3MC4My": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "sets",
+            "color_scheme": "background-3",
+            "image": "shopify://shop_images/1831162.png",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_GkBznN",
+        "collection_item_LgVA6D",
+        "collection_item_6q7LCk",
+        "collection_item_3MC4My"
+      ],
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": false,
+        "content-align": "align-left",
+        "columns_per_row": 3,
+        "collection_heading_tag": "div",
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "before_after_XyBdfz": {
+      "type": "before-after",
+      "settings": {
+        "color_scheme": "",
+        "section_heading": "Discover visible skin changes and impressive results",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "subheading": "compare",
+        "dot": true,
+        "text": "Discover the transformative power of our skincare products. Experience visible skin changes and impressive results that enhance your natural beauty and boost your confidence.",
+        "button_label": "",
+        "button_link": "",
+        "button_dot": true,
+        "button_style": "primary",
+        "image_before": "shopify://shop_images/012381.png",
+        "before_heading": "",
+        "image_after": "shopify://shop_images/371831.png",
+        "after_heading": "",
+        "margin_top": "l",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "testimonials_jbRNEW": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials_slide_r9Vn7C": {
+          "type": "testimonials_slide",
+          "settings": {
+            "text": "“I absolutely love these products! My skin feels rejuvenated and looks radiant. Highly recommend for anyone seeking real results.”",
+            "author_name": "Laura Mitchell",
+            "position_name": "Marketing Manager",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_N9La3b": {
+          "type": "testimonials_slide",
+          "settings": {
+            "text": "“These skincare items changed my routine for the better! My complexion is smoother, and I can see a noticeable difference.”",
+            "author_name": "Samantha Green",
+            "position_name": "Graphic Designer",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_gAjdFa": {
+          "type": "testimonials_slide",
+          "settings": {
+            "text": "“Finally found a brand that delivers. My skin has never felt this good. Impressive results and amazing quality. Will repurchase.”",
+            "author_name": "Megan Davis",
+            "position_name": "Product Manager",
+            "enable_stars": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonials_slide_r9Vn7C",
+        "testimonials_slide_N9La3b",
+        "testimonials_slide_gAjdFa"
+      ],
+      "settings": {
+        "section_heading": "",
+        "heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "Testimonials",
+        "dot": true,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 4,
+        "button_style": "tertiary",
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_collage_ixzMfh": {
+      "type": "image-collage",
+      "blocks": {
+        "image_6LQ4d4": {
+          "type": "image",
+          "settings": {
+            "slide_img": "shopify://shop_images/481416.png"
+          }
+        },
+        "image_T9QkqF": {
+          "type": "image",
+          "settings": {
+            "slide_img": "shopify://shop_images/813712.png"
+          }
+        },
+        "image_yqnkBY": {
+          "type": "image",
+          "settings": {
+            "slide_img": "shopify://shop_images/127161.png"
+          }
+        },
+        "image_nPhQK4": {
+          "type": "image",
+          "settings": {
+            "slide_img": "shopify://shop_images/98751.png"
+          }
+        },
+        "image_yYjNEV": {
+          "type": "image",
+          "settings": {
+            "slide_img": "shopify://shop_images/901233.png"
+          }
+        },
+        "image_mGbpHk": {
+          "type": "image",
+          "settings": {
+            "slide_img": "shopify://shop_images/812387.png"
+          }
+        },
+        "image_btWwQr": {
+          "type": "image",
+          "settings": {
+            "slide_img": "shopify://shop_images/813716.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_6LQ4d4",
+        "image_T9QkqF",
+        "image_yqnkBY",
+        "image_nPhQK4",
+        "image_yYjNEV",
+        "image_mGbpHk",
+        "image_btWwQr"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image-collage_heading": "Find More in Instagram",
+        "text": "Explore our latest skincare tips, products, and exclusive offers on Instagram.",
+        "image_ratio": "1/1",
+        "author_name": "@motto",
+        "followers": "13k Followers",
+        "button_label": "follow @motto",
+        "button_link": "/",
+        "button_dot": false,
+        "button_style": "primary",
+        "slideshow_speed": 6,
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_banner_QepikD": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "",
+        "heading": "",
+        "image_heading_tag": "h2",
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "image": "shopify://shop_images/138122.png",
+        "image_1": "shopify://shop_images/182371.png",
+        "image_ratio": "adapt",
+        "animation": false,
+        "overlay_enable": false,
+        "overlay_opacity": 0.2,
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "newsletter_fp7GUw": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "background-1",
+        "v_align": "row",
+        "heading": "Sign up for releases and product updates",
+        "section_heading_tag": "h2",
+        "heading_size": "h2",
+        "newsletter_text": "",
+        "section_button_style": "primary",
+        "button_dot": false,
+        "margin_top": "m",
+        "margin_bottom": "m",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "slideshow_column_TKX7eU",
+    "video_NgDy34",
+    "product_slider_XAHzUr",
+    "card-list",
+    "blockquote_rwtxJE",
+    "collections_list_R46PWM",
+    "before_after_XyBdfz",
+    "testimonials_jbRNEW",
+    "image_collage_ixzMfh",
+    "image_banner_QepikD",
+    "newsletter_fp7GUw"
+  ]
+}
