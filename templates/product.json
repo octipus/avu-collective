@@ -152,11 +152,12 @@
         "custom_liquid_main_fWLnTx": {
           "type": "custom_liquid_main",
           "settings": {
-            "custom_liquid": "<div style=\"padding-top:1em\"></div>"
+            "custom_liquid": ""
           }
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "show_share_facebook": true,
             "show_share_twitter": true,
