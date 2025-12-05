@@ -63,7 +63,6 @@
         "split_screen_slid_MtTkxf",
         "split_screen_slid_HCTbpJ"
       ],
-      "disabled": true,
       "settings": {
         "section_layout": "full",
         "text_alignment": "center",
@@ -80,6 +79,7 @@
     },
     "video_NgDy34": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "color_scheme": "background-1",
