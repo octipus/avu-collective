@@ -16,56 +16,8 @@
           "type": "slideshow_item",
           "settings": {
             "desktop_image": "shopify://shop_images/octave_yun_httpss.mj.runqZKeykI_Qa0_group_of_girls_skincare_n_169f65be-385a-4055-9636-3b83449c4ce3_2.png",
-            "color_scheme": "background-1",
-            "heading": "Showcase What Matters Most",
-            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
-            "text_width": "small",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0,
-            "overlay_opacity_mobile": 0
-          }
-        },
-        "slideshow_item_kLGagH": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "",
-            "heading": "Showcase What Matters Most",
-            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
-            "text_width": "small",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0,
-            "overlay_opacity_mobile": 0
-          }
-        },
-        "slideshow_item_yd8Kx7": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "",
-            "heading": "Showcase What Matters Most",
-            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
-            "text_width": "small",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0,
-            "overlay_opacity_mobile": 0
-          }
-        },
-        "slideshow_item_kwRwNY": {
-          "type": "slideshow_item",
-          "settings": {
-            "color_scheme": "",
-            "heading": "Showcase What Matters Most",
+            "color_scheme": "background-3",
+            "heading": "Next Gen Skin Clinic",
             "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
             "text_width": "small",
             "button_label": "Shop Now",
@@ -79,16 +31,13 @@
         }
       },
       "block_order": [
-        "slideshow_item_NQR9jV",
-        "slideshow_item_kLGagH",
-        "slideshow_item_yd8Kx7",
-        "slideshow_item_kwRwNY"
+        "slideshow_item_NQR9jV"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "header_overlay": false,
         "header_transparent": false,
-        "color_scheme_header": "",
+        "color_scheme_header": "background-1",
         "light_logo": true,
         "section_layout": "full",
         "text_position": "left",
