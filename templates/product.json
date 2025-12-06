@@ -12,6 +12,12 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "text_ekXQGE": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -19,11 +25,10 @@
             "heading_size": "h2"
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
+        "variant_picker": {
+          "type": "variant_picker",
           "settings": {
-            "description": ""
+            "picker_type": "button"
           }
         },
         "popup_m4K339": {
@@ -35,86 +40,6 @@
             "heading": "",
             "text": "<p><br/></p>",
             "custom_html": "<iframe src=\"https://www.joinblvd.com/b/avu-collective/widget#/cart/menu/Other%20Memberships/p_7b729075-9f73-4397-84d4-fde146048bbd\"></iframe>"
-          }
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_tax_info": false,
-            "show_shipping": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "inventory": {
-          "type": "inventory",
-          "disabled": true,
-          "settings": {
-            "show_inventory_quantity": false
-          }
-        },
-        "countdown_WPCdxx": {
-          "type": "countdown",
-          "disabled": true,
-          "settings": {
-            "mock_timer": true,
-            "color_scheme": "background-4",
-            "date_picker": "2025-10-01",
-            "time_picker": "00:00",
-            "countdown_block_font": "h3",
-            "completed_countdown": "show_text",
-            "countdown_heading": "Header after countdown",
-            "text": "Hurry, only a few days left! Shop now!"
-          }
-        },
-        "popup": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "label": "Popup label text",
-            "button_type": "button",
-            "page": "",
-            "heading": "Almost There!",
-            "text": "<p>You’re just one click away from owning this amazing product. Add it to your cart now and enjoy the benefits!</p>",
-            "custom_html": "<div></div>"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_quantity": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "text_with_icon": {
-          "type": "text_with_icon",
-          "disabled": true,
-          "settings": {
-            "icon": "file-return",
-            "text_with_icon_text": "14 Days Return Policy",
-            "icon_second": "file",
-            "text_with_icon_text-second": "VAT included"
-          }
-        },
-        "text_with_icon_FqPMQz": {
-          "type": "text_with_icon",
-          "disabled": true,
-          "settings": {
-            "icon": "shield-check",
-            "text_with_icon_text": "Up to 5 Years Warranty",
-            "icon_second": "file",
-            "text_with_icon_text-second": ""
           }
         },
         "dropdown_information_9zKpVD": {
@@ -184,18 +109,10 @@
         }
       },
       "block_order": [
+        "text_ekXQGE",
         "title",
-        "description",
-        "popup_m4K339",
-        "price",
         "variant_picker",
-        "inventory",
-        "countdown_WPCdxx",
-        "popup",
-        "buy_buttons",
-        "pickup_availability",
-        "text_with_icon",
-        "text_with_icon_FqPMQz",
+        "popup_m4K339",
         "dropdown_information_9zKpVD",
         "dropdown_information_hxVE6h",
         "dropdown_information_tBiDcf",
