@@ -27,8 +27,8 @@
           "settings": {
             "desktop_image": "shopify://shop_images/octave_yun_hero_image_for_landign_page_called_Skin_Bar_-_repr_f7db2976-5d56-4f29-ad01-fdea09e7a0b9_0.png",
             "color_scheme": "background-3",
-            "heading": "<strong>What Do You Want to Feel?</strong>",
-            "text": "<p> At AVU Wellness, we don’t sell random IV drips and biohacks. We start with the outcome you want — <strong>more energy, better sleep, faster recovery, long-term vitality</strong> — and build a protocol around it.</p>",
+            "heading": "<strong>Your Skin Outcome Starts Here.</strong>",
+            "text": "<p>Your goal comes first. We design the plan that gets you there, using clinical analysis, precision tech, and evolving skin protocols.<br/></p>",
             "text_width": "small",
             "button_label": "Start Your Wellness plan",
             "button_link": "",
@@ -144,6 +144,7 @@
     },
     "rich_text_xxW6iy": {
       "type": "rich-text",
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "section_layout": "column",
@@ -163,6 +164,24 @@
         "button2_dot": true,
         "margin_top": "no-indent",
         "margin_bottom": "xs"
+      }
+    },
+    "blockquote_i7t9Ep": {
+      "type": "blockquote",
+      "name": "t:sections.blockquote.name",
+      "settings": {
+        "section_subheading": "What Do You Want to Achieve?",
+        "dot": true,
+        "blockquote": "Choose your skin outcome and we’ll walk you through how we get you there.",
+        "section_blockquote_size": "h1",
+        "author_name": "",
+        "author_position": "",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "no-indent"
       }
     },
     "collapsible_content_HRiqKt": {
@@ -769,6 +788,7 @@
     "product_grid_mXjVX8",
     "numbered_list_c8gnFK",
     "rich_text_xxW6iy",
+    "blockquote_i7t9Ep",
     "collapsible_content_HRiqKt",
     "collapsible_content_rfnHHL",
     "collapsible_content_7GHHFQ",
