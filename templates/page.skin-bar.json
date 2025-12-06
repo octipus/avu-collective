@@ -104,22 +104,22 @@
         "numbered_item_HcQreb": {
           "type": "numbered_item",
           "settings": {
-            "heading": "Wellness Assessment ",
-            "text": "<p>○ Deep dive intake: lifestyle, sleep, stress, meds, goals. <br>\n○ Vitals + relevant labs (if available).<br>\n○ We identify what's actually driving your low energy, stress, or recovery issues.</p>"
+            "heading": "Skin Analysis & Mapping",
+            "text": "<p>Deep-dive consultation with licensed experts + skin imaging.</p>"
           }
         },
         "numbered_item_TCNhYF": {
           "type": "numbered_item",
           "settings": {
-            "heading": "Custom Protocol Design ",
-            "text": "<p>○ Your clinician designs a stacked plan: IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks.<br>\n○ Clear timeline: what happens in Week 1, Week 4, Week 8.M<br>\n○ You know exactly why each element is in your plan.</p>"
+            "heading": "Protocol Design",
+            "text": "<p>We build your Clear Skin Reset plan using tailored modalities.</p>"
           }
         },
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
-            "heading": "Track, Adjust, Maintain",
-            "text": "<p>○ Regular check-ins to see what's working.<br>\n○ Protocol evolves as your body responds.<br>\n○ Transition into a maintenance membership once you hit your goal.</p>"
+            "heading": "Treatment Series ",
+            "text": "<p>Weekly or biweekly sessions combining exfoliation, detox, LED, and hydration support.<br/><br/>Bespoke skin OS formula to reinforce everything between visits.</p>"
           }
         }
       },
