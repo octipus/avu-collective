@@ -18,7 +18,7 @@
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
-    }, 
+    },
     "slideshow_DdUc3g": {
       "type": "slideshow",
       "blocks": {
@@ -144,6 +144,7 @@
     },
     "rich_text_xxW6iy": {
       "type": "rich-text",
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "section_layout": "column",
@@ -163,6 +164,24 @@
         "button2_dot": true,
         "margin_top": "no-indent",
         "margin_bottom": "xs"
+      }
+    },
+    "blockquote_JQ8x6E": {
+      "type": "blockquote",
+      "name": "t:sections.blockquote.name",
+      "settings": {
+        "section_subheading": "What Do You Want to Achieve?",
+        "dot": true,
+        "blockquote": "Choose your skin outcome and we’ll walk you through how we get you there.",
+        "section_blockquote_size": "h1",
+        "author_name": "",
+        "author_position": "",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "no-indent"
       }
     },
     "collapsible_content_HRiqKt": {
@@ -769,6 +788,7 @@
     "product_grid_mXjVX8",
     "numbered_list_c8gnFK",
     "rich_text_xxW6iy",
+    "blockquote_JQ8x6E",
     "collapsible_content_HRiqKt",
     "collapsible_content_rfnHHL",
     "collapsible_content_7GHHFQ",
