@@ -79,22 +79,29 @@
 							<div
 								class='collections-list__image-wrapper {% if block.settings.image_has_container == true %}image-contained{% endif %}'
 							>
-								{% if column_per_row == 1 %}
-									{%- capture sizes -%}
-									calc((100vw ))
-								{%- endcapture -%}
-								{% elsif column_per_row == 2 %}
-									{%- capture sizes -%}
-									(min-width: 750) calc((50vw )), 
-									calc((100vw ))
-								{%- endcapture -%}
-								{% else %}
-									{%- capture sizes -%}
-									(min-width: 1200) calc((33vw )), 
-									(min-width: 750) calc((50vw )), 
-									calc((100vw ))
-								{%- endcapture -%}
-								{% endif %}
+							{% if column_per_row == 1 %}
+								{%- capture sizes -%}
+								calc((100vw ))
+							{%- endcapture -%}
+							{% elsif column_per_row == 2 %}
+								{%- capture sizes -%}
+								(min-width: 750) calc((50vw )), 
+								calc((100vw ))
+							{%- endcapture -%}
+							{% elsif column_per_row == 3 %}
+								{%- capture sizes -%}
+								(min-width: 1200) calc((33vw )), 
+								(min-width: 750) calc((50vw )), 
+								calc((100vw ))
+							{%- endcapture -%}
+							{% else %}
+								{%- capture sizes -%}
+								(min-width: 1360) calc((25vw )), 
+								(min-width: 1200) calc((33vw )), 
+								(min-width: 750) calc((50vw )), 
+								calc((100vw ))
+							{%- endcapture -%}
+							{% endif %}
 								{% if collection_image != blank %}
 									{{
 										collection_image
