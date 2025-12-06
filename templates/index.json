@@ -229,9 +229,8 @@
         "collection_item_LgVA6D": {
           "type": "collection_item",
           "settings": {
-            "collection": "skincare",
+            "collection": "avu-skin-bar",
             "color_scheme": "",
-            "image": "shopify://shop_images/97654.png",
             "image_has_container": false,
             "collection_heading_size": "h2",
             "overlay_enable": true,
