@@ -161,9 +161,9 @@
       },
       "background-3": {
         "settings": {
-          "colors_text": "#ffffff",
+          "colors_text": "#f9f9f9",
           "colors_secondary_text": "#f9f9f9",
-          "colors_tertiary_text": "#ffffff",
+          "colors_tertiary_text": "#f9f9f9",
           "colors_text_title": "#ffffff",
           "colors_background_1": "#3f3f3f",
           "colors_background_2": "#535551",

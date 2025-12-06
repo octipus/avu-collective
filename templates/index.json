@@ -230,43 +230,17 @@
           "type": "collection_item",
           "settings": {
             "collection": "avu-skin-bar",
-            "color_scheme": "",
-            "image_has_container": false,
-            "collection_heading_size": "h2",
-            "overlay_enable": true,
-            "overlay_opacity": 0.2
-          }
-        },
-        "collection_item_6q7LCk": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "nutrition",
-            "color_scheme": "",
-            "image": "shopify://shop_images/0823.png",
-            "image_has_container": false,
-            "collection_heading_size": "h2",
-            "overlay_enable": true,
-            "overlay_opacity": 0.2
-          }
-        },
-        "collection_item_3MC4My": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "sets",
             "color_scheme": "background-3",
-            "image": "shopify://shop_images/1831162.png",
             "image_has_container": false,
             "collection_heading_size": "h2",
-            "overlay_enable": true,
-            "overlay_opacity": 0.2
+            "overlay_enable": false,
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "collection_item_GkBznN",
-        "collection_item_LgVA6D",
-        "collection_item_6q7LCk",
-        "collection_item_3MC4My"
+        "collection_item_LgVA6D"
       ],
       "settings": {
         "section_heading": "",
