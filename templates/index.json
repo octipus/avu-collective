@@ -225,9 +225,20 @@
         "testimonials_slide_r9Vn7C": {
           "type": "testimonials_slide",
           "settings": {
-            "text": "“I absolutely love these products! My skin feels rejuvenated and looks radiant. Highly recommend for anyone seeking real results.”",
-            "author_name": "Laura Mitchell",
-            "position_name": "Marketing Manager",
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_woman_young_aged_skincare_custo_10b40a40-c484-48ec-b9e5-64f6078e8c05_0.png",
+            "text": "“The Med Bar’s expert laser and injectable work, paired with the Skin OS home-care regimen, left my skin noticeably refined, luminous, and naturally rejuvenated.”",
+            "author_name": "Alexanda M.",
+            "position_name": "AVU MedBar Customer",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_6GPyrW": {
+          "type": "testimonials_slide",
+          "settings": {
+            "text": "Here can be a glowing customer review about your product or service",
+            "author_name": "Customer name here",
+            "position_name": "Customer position here",
             "enable_stars": true,
             "rating": 5
           }
@@ -255,6 +266,7 @@
       },
       "block_order": [
         "testimonials_slide_r9Vn7C",
+        "testimonials_slide_6GPyrW",
         "testimonials_slide_N9La3b",
         "testimonials_slide_gAjdFa"
       ],
