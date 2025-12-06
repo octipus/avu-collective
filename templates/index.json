@@ -226,6 +226,28 @@
             "overlay_opacity": 0.2
           }
         },
+        "collection_item_zcaQhG": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "avu-wellness",
+            "color_scheme": "background-3",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_gJcrYL": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "avu-wellness",
+            "color_scheme": "background-3",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2
+          }
+        },
         "collection_item_LgVA6D": {
           "type": "collection_item",
           "settings": {
@@ -240,6 +262,8 @@
       },
       "block_order": [
         "collection_item_GkBznN",
+        "collection_item_zcaQhG",
+        "collection_item_gJcrYL",
         "collection_item_LgVA6D"
       ],
       "settings": {
@@ -252,7 +276,7 @@
         "columns_per_row": 3,
         "collection_heading_tag": "div",
         "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "image_ratio": "1/1",
         "margin_top": "xl",
         "margin_bottom": "no-indent"
       }
