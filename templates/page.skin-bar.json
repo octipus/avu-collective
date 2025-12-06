@@ -18,14 +18,14 @@
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
-    }, 
+    },
     "slideshow_DdUc3g": {
       "type": "slideshow",
       "blocks": {
         "slideshow_item_rpPWKi": {
           "type": "slideshow_item",
           "settings": {
-            "desktop_image": "shopify://shop_images/rosa-rafael-Pe9IXUuC6QU-unsplash.jpg",
+            "desktop_image": "shopify://shop_images/octave_yun_hero_image_for_landign_page_called_Skin_Bar_-_repr_f7db2976-5d56-4f29-ad01-fdea09e7a0b9_0.png",
             "color_scheme": "background-3",
             "heading": "<strong>What Do You Want to Feel?</strong>",
             "text": "<p> At AVU Wellness, we don’t sell random IV drips and biohacks. We start with the outcome you want — <strong>more energy, better sleep, faster recovery, long-term vitality</strong> — and build a protocol around it.</p>",
@@ -211,7 +211,7 @@
       "settings": {
         "section_layout": "row",
         "icon_style": "secondary",
-        "section_heading": "ENERGY & FOCUS BOOST",
+        "section_heading": "CLEAR SKIN RESET",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
         "section_preheading": "Outcome: Wake Up Energized. Stay Sharp All Day.",
@@ -219,12 +219,12 @@
         "dot": true,
         "collapse_heading_tag": "h4",
         "section_button_label": "Start Energy & Focus Boost Plan",
-        "section_button_link": "shopify://products/energy-focus-boost",
+        "section_button_link": "shopify://products/clear-skin-reset",
         "button_dot": true,
         "section_button_style": "primary",
         "margin_top": "s",
         "margin_bottom": "s",
-        "product": "energy-focus-boost",
+        "product": "clear-skin-reset",
         "hide_product_title": true
       }
     },
