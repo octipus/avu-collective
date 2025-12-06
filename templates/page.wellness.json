@@ -18,7 +18,7 @@
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
-    },
+    }, 
     "slideshow_DdUc3g": {
       "type": "slideshow",
       "blocks": {
@@ -105,21 +105,21 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Wellness Assessment ",
-            "text": "○ Deep dive intake: lifestyle, sleep, stress, meds, goals. <br>\n○ Vitals + relevant labs (if available).<br>\n○ We identify what’s actually driving your low energy, stress, or recovery issues."
+            "text": "<p>○ Deep dive intake: lifestyle, sleep, stress, meds, goals. <br>\n○ Vitals + relevant labs (if available).<br>\n○ We identify what's actually driving your low energy, stress, or recovery issues.</p>"
           }
         },
         "numbered_item_TCNhYF": {
           "type": "numbered_item",
           "settings": {
             "heading": "Custom Protocol Design ",
-            "text": "○ Your clinician designs a stacked plan: IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks.<br>\n○ Clear timeline: what happens in Week 1, Week 4, Week 8.M<br>\n○ You know exactly why each element is in your plan."
+            "text": "<p>○ Your clinician designs a stacked plan: IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks.<br>\n○ Clear timeline: what happens in Week 1, Week 4, Week 8.M<br>\n○ You know exactly why each element is in your plan.</p>"
           }
         },
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
             "heading": "Track, Adjust, Maintain",
-            "text": "○ Regular check-ins to see what’s working.<br>\n○ Protocol evolves as your body responds.<br>\n○ Transition into a maintenance membership once you hit your goal."
+            "text": "<p>○ Regular check-ins to see what's working.<br>\n○ Protocol evolves as your body responds.<br>\n○ Transition into a maintenance membership once you hit your goal.</p>"
           }
         }
       },
