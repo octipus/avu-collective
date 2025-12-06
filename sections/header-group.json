@@ -100,15 +100,15 @@
         "mega_menu_ThkztG"
       ],
       "settings": {
-        "header_type": "bottom-menu",
+        "header_type": "top-menu",
         "logo_position": "left-logo",
         "full_menu": true,
         "background": "secondary",
-        "enable_border": true,
+        "enable_border": false,
         "logo": "shopify://shop_images/AVU_Collective_Logo_-_Thin_72dpi_Rect.png",
         "section_heading_tag": "h1",
         "apply_logo_pages": true,
-        "logo_width": 125,
+        "logo_width": 100,
         "menu": "main-menu",
         "enable_country_selector": false,
         "enable_language_selector": false,

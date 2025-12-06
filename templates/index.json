@@ -396,12 +396,35 @@
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
       }
+    },
+    "image_with_text_rCdVKJ": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "image_position": "image_left",
+        "content_alignment": "left",
+        "image_size": "1/1",
+        "subheading": "Brief intro to the image content",
+        "dot": true,
+        "heading": "Here can be your title",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
+        "button_label": "Discover Why",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
     "slideshow_PUFH8H",
     "blockquote_rwtxJE",
     "collections_list_R46PWM",
+    "image_with_text_rCdVKJ",
     "product_slider_XAHzUr",
     "card-list",
     "before_after_XyBdfz",
