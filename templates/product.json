@@ -15,7 +15,7 @@
         "text_ekXQGE": {
           "type": "text",
           "settings": {
-            "text": "[{{ product.vendor }}] -"
+            "text": "[{{ product.vendor }}]"
           }
         },
         "title": {
@@ -28,7 +28,7 @@
         "text_6haYRR": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}"
+            "text": "{{ product.metafields.custom.outcome.value }} - {{ product.metafields.custom.duration.value }} Treatment"
           }
         },
         "variant_picker": {
