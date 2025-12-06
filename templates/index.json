@@ -197,82 +197,24 @@
         "margin_bottom": "no-indent"
       }
     },
-    "card-list": {
-      "type": "card-list",
-      "blocks": {
-        "product_1": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/817311.png",
-            "badge": "Hydrate and rejuvenate",
-            "badge_style": "primary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Experience deep hydration and rejuvenation with our expertly formulated products that leave your skin feeling fresh and revitalized."
-          }
-        },
-        "product_2": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/986432.png",
-            "badge": "Glow with confidence",
-            "badge_style": "tertiary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Unlock your skin's natural glow and radiance with our powerful ingredients that enhance luminosity for a vibrant, youthful appearance."
-          }
-        },
-        "product_3": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/819238.png",
-            "badge": "Molecule-enhanced formula",
-            "badge_style": "tertiary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Harness the power of advanced molecular technology in our formulas, delivering targeted benefits for smoother, healthier skin."
-          }
-        }
-      },
-      "block_order": [
-        "product_1",
-        "product_2",
-        "product_3"
-      ],
-      "settings": {
-        "text-number-visible": true,
-        "text-always-visible": false,
-        "section_heading": "",
-        "heading_tag": "h2",
-        "section_heading_size": "h3",
-        "subheading": "",
-        "dot": true,
-        "line": false,
-        "subheading_tag": "h4",
-        "columns_per_row": 3,
-        "image_ratio": "3/4",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "show_arrows": false,
-        "margin_top": "xl",
-        "margin_bottom": "no-indent"
-      }
-    },
     "before_after_XyBdfz": {
       "type": "before-after",
       "settings": {
-        "color_scheme": "",
-        "section_heading": "Discover visible skin changes and impressive results",
+        "color_scheme": "background-3",
+        "section_heading": "Long-term relationship, not one-night-stand treatments. ",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "subheading": "compare",
         "dot": true,
-        "text": "Discover the transformative power of our skincare products. Experience visible skin changes and impressive results that enhance your natural beauty and boost your confidence.",
+        "text": "AVU is built around ongoing protocols, refills, reformulations, and check-ins, not one-off promos. \n\nThe question we ask is:\n“What does your skin/body/hair need over the next year?”\nNot: “What can we sell you today?”",
         "button_label": "",
         "button_link": "",
         "button_dot": true,
         "button_style": "primary",
-        "image_before": "shopify://shop_images/012381.png",
-        "before_heading": "",
-        "image_after": "shopify://shop_images/371831.png",
-        "after_heading": "",
+        "image_before": "shopify://shop_images/before.png",
+        "before_heading": "before",
+        "image_after": "shopify://shop_images/after.png",
+        "after_heading": "after",
         "margin_top": "l",
         "margin_bottom": "no-indent"
       }
@@ -427,7 +369,6 @@
     "collections_list_R46PWM",
     "image_with_text_rCdVKJ",
     "product_slider_XAHzUr",
-    "card-list",
     "before_after_XyBdfz",
     "testimonials_jbRNEW",
     "image_collage_ixzMfh",
