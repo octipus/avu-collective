@@ -255,12 +255,24 @@
             "rating": 5
           }
         },
+        "testimonials_slide_cxBjG6": {
+          "type": "testimonials_slide",
+          "settings": {
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_indian_woman_young_aged_skincar_a70620e7-abd2-4785-b1b8-1891dd555e3d_2.png",
+            "text": "“The Med Bar’s regenerative treatments, enhanced by the Skin OS home-care system, restored firmness and created lasting, natural-looking rejuvenation.”",
+            "author_name": "Priya L.",
+            "position_name": "AVU MedBar Customer",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
         "testimonials_slide_gAjdFa": {
           "type": "testimonials_slide",
           "settings": {
-            "text": "“Finally found a brand that delivers. My skin has never felt this good. Impressive results and amazing quality. Will repurchase.”",
-            "author_name": "Megan Davis",
-            "position_name": "Product Manager",
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_man_young_aged_wellness_custome_12dc6ae1-b451-48c8-9435-23ab22d6f10d_2.png",
+            "text": "“The Wellness program’s comprehensive plan for metabolism, sleep, stress, and recovery profoundly improved my energy, restfulness, and performance.”",
+            "author_name": "Marcus V.",
+            "position_name": "AVU Wellness Customer",
             "enable_stars": true,
             "rating": 5
           }
@@ -270,6 +282,7 @@
         "testimonials_slide_r9Vn7C",
         "testimonials_slide_6GPyrW",
         "testimonials_slide_N9La3b",
+        "testimonials_slide_cxBjG6",
         "testimonials_slide_gAjdFa"
       ],
       "settings": {
