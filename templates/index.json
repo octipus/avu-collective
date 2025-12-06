@@ -218,9 +218,8 @@
         "collection_item_GkBznN": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "avu-wellness",
             "color_scheme": "background-3",
-            "image": "shopify://shop_images/124971.png",
             "image_has_container": false,
             "collection_heading_size": "h2",
             "overlay_enable": true,
