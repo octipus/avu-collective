@@ -101,7 +101,7 @@
       ],
       "settings": {
         "header_type": "top-menu",
-        "logo_position": "left-logo",
+        "logo_position": "center-logo",
         "full_menu": true,
         "background": "secondary",
         "enable_border": false,
