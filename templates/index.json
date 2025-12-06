@@ -9,70 +9,100 @@
  */
 {
   "sections": {
-    "slideshow_column_TKX7eU": {
-      "type": "slideshow-column",
+    "slideshow_PUFH8H": {
+      "type": "slideshow",
       "blocks": {
-        "split_screen_slid_yA7wWW": {
-          "type": "split_screen_slid",
+        "slideshow_item_NQR9jV": {
+          "type": "slideshow_item",
           "settings": {
+            "desktop_image": "shopify://shop_images/octave_yun_httpss.mj.runqZKeykI_Qa0_group_of_girls_skincare_n_169f65be-385a-4055-9636-3b83449c4ce3_2.png",
             "color_scheme": "background-1",
-            "heading": "Power your skin",
-            "text": "<p>Revitalize and energize your skin.</p>",
-            "image_second": "shopify://shop_images/192381.png",
+            "heading": "Showcase What Matters Most",
+            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
+            "text_width": "small",
             "button_label": "Shop Now",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
             "overlay_enable": true,
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
           }
         },
-        "split_screen_slid_MtTkxf": {
-          "type": "split_screen_slid",
+        "slideshow_item_kLGagH": {
+          "type": "slideshow_item",
           "settings": {
-            "color_scheme": "background-1",
-            "heading": "Enhance skin vitality",
-            "text": "<p>Boost hydration and youthful glow daily.</p>",
-            "image_second": "shopify://shop_images/813176.png",
+            "color_scheme": "",
+            "heading": "Showcase What Matters Most",
+            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
+            "text_width": "small",
             "button_label": "Shop Now",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
             "overlay_enable": true,
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
           }
         },
-        "split_screen_slid_HCTbpJ": {
-          "type": "split_screen_slid",
+        "slideshow_item_yd8Kx7": {
+          "type": "slideshow_item",
           "settings": {
-            "color_scheme": "background-1",
-            "heading": "Glow and renew",
-            "text": "<p>Bring back your skin’s natural radiance.</p>",
-            "image_second": "shopify://shop_images/9182317.png",
+            "color_scheme": "",
+            "heading": "Showcase What Matters Most",
+            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
+            "text_width": "small",
             "button_label": "Shop Now",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
             "overlay_enable": true,
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
+          }
+        },
+        "slideshow_item_kwRwNY": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "heading": "Showcase What Matters Most",
+            "text": "<p>This section allows you to showcase multiple slides featuring different collections, promotions, or brand messages.</p>",
+            "text_width": "small",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
           }
         }
       },
       "block_order": [
-        "split_screen_slid_yA7wWW",
-        "split_screen_slid_MtTkxf",
-        "split_screen_slid_HCTbpJ"
+        "slideshow_item_NQR9jV",
+        "slideshow_item_kLGagH",
+        "slideshow_item_yd8Kx7",
+        "slideshow_item_kwRwNY"
       ],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
+        "header_overlay": false,
+        "header_transparent": false,
+        "color_scheme_header": "",
+        "light_logo": true,
         "section_layout": "full",
-        "text_alignment": "center",
+        "text_position": "left",
+        "pagination_position": "bottom",
+        "image_size": "16/9",
         "heading_tag": "h1",
-        "image_size": "adapt",
-        "image_size_mobile": "1/1",
+        "image_size_mobile": "3/4",
+        "text_position_mobile": "bottom-left",
         "is_autoplay": true,
-        "slideshow_speed": 1,
+        "is_hover_stop_autoplay": false,
+        "slideshow_speed": 0.8,
         "slideshow_delay": 3,
-        "slide_effects": "slide",
+        "slide_effects": "custom",
+        "text_animation": true,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -468,7 +498,7 @@
     }
   },
   "order": [
-    "slideshow_column_TKX7eU",
+    "slideshow_PUFH8H",
     "video_NgDy34",
     "product_slider_XAHzUr",
     "card-list",
