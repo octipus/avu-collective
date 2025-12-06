@@ -5454,7 +5454,10 @@ body.mouse-focus .header__icons .header__icon--cart:focus-visible {
   align-items: baseline;
   text-transform: uppercase;
   overflow-wrap: anywhere;
-  column-gap: 1.2rem;
+  column-gap: 1rem;
+}
+.section-header__subtitle.subheading {
+  margin-top: 1.2rem;
 }
 .section-header__subtitle::before {
   display: none;
