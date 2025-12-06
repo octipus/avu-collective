@@ -25,6 +25,7 @@
     "type_footer_menu_font": "dm_sans_n4",
     "type_popups_heading_font": "figtree_n5",
     "quickview_hover": true,
+    "show_price": false,
     "badge_soldout_show": false,
     "enable_vendor_link": true,
     "custom_colors": "Orange: #CF8A53\nBlack: #181A20\nLight Steel Blue: #B2CBD7\nGreen: #84977A\nBlue: #455A98\nYellow: #F7E589\nOrange: #CF8A53\nRed: #B4401B\nGray: #D7D7D7\nBrown: #D0BFA8",
