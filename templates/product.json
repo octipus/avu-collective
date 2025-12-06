@@ -15,7 +15,7 @@
         "text_ekXQGE": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}"
+            "text": "[{{ product.vendor }}] -"
           }
         },
         "title": {
@@ -23,6 +23,12 @@
           "settings": {
             "product_heading_tag": "h1",
             "heading_size": "h2"
+          }
+        },
+        "text_6haYRR": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}"
           }
         },
         "variant_picker": {
@@ -111,6 +117,7 @@
       "block_order": [
         "text_ekXQGE",
         "title",
+        "text_6haYRR",
         "variant_picker",
         "popup_m4K339",
         "dropdown_information_9zKpVD",
