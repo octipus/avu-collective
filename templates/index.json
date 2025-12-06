@@ -56,32 +56,90 @@
         "margin_bottom": "no-indent"
       }
     },
-    "video_NgDy34": {
-      "type": "video",
-      "disabled": true,
-      "name": "t:sections.video.presets.name",
+    "blockquote_rwtxJE": {
+      "type": "blockquote",
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "height": "21/9",
-        "overlay_enable": true,
-        "opacity_overlay": 0.4,
-        "video": "shopify://files/videos/ElevenLabs_video_open-ai-sora-2-pro_This video f..._2025-10-29T20_47_43.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_fit": "cover",
-        "video_autoplay": true,
-        "video_muted": true,
-        "video_loop": true,
-        "video_controls": false,
-        "description": "",
-        "subheading": "Intro to featured content",
-        "heading": "Video title",
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "no-indent",
-        "padding_bottom": "no-indent"
+        "section_subheading": "We architect outcomes",
+        "dot": true,
+        "blockquote": "At AVU, you’re not buying time on a machine. You’re enrolling in an operating system for your skin, hair, and wellness.",
+        "section_blockquote_size": "h1",
+        "author_name": "",
+        "author_position": "",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "collections_list_R46PWM": {
+      "type": "collections-list",
+      "blocks": {
+        "collection_item_GkBznN": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "avu-wellness",
+            "color_scheme": "background-3",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_zcaQhG": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "avu-wellness",
+            "color_scheme": "background-3",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_gJcrYL": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "avu-wellness",
+            "color_scheme": "background-3",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": false,
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_LgVA6D": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "avu-skin-bar",
+            "color_scheme": "background-3",
+            "image_has_container": false,
+            "collection_heading_size": "h2",
+            "overlay_enable": false,
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_GkBznN",
+        "collection_item_zcaQhG",
+        "collection_item_gJcrYL",
+        "collection_item_LgVA6D"
+      ],
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": false,
+        "content-align": "align-center",
+        "columns_per_row": 4,
+        "collection_heading_tag": "div",
+        "swipe_on_mobile": false,
+        "image_ratio": "1/1",
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
       }
     },
     "product_slider_XAHzUr": {
@@ -170,92 +228,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "show_arrows": false,
-        "margin_top": "xl",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "blockquote_rwtxJE": {
-      "type": "blockquote",
-      "settings": {
-        "section_subheading": "About",
-        "dot": true,
-        "blockquote": "Dedicated to delivering skincare that transforms, we blend science and nature to create products that nourish, protect, and elevate your skin’s natural beauty.",
-        "section_blockquote_size": "h1",
-        "author_name": "",
-        "author_position": "",
-        "section_button_label": "Read about us",
-        "section_button_link": "",
-        "button_dot": true,
-        "section_button_style": "primary",
-        "margin_top": "xl",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "collections_list_R46PWM": {
-      "type": "collections-list",
-      "blocks": {
-        "collection_item_GkBznN": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "avu-wellness",
-            "color_scheme": "background-3",
-            "image_has_container": false,
-            "collection_heading_size": "h2",
-            "overlay_enable": true,
-            "overlay_opacity": 0.2
-          }
-        },
-        "collection_item_zcaQhG": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "avu-wellness",
-            "color_scheme": "background-3",
-            "image_has_container": false,
-            "collection_heading_size": "h2",
-            "overlay_enable": true,
-            "overlay_opacity": 0.2
-          }
-        },
-        "collection_item_gJcrYL": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "avu-wellness",
-            "color_scheme": "background-3",
-            "image_has_container": false,
-            "collection_heading_size": "h2",
-            "overlay_enable": true,
-            "overlay_opacity": 0.2
-          }
-        },
-        "collection_item_LgVA6D": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "avu-skin-bar",
-            "color_scheme": "background-3",
-            "image_has_container": false,
-            "collection_heading_size": "h2",
-            "overlay_enable": false,
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "collection_item_GkBznN",
-        "collection_item_zcaQhG",
-        "collection_item_gJcrYL",
-        "collection_item_LgVA6D"
-      ],
-      "settings": {
-        "section_heading": "",
-        "section_heading_tag": "h2",
-        "section_heading_size": "h2",
-        "subheading": "",
-        "dot": false,
-        "content-align": "align-center",
-        "columns_per_row": 4,
-        "collection_heading_tag": "div",
-        "swipe_on_mobile": false,
-        "image_ratio": "1/1",
         "margin_top": "xl",
         "margin_bottom": "no-indent"
       }
@@ -391,6 +363,7 @@
         "image_mGbpHk",
         "image_btWwQr"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "image-collage_heading": "Find More in Instagram",
@@ -403,27 +376,6 @@
         "button_dot": false,
         "button_style": "primary",
         "slideshow_speed": 6,
-        "margin_top": "xl",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "image_banner_QepikD": {
-      "type": "image-banner",
-      "settings": {
-        "color_scheme": "",
-        "heading": "",
-        "image_heading_tag": "h2",
-        "section_heading": "",
-        "section_heading_tag": "h2",
-        "section_heading_size": "h2",
-        "subheading": "",
-        "dot": true,
-        "image": "shopify://shop_images/138122.png",
-        "image_1": "shopify://shop_images/182371.png",
-        "image_ratio": "adapt",
-        "animation": false,
-        "overlay_enable": false,
-        "overlay_opacity": 0.2,
         "margin_top": "xl",
         "margin_bottom": "no-indent"
       }
@@ -448,15 +400,13 @@
   },
   "order": [
     "slideshow_PUFH8H",
-    "video_NgDy34",
-    "product_slider_XAHzUr",
-    "card-list",
     "blockquote_rwtxJE",
     "collections_list_R46PWM",
+    "product_slider_XAHzUr",
+    "card-list",
     "before_after_XyBdfz",
     "testimonials_jbRNEW",
     "image_collage_ixzMfh",
-    "image_banner_QepikD",
     "newsletter_fp7GUw"
   ]
 }
