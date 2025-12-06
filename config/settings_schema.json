@@ -759,6 +759,13 @@
 			},
 			{
 				"type": "checkbox",
+				"id": "show_price",
+				"default": true,
+				"label": "t:settings_schema.product_card.settings.badge_show.label"
+			},
+
+			{
+				"type": "checkbox",
 				"id": "badge_sale_show",
 				"default": true,
 				"label": "t:settings_schema.product_card.settings.badge_sale_show.label"

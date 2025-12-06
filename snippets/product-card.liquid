@@ -474,7 +474,9 @@ defer="defer"
 				{%- else -%}
 						</h3>
 				{%- endif -%}
+				{% if settings.show_price %}
 				{% render 'price', product: product_card_product, price_class: '' %}
+				{% endif %}
 			</div>
 			{%- if show_desc and product_card_product.description != blank -%}
 				{{ product_card_product.collections.title }}
