@@ -236,9 +236,10 @@
         "testimonials_slide_6GPyrW": {
           "type": "testimonials_slide",
           "settings": {
-            "text": "Here can be a glowing customer review about your product or service",
-            "author_name": "Customer name here",
-            "position_name": "Customer position here",
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_man_young_aged_hairlab_customer_8ccf6a2a-d0e3-4d48-9fb5-5edca252c496_1.png",
+            "text": "“The Hair Lab’s exosome and TED treatments delivered unexpectedly full, healthy hair supported by clear, science-driven guidance throughout the process.”",
+            "author_name": "Daniel R.",
+            "position_name": "AVU Hair Lab Customer",
             "enable_stars": true,
             "rating": 5
           }
@@ -246,9 +247,10 @@
         "testimonials_slide_N9La3b": {
           "type": "testimonials_slide",
           "settings": {
-            "text": "“These skincare items changed my routine for the better! My complexion is smoother, and I can see a noticeable difference.”",
-            "author_name": "Samantha Green",
-            "position_name": "Graphic Designer",
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_asian_woman_young_aged_skincare_3127483d-afc9-42af-8758-0e893e30ef15_0.png",
+            "text": "“The Skin Bar’s bespoke facials and peels consistently tailored to my skin’s needs resulted in remarkable clarity, softness, and overall radiance.”",
+            "author_name": "Elena S.",
+            "position_name": "AVU Skin Bar Customer",
             "enable_stars": true,
             "rating": 5
           }
