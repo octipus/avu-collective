@@ -9,202 +9,63 @@
  */
 {
   "sections": {
-    "slideshow_column_TKX7eU": {
-      "type": "slideshow-column",
+    "slideshow_PUFH8H": {
+      "type": "slideshow",
       "blocks": {
-        "split_screen_slid_yA7wWW": {
-          "type": "split_screen_slid",
+        "slideshow_item_NQR9jV": {
+          "type": "slideshow_item",
           "settings": {
-            "color_scheme": "background-1",
-            "heading": "Power your skin",
-            "text": "<p>Revitalize and energize your skin.</p>",
-            "image_second": "shopify://shop_images/192381.png",
-            "button_label": "Shop Now",
+            "desktop_image": "shopify://shop_images/octave_yun_httpss.mj.runqZKeykI_Qa0_group_of_girls_skincare_n_169f65be-385a-4055-9636-3b83449c4ce3_2.png",
+            "color_scheme": "background-3",
+            "heading": "Next Gen Skin Clinic",
+            "text": "<p>AVU is a protocol-first, device-agnostic aesthetic OS. We use top-tier technology (lasers, RF, injectables, hair growth, wellness tools), but the hero is the plan, not the machine.</p>",
+            "text_width": "small",
+            "button_label": "",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
             "overlay_enable": true,
-            "overlay_opacity": 0
-          }
-        },
-        "split_screen_slid_MtTkxf": {
-          "type": "split_screen_slid",
-          "settings": {
-            "color_scheme": "background-1",
-            "heading": "Enhance skin vitality",
-            "text": "<p>Boost hydration and youthful glow daily.</p>",
-            "image_second": "shopify://shop_images/813176.png",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0
-          }
-        },
-        "split_screen_slid_HCTbpJ": {
-          "type": "split_screen_slid",
-          "settings": {
-            "color_scheme": "background-1",
-            "heading": "Glow and renew",
-            "text": "<p>Bring back your skin’s natural radiance.</p>",
-            "image_second": "shopify://shop_images/9182317.png",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
           }
         }
       },
       "block_order": [
-        "split_screen_slid_yA7wWW",
-        "split_screen_slid_MtTkxf",
-        "split_screen_slid_HCTbpJ"
+        "slideshow_item_NQR9jV"
       ],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
+        "header_overlay": false,
+        "header_transparent": false,
+        "color_scheme_header": "background-1",
+        "light_logo": true,
         "section_layout": "full",
-        "text_alignment": "center",
+        "text_position": "left",
+        "pagination_position": "bottom",
+        "image_size": "16/9",
         "heading_tag": "h1",
-        "image_size": "adapt",
-        "image_size_mobile": "1/1",
+        "image_size_mobile": "3/4",
+        "text_position_mobile": "bottom-left",
         "is_autoplay": true,
-        "slideshow_speed": 1,
+        "is_hover_stop_autoplay": false,
+        "slideshow_speed": 0.8,
         "slideshow_delay": 3,
-        "slide_effects": "slide",
+        "slide_effects": "custom",
+        "text_animation": true,
         "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "video_NgDy34": {
-      "type": "video",
-      "disabled": true,
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "height": "21/9",
-        "overlay_enable": true,
-        "opacity_overlay": 0.4,
-        "video": "shopify://files/videos/ElevenLabs_video_open-ai-sora-2-pro_This video f..._2025-10-29T20_47_43.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_fit": "cover",
-        "video_autoplay": true,
-        "video_muted": true,
-        "video_loop": true,
-        "video_controls": false,
-        "description": "",
-        "subheading": "Intro to featured content",
-        "heading": "Video title",
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "no-indent",
-        "padding_bottom": "no-indent"
-      }
-    },
-    "product_slider_XAHzUr": {
-      "type": "product-slider",
-      "settings": {
-        "columns_per_row": 3,
-        "slides_per_view_mobile": "1",
-        "section_heading": "Ultimate Wellness solutions",
-        "heading_tag": "h2",
-        "section_heading_size": "h2",
-        "subheading": "",
-        "dot": true,
-        "line": true,
-        "collection": "avu-wellness",
-        "product_list": [],
-        "autoplay": false,
-        "mobile_autoplay": false,
-        "stop_autoplay": true,
-        "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "button_style": "tertiary",
-        "product_heading_tag": "h3",
-        "image_ratio": "square",
-        "image_fit": "cover",
-        "show_collection_name": false,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_desc": false,
-        "margin_top": "xl",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "card-list": {
-      "type": "card-list",
-      "blocks": {
-        "product_1": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/817311.png",
-            "badge": "Hydrate and rejuvenate",
-            "badge_style": "primary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Experience deep hydration and rejuvenation with our expertly formulated products that leave your skin feeling fresh and revitalized."
-          }
-        },
-        "product_2": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/986432.png",
-            "badge": "Glow with confidence",
-            "badge_style": "tertiary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Unlock your skin's natural glow and radiance with our powerful ingredients that enhance luminosity for a vibrant, youthful appearance."
-          }
-        },
-        "product_3": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/819238.png",
-            "badge": "Molecule-enhanced formula",
-            "badge_style": "tertiary",
-            "subheading": "Describe This Column's Purpose",
-            "text": "Harness the power of advanced molecular technology in our formulas, delivering targeted benefits for smoother, healthier skin."
-          }
-        }
-      },
-      "block_order": [
-        "product_1",
-        "product_2",
-        "product_3"
-      ],
-      "settings": {
-        "text-number-visible": true,
-        "text-always-visible": false,
-        "section_heading": "",
-        "heading_tag": "h2",
-        "section_heading_size": "h3",
-        "subheading": "",
-        "dot": true,
-        "line": false,
-        "subheading_tag": "h4",
-        "columns_per_row": 3,
-        "image_ratio": "3/4",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "show_arrows": false,
-        "margin_top": "xl",
         "margin_bottom": "no-indent"
       }
     },
     "blockquote_rwtxJE": {
       "type": "blockquote",
       "settings": {
-        "section_subheading": "About",
+        "section_subheading": "We architect outcomes",
         "dot": true,
-        "blockquote": "Dedicated to delivering skincare that transforms, we blend science and nature to create products that nourish, protect, and elevate your skin’s natural beauty.",
+        "blockquote": "At AVU, you’re not buying time on a machine. You’re enrolling in an operating system for your skin, hair, and wellness.",
         "section_blockquote_size": "h1",
         "author_name": "",
         "author_position": "",
-        "section_button_label": "Read about us",
+        "section_button_label": "",
         "section_button_link": "",
         "button_dot": true,
         "section_button_style": "primary",
@@ -244,7 +105,7 @@
             "color_scheme": "background-3",
             "image_has_container": false,
             "collection_heading_size": "h2",
-            "overlay_enable": true,
+            "overlay_enable": false,
             "overlay_opacity": 0.2
           }
         },
@@ -281,24 +142,79 @@
         "margin_bottom": "no-indent"
       }
     },
+    "image_with_text_rCdVKJ": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "image_position": "image_left",
+        "content_alignment": "left",
+        "image": "shopify://shop_images/octave_yun_skincare_treatment_--ar_34_--stylize_250_--v_7_89032c85-8731-43fe-8f69-d97ee8906b47_1.png",
+        "image_size": "3/4",
+        "subheading": "Technology as infrastructure",
+        "dot": true,
+        "heading": "Integrated bars, one ecosystem. ",
+        "section_heading_tag": "h2",
+        "heading_size": "h3",
+        "text": "<p>Instead of separate, confusing silos, AVU connects:</p><ul><li><a href=\"/pages/medbar\" title=\"MedBar\">Med Bar</a> – lasers, injectables, regenerative</li><li><a href=\"/pages/skin-bar\" title=\"Skin Bar\">Skin Bar</a> – facials, peels, bespoke Skin OS home care</li><li><a href=\"/pages/hair-labs\" title=\"Hair Labs\">Hair Lab</a> – hair restoration, scalp health, TED, exosomes</li><li><a href=\"/pages/wellness\" title=\"Wellness\">Wellness</a> – metabolic, recovery, sleep, stress, performance</li></ul><p>One plan, many levers—so you’re not trying to fix a full-system issue with a single device.<br/><br/></p>",
+        "button_label": "Discover Why",
+        "button_link": "shopify://pages/about",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "product_slider_XAHzUr": {
+      "type": "product-slider",
+      "settings": {
+        "columns_per_row": 3,
+        "slides_per_view_mobile": "1",
+        "section_heading": "Explore AVU Med Bar  Outcomes",
+        "heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "collection": "avu-skin-bar",
+        "product_list": [],
+        "autoplay": false,
+        "mobile_autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_style": "tertiary",
+        "product_heading_tag": "h3",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_desc": false,
+        "margin_top": "xl",
+        "margin_bottom": "no-indent"
+      }
+    },
     "before_after_XyBdfz": {
       "type": "before-after",
       "settings": {
-        "color_scheme": "",
-        "section_heading": "Discover visible skin changes and impressive results",
+        "color_scheme": "background-3",
+        "section_heading": "Your plan evolves; your results don’t plateau.",
         "section_heading_tag": "h2",
-        "section_heading_size": "h1",
-        "subheading": "compare",
+        "section_heading_size": "h3",
+        "subheading": "Long term relationships",
         "dot": true,
-        "text": "Discover the transformative power of our skincare products. Experience visible skin changes and impressive results that enhance your natural beauty and boost your confidence.",
+        "text": "Most clinics sell packages of the same thing. At AVU, protocols are designed to adapt over 3, 6, 12+ months as your skin, hair, hormones, and lifestyle change.\n<br>\n<br>\nAVU is built around ongoing protocols, refills, reformulations, and check-ins, not one-off promos. \n<br>\n<br>\nThe question we ask is: “What does your skin/body/hair need over the next year?”",
         "button_label": "",
         "button_link": "",
         "button_dot": true,
         "button_style": "primary",
-        "image_before": "shopify://shop_images/012381.png",
-        "before_heading": "",
-        "image_after": "shopify://shop_images/371831.png",
-        "after_heading": "",
+        "image_before": "shopify://shop_images/before.png",
+        "before_heading": "before",
+        "image_after": "shopify://shop_images/after.png",
+        "after_heading": "after",
         "margin_top": "l",
         "margin_bottom": "no-indent"
       }
@@ -309,9 +225,21 @@
         "testimonials_slide_r9Vn7C": {
           "type": "testimonials_slide",
           "settings": {
-            "text": "“I absolutely love these products! My skin feels rejuvenated and looks radiant. Highly recommend for anyone seeking real results.”",
-            "author_name": "Laura Mitchell",
-            "position_name": "Marketing Manager",
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_woman_young_aged_skincare_custo_10b40a40-c484-48ec-b9e5-64f6078e8c05_0.png",
+            "text": "“The Med Bar’s expert laser and injectable work, paired with the Skin OS home-care regimen, left my skin noticeably refined, luminous, and naturally rejuvenated.”",
+            "author_name": "Alexanda M.",
+            "position_name": "AVU MedBar Customer",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_6GPyrW": {
+          "type": "testimonials_slide",
+          "settings": {
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_man_young_aged_hairlab_customer_8ccf6a2a-d0e3-4d48-9fb5-5edca252c496_1.png",
+            "text": "“The Hair Lab’s exosome and TED treatments delivered unexpectedly full, healthy hair supported by clear, science-driven guidance throughout the process.”",
+            "author_name": "Daniel R.",
+            "position_name": "AVU Hair Lab Customer",
             "enable_stars": true,
             "rating": 5
           }
@@ -319,9 +247,21 @@
         "testimonials_slide_N9La3b": {
           "type": "testimonials_slide",
           "settings": {
-            "text": "“These skincare items changed my routine for the better! My complexion is smoother, and I can see a noticeable difference.”",
-            "author_name": "Samantha Green",
-            "position_name": "Graphic Designer",
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_asian_woman_young_aged_skincare_3127483d-afc9-42af-8758-0e893e30ef15_0.png",
+            "text": "“The Skin Bar’s bespoke facials and peels consistently tailored to my skin’s needs resulted in remarkable clarity, softness, and overall radiance.”",
+            "author_name": "Elena S.",
+            "position_name": "AVU Skin Bar Customer",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_cxBjG6": {
+          "type": "testimonials_slide",
+          "settings": {
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_indian_woman_young_aged_skincar_a70620e7-abd2-4785-b1b8-1891dd555e3d_2.png",
+            "text": "“The Med Bar’s regenerative treatments, enhanced by the Skin OS home-care system, restored firmness and created lasting, natural-looking rejuvenation.”",
+            "author_name": "Priya L.",
+            "position_name": "AVU MedBar Customer",
             "enable_stars": true,
             "rating": 5
           }
@@ -329,9 +269,10 @@
         "testimonials_slide_gAjdFa": {
           "type": "testimonials_slide",
           "settings": {
-            "text": "“Finally found a brand that delivers. My skin has never felt this good. Impressive results and amazing quality. Will repurchase.”",
-            "author_name": "Megan Davis",
-            "position_name": "Product Manager",
+            "image": "shopify://shop_images/octave_yun_profile_picture_of_man_young_aged_wellness_custome_12dc6ae1-b451-48c8-9435-23ab22d6f10d_2.png",
+            "text": "“The Wellness program’s comprehensive plan for metabolism, sleep, stress, and recovery profoundly improved my energy, restfulness, and performance.”",
+            "author_name": "Marcus V.",
+            "position_name": "AVU Wellness Customer",
             "enable_stars": true,
             "rating": 5
           }
@@ -339,7 +280,9 @@
       },
       "block_order": [
         "testimonials_slide_r9Vn7C",
+        "testimonials_slide_6GPyrW",
         "testimonials_slide_N9La3b",
+        "testimonials_slide_cxBjG6",
         "testimonials_slide_gAjdFa"
       ],
       "settings": {
@@ -412,6 +355,7 @@
         "image_mGbpHk",
         "image_btWwQr"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "image-collage_heading": "Find More in Instagram",
@@ -424,27 +368,6 @@
         "button_dot": false,
         "button_style": "primary",
         "slideshow_speed": 6,
-        "margin_top": "xl",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "image_banner_QepikD": {
-      "type": "image-banner",
-      "settings": {
-        "color_scheme": "",
-        "heading": "",
-        "image_heading_tag": "h2",
-        "section_heading": "",
-        "section_heading_tag": "h2",
-        "section_heading_size": "h2",
-        "subheading": "",
-        "dot": true,
-        "image": "shopify://shop_images/138122.png",
-        "image_1": "shopify://shop_images/182371.png",
-        "image_ratio": "adapt",
-        "animation": false,
-        "overlay_enable": false,
-        "overlay_opacity": 0.2,
         "margin_top": "xl",
         "margin_bottom": "no-indent"
       }
@@ -468,16 +391,14 @@
     }
   },
   "order": [
-    "slideshow_column_TKX7eU",
-    "video_NgDy34",
-    "product_slider_XAHzUr",
-    "card-list",
+    "slideshow_PUFH8H",
     "blockquote_rwtxJE",
     "collections_list_R46PWM",
+    "image_with_text_rCdVKJ",
+    "product_slider_XAHzUr",
     "before_after_XyBdfz",
     "testimonials_jbRNEW",
     "image_collage_ixzMfh",
-    "image_banner_QepikD",
     "newsletter_fp7GUw"
   ]
 }

@@ -10,6 +10,7 @@
 {
   "current": {
     "color_scheme": "light",
+    "dark_mode_toggle": false,
     "type_header_font": "figtree_n5",
     "type_header_text_transform": "none",
     "type_header_font_card": "dm_sans_n5",
@@ -35,7 +36,7 @@
     "show_on_mobile": false,
     "predictive_search_enabled": true,
     "search_media_size": "square",
-    "enable_aside_menu": true,
+    "enable_aside_menu": false,
     "show_label_aside_menu": true,
     "aside_menu_1": "footer-1-copy",
     "aside_menu_heading_size": "h3",
