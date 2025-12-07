@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "text_ekXQGE": {
+          "type": "text",
+          "settings": {
+            "text": "[{{ product.vendor }}]"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_heading_tag": "h1",
+            "heading_size": "h2"
+          }
+        },
+        "text_6haYRR": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.outcome.value }} - {{ product.metafields.custom.duration.value }} Treatment"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "popup_m4K339": {
+          "type": "popup",
+          "settings": {
+            "label": "Book NOW",
+            "button_type": "button",
+            "page": "",
+            "heading": "",
+            "text": "<p><br/></p>",
+            "custom_html": "<iframe src=\"https://www.joinblvd.com/b/avu-collective/widget#/cart/menu/Other%20Memberships/p_7b729075-9f73-4397-84d4-fde146048bbd\"></iframe>"
+          }
+        },
+        "dropdown_information_9zKpVD": {
+          "type": "dropdown_information",
+          "settings": {
+            "characteristics": false,
+            "heading": "Service Outcome",
+            "description": "{{ product.metafields.custom.service_outcome | metafield_tag }}",
+            "button_show": false,
+            "button_label": "",
+            "button_link": "",
+            "default_open": false
+          }
+        },
+        "dropdown_information_hxVE6h": {
+          "type": "dropdown_information",
+          "settings": {
+            "characteristics": false,
+            "heading": "Who is it for",
+            "description": "{{ product.metafields.custom.who_is_it_for | metafield_tag }}",
+            "button_show": false,
+            "button_label": "",
+            "button_link": "",
+            "default_open": false
+          }
+        },
+        "dropdown_information_tBiDcf": {
+          "type": "dropdown_information",
+          "settings": {
+            "characteristics": false,
+            "heading": "Core Protocol may Include",
+            "description": "{{ product.metafields.custom.may_include | metafield_tag }}",
+            "button_show": false,
+            "button_label": "",
+            "button_link": "",
+            "default_open": false
+          }
+        },
+        "dropdown_information_pfmfYF": {
+          "type": "dropdown_information",
+          "settings": {
+            "characteristics": false,
+            "heading": "Sample Pathways Layout",
+            "description": "{{ product.metafields.custom.sample_pathway_layout | metafield_tag }}",
+            "button_show": false,
+            "button_label": "",
+            "button_link": "",
+            "default_open": false
+          }
+        },
+        "custom_liquid_main_fWLnTx": {
+          "type": "custom_liquid_main",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "show_share_facebook": true,
+            "show_share_twitter": true,
+            "show_share_telegram": true,
+            "show_share_reddit": true,
+            "show_share_copy": true
+          }
+        }
+      },
+      "block_order": [
+        "text_ekXQGE",
+        "title",
+        "text_6haYRR",
+        "variant_picker",
+        "popup_m4K339",
+        "dropdown_information_9zKpVD",
+        "dropdown_information_hxVE6h",
+        "dropdown_information_tBiDcf",
+        "dropdown_information_pfmfYF",
+        "custom_liquid_main_fWLnTx",
+        "share"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "header_overlay": true,
+        "show_navigation": true,
+        "section_layout": "container",
+        "section_aspect_ratio": "100%",
+        "desktop_alignment": "left",
+        "mobile_alignment": "before",
+        "gallery_type": "thumbs_aside",
+        "variant_media_display": "show_all",
+        "image_fit": "cover",
+        "image_fit_modal": "contain",
+        "is_autoplay": false,
+        "is_hover_stop_autoplay": false,
+        "show_arrows": false,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "product-complementary": {
+      "type": "product-complementary",
+      "settings": {
+        "columns_per_row": 4,
+        "products_limit": 4,
+        "autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "section_heading": "Complementary Products",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "Intro to this section",
+        "dot": true,
+        "line": true,
+        "image_ratio": "3/4",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": true,
+        "show_desc": false,
+        "margin_top": "m",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "columns_per_row": 3,
+        "slides_per_view_mobile": "1",
+        "products_limit": 4,
+        "autoplay": false,
+        "mobile_autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "section_heading": "Recommended for You",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": true,
+        "show_desc": false,
+        "margin_top": "xl",
+        "margin_bottom": "xl"
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "product-complementary",
+    "product-recommendations"
+  ]
+}
