@@ -79,11 +79,11 @@
         "collection_item_GkBznN": {
           "type": "collection_item",
           "settings": {
-            "collection": "avu-wellness",
+            "collection": "avu-hair-lab",
             "color_scheme": "background-3",
             "image_has_container": false,
             "collection_heading_size": "h2",
-            "overlay_enable": true,
+            "overlay_enable": false,
             "overlay_opacity": 0.2
           }
         },
