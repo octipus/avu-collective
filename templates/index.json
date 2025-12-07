@@ -90,11 +90,11 @@
         "collection_item_zcaQhG": {
           "type": "collection_item",
           "settings": {
-            "collection": "avu-wellness",
+            "collection": "avu-med-bar",
             "color_scheme": "background-3",
             "image_has_container": false,
             "collection_heading_size": "h2",
-            "overlay_enable": true,
+            "overlay_enable": false,
             "overlay_opacity": 0.2
           }
         },
@@ -138,7 +138,7 @@
         "collection_heading_tag": "div",
         "swipe_on_mobile": false,
         "image_ratio": "1/1",
-        "margin_top": "xl",
+        "margin_top": "xs",
         "margin_bottom": "no-indent"
       }
     },
