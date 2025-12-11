@@ -741,9 +741,9 @@
         "accordion_GTb6Ab": {
           "type": "accordion",
           "settings": {
-            "question": "Do I need labs before starting?",
-            "answer": "<p>Not always. Many clients start with history + assessment alone. For more complex or long-term goals, we may recommend partnering with your existing physician for labs.</p>",
-            "default_open": false
+            "question": "How soon will I see regrowth results?",
+            "answer": "<p>Most clients see reduced shedding in 2–4 weeks and visible density in 8–12 weeks.</p>",
+            "default_open": true
           }
         },
         "accordion_UjGina": {
