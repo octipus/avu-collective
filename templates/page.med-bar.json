@@ -715,6 +715,7 @@
         "card_TQfNkt",
         "card_K3k6wW"
       ],
+      "disabled": true,
       "name": "t:sections.card-list.presets.name",
       "settings": {
         "text-number-visible": true,
@@ -741,8 +742,8 @@
         "accordion_GTb6Ab": {
           "type": "accordion",
           "settings": {
-            "question": "How soon will I see regrowth results?",
-            "answer": "<p>Most clients see reduced shedding in 2–4 weeks and visible density in 8–12 weeks.</p>",
+            "question": "How is Med Bar different from a regular laser or injectable clinic?",
+            "answer": "<p>Most clinics are device showrooms. You walk in asking for \"Morpheus8\" or \"filler,\" and they book you for exactly that—no questions asked.</p><p>Med Bar starts with diagnostic mapping: advanced imaging, structural analysis, and outcome goals. Then we build a <strong>protocol</strong>—not a single treatment. That might mean RF microneedling sequenced with laser tightening and cryo recovery, timed to your skin's healing cycles.</p>",
             "default_open": true
           }
         },
