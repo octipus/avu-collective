@@ -750,16 +750,16 @@
         "accordion_UjGina": {
           "type": "accordion",
           "settings": {
-            "question": "Does laser hair removal hurt?",
-            "answer": "<p>Most describe it as a warm snap. Alma technology is designed for comfort.</p>",
+            "question": "Can I combine Med Bar treatments with Skin Bar or Hair Lab services?",
+            "answer": "<p>Absolutely—and that's the entire point of AVU's operating system.</p><p>Your plan might include <strong>Med Bar fractional laser</strong> to rebuild texture, then <strong>Skin Bar barrier repair</strong> to optimize healing, then back to <strong>Med Bar for maintenance tightening</strong>. Or <strong>Hair Lab PRP microneedling</strong> coordinated with <strong>Med Bar recovery protocols</strong> to accelerate results.</p><p>We map timing, intensity, and recovery across all bars so treatments enhance each other instead of causing conflicts or unnecessary downtime. One ecosystem, one plan, maximum efficiency.</p>",
             "default_open": false
           }
         },
         "accordion_Eztq8V": {
           "type": "accordion",
           "settings": {
-            "question": "Can I do regrowth and laser removal at the same time?",
-            "answer": "<p>On different areas — absolutely. On the <em>same</em> area — no.</p>",
+            "question": "Are Med Bar treatments painful? What's the downtime?",
+            "answer": "<p>It depends on your outcome and pain tolerance—but we manage both aggressively.</p><p><strong>Lift & Tighten</strong> (RF microneedling) involves heat and needles, so we use numbing and cryo recovery to minimize discomfort. Expect 1–3 days of redness. <strong>Contour & Sculpt</strong> has minimal discomfort and zero downtime. <strong>Spotless & Smooth</strong> lasers feel like a rubber band snap; downtime is 3–7 days of flaking. <strong>Acne Scar Renewal</strong> involves controlled injury, so we pre-plan numbing, LED therapy, and healing protocols—downtime is 5–7 days.</p><p>We don't sugarcoat it, but we also don't leave you to tough it out. Every protocol includes a <strong>recovery plan</strong>: LED, oxygen therapy, barrier rebuilding, and timeline expectations up front.</p>",
             "default_open": false
           }
         },
