@@ -119,7 +119,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "avu-skin-bar",
-            "custom_url": "",
+            "custom_url": "shopify://collections/avu-skin-bar",
             "custom_title": "",
             "color_scheme": "background-3",
             "image_has_container": false,
