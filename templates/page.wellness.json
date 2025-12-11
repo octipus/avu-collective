@@ -30,7 +30,7 @@
             "heading": "<strong>What Do You Want to Feel?</strong>",
             "text": "<p> At AVU Wellness, we don’t sell random IV drips and biohacks. We start with the outcome you want — <strong>more energy, better sleep, faster recovery, long-term vitality</strong> — and build a protocol around it.</p>",
             "text_width": "small",
-            "button_label": "Start Your Wellness plan",
+            "button_label": "",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
@@ -105,21 +105,21 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Wellness Assessment ",
-            "text": "<p>○ Deep dive intake: lifestyle, sleep, stress, meds, goals. <br>\n○ Vitals + relevant labs (if available).<br>\n○ We identify what's actually driving your low energy, stress, or recovery issues.</p>"
+            "text": "<p>In-depth assessment: lifestyle, sleep, stress, medication, objectives. Vital signs and pertinent tests (if accessible). Determine the root cause of your fatigue, stress, or recovery challenges.</p>"
           }
         },
         "numbered_item_TCNhYF": {
           "type": "numbered_item",
           "settings": {
             "heading": "Custom Protocol Design ",
-            "text": "<p>○ Your clinician designs a stacked plan: IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks.<br>\n○ Clear timeline: what happens in Week 1, Week 4, Week 8.M<br>\n○ You know exactly why each element is in your plan.</p>"
+            "text": "<p>A clinician designs a comprehensive plan including IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks. The plan outlines activities in Week 1, Week 4, and Week 8, with clear reasoning behind each element.</p>"
           }
         },
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
             "heading": "Track, Adjust, Maintain",
-            "text": "<p>○ Regular check-ins to see what's working.<br>\n○ Protocol evolves as your body responds.<br>\n○ Transition into a maintenance membership once you hit your goal.</p>"
+            "text": "<p>Scheduled check-ins to monitor progress.Adjustments made based on your body's response.Move to maintenance membership upon reaching goal.</p>"
           }
         }
       },
