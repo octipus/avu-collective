@@ -674,8 +674,8 @@
             "image": "shopify://shop_images/0823_b29cc5cf-3e06-41fd-9723-f384b1f28206.png",
             "badge": "Efficient",
             "badge_style": "primary",
-            "subheading": "Outcome-first, not menu-first. ",
-            "text": "You don’t pick a random drip off a wall. We start with: “What do you want to feel?”"
+            "subheading": "Outcome-first, not treatment-first.",
+            "text": "You choose the result, we design the plan."
           }
         },
         "card_Tp7Pq7": {
@@ -684,8 +684,8 @@
             "image": "shopify://shop_images/182371.png",
             "badge": "Professional",
             "badge_style": "primary",
-            "subheading": "Stacked protocols, not single tricks. ",
-            "text": "IV + light + cryo + nervous system work — combined into a plan."
+            "subheading": "Specialized division dedicated to hair.",
+            "text": "This is not an add-on menu — it’s a full Hair Lab."
           }
         },
         "card_TQfNkt": {
@@ -719,7 +719,7 @@
       "settings": {
         "text-number-visible": true,
         "text-always-visible": true,
-        "section_heading": "Why AVU Wellness Is Not “Just Another IV Bar”",
+        "section_heading": "Why AVU Hair Lab?",
         "heading_tag": "h2",
         "section_heading_size": "h3",
         "subheading": "",
