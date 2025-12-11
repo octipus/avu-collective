@@ -766,8 +766,8 @@
         "accordion_qgVnKR": {
           "type": "accordion",
           "settings": {
-            "question": "Are these suitable for men and women?",
-            "answer": "<p>Yes. Our protocols are gender-neutral and outcome-driven.<br/><br/></p>",
+            "question": "How long until I see results, and how many sessions do I need?",
+            "answer": "<p>Real structural change doesn't happen overnight—and anyone promising instant results is lying.</p><p><strong>Lift & Tighten</strong> requires 6–10 weeks as collagen remodels. <strong>Contour & Sculpt</strong> shows visible fat reduction in 8–12 weeks. <strong>Spotless & Smooth</strong> delivers noticeable clarity in 4–8 weeks. <strong>Wrinkle Rewind</strong> softens lines progressively over 6 weeks. <strong>Acne Scar Renewal</strong> needs 8–10 weeks of tissue remodeling.</p><p>Sessions vary by outcome: some need 3–4 treatments spaced 4–6 weeks apart; others are single-session with maintenance. We map this during diagnostic analysis—so you know the timeline, cost, and commitment before you start. No surprises, no upselling mid-protocol.</p><p>We track progress with clinical imaging so you see exactly what's changing, when, and why.</p>",
             "default_open": false
           }
         }
