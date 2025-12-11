@@ -50,7 +50,6 @@
         },
         "dropdown_information_9zKpVD": {
           "type": "dropdown_information",
-          "disabled": true,
           "settings": {
             "characteristics": false,
             "heading": "Service Outcome",
@@ -63,7 +62,6 @@
         },
         "dropdown_information_hxVE6h": {
           "type": "dropdown_information",
-          "disabled": true,
           "settings": {
             "characteristics": false,
             "heading": "Who is it for",
@@ -76,7 +74,6 @@
         },
         "dropdown_information_tBiDcf": {
           "type": "dropdown_information",
-          "disabled": true,
           "settings": {
             "characteristics": false,
             "heading": "Core Protocol may Include",
@@ -89,7 +86,6 @@
         },
         "dropdown_information_pfmfYF": {
           "type": "dropdown_information",
-          "disabled": true,
           "settings": {
             "characteristics": false,
             "heading": "Sample Pathways Layout",
