@@ -1,1 +1,844 @@
-{"sections":{"main":{"type":"main-page","settings":{"section_heading_tag":"h1","heading_size":"h3","margin_top":"no-indent","margin_bottom":"m"}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "section_heading_tag": "h1",
+        "heading_size": "h3",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "slideshow_DdUc3g": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item_rpPWKi": {
+          "type": "slideshow_item",
+          "settings": {
+            "desktop_image": "shopify://shop_images/octave_yun_hair_SCALP_WELLNESS__MAINTENANCE_--ar_169_--styliz_fcee97d9-df10-49f7-9976-36abe3ffcf49_3.png",
+            "color_scheme": "background-3",
+            "heading": "<strong>Regrow What You’ve Lost. Remove What You Don’t Want.</strong>",
+            "text": "<p>Your hair goals are personal — and they require precision. At AVU Hair Lab, we design outcome-driven plans for only two things:<strong>bringing hair back</strong> and <strong>removing hair for good.</strong></p>",
+            "text_width": "large",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0,
+            "overlay_opacity_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item_rpPWKi"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "header_overlay": false,
+        "header_transparent": false,
+        "color_scheme_header": "",
+        "light_logo": true,
+        "section_layout": "full",
+        "text_position": "left",
+        "pagination_position": "bottom",
+        "image_size": "21/9",
+        "heading_tag": "h1",
+        "image_size_mobile": "1/1",
+        "text_position_mobile": "bottom-left",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "slideshow_speed": 0.8,
+        "slideshow_delay": 3,
+        "slide_effects": "custom",
+        "text_animation": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "product_grid_mXjVX8": {
+      "type": "product-grid",
+      "disabled": true,
+      "name": "t:sections.product-grid.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "section_heading": "Not sure which service to book?",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "Start with the result you want:",
+        "dot": true,
+        "line": true,
+        "product_list": [],
+        "columns_per_row": 3,
+        "show_secondary_image": false,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_vendor": true,
+        "show_desc": false,
+        "product_heading_tag": "h3",
+        "product_heading_size": "h2",
+        "swipe_on_mobile": false,
+        "button_label": "Shop Now",
+        "button_dot": true,
+        "button_style": "primary",
+        "overlay_enable": true,
+        "overlay_opacity": 0,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "numbered_list_c8gnFK": {
+      "type": "numbered-list",
+      "blocks": {
+        "numbered_item_HcQreb": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Diagnostic Mapping",
+            "text": "<p>Advanced scalp imaging OR skin mapping Density + shedding analysis Hair cycle stage assessment Growth inhibitors or skin sensitivity assessment Personalized goals consultation</p>"
+          }
+        },
+        "numbered_item_TCNhYF": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Custom Protocol Build",
+            "text": "<p>Treatments aren't chosen randomly. We create a tailored plan for you: Regrowth → follicle stimulation + renewal Removal → precise Alma laser wavelength plan</p>"
+          }
+        },
+        "numbered_item_qm4mMk": {
+          "type": "numbered_item",
+          "settings": {
+            "heading": "Track, Adjust, Optimize",
+            "text": "<p>Review progress with scalp imaging or hair removal results tracking Adjust protocols based on growth or shedding cycles</p>"
+          }
+        }
+      },
+      "block_order": [
+        "numbered_item_HcQreb",
+        "numbered_item_TCNhYF",
+        "numbered_item_qm4mMk"
+      ],
+      "name": "Numbered items list",
+      "settings": {
+        "section_heading": "How It Works",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "Outcome → Plan → Protocol → Results",
+        "dot": true,
+        "columns_per_row": 3,
+        "swipe_on_mobile": true,
+        "card_heading_size": "h2",
+        "margin_top": "m",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_xxW6iy": {
+      "type": "rich-text",
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_layout": "column",
+        "subheading": "",
+        "heading": "",
+        "section_heading_tag": "h2",
+        "heading_size": "h2",
+        "dot": true,
+        "text": "",
+        "button_label": "Book Your Wellness Assessment",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "button2_label": "",
+        "button2_link": "",
+        "button2_style": "primary",
+        "button2_dot": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "xs"
+      }
+    },
+    "blockquote_JQ8x6E": {
+      "type": "blockquote",
+      "name": "t:sections.blockquote.name",
+      "settings": {
+        "section_subheading": "What Do You Want to Achieve?",
+        "dot": true,
+        "blockquote": "Choose your hair  outcome and we’ll walk you through how we get you there.",
+        "section_blockquote_size": "h1",
+        "author_name": "",
+        "author_position": "",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "product_slider_X8ai6X": {
+      "type": "product-slider",
+      "name": "t:sections.product-slider.presets.name",
+      "settings": {
+        "columns_per_row": 3,
+        "slides_per_view_mobile": "1",
+        "section_heading": "",
+        "heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "collection": "avu-hair-lab",
+        "product_list": [],
+        "autoplay": false,
+        "mobile_autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_style": "tertiary",
+        "product_heading_tag": "h3",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "collapsible_content_HRiqKt": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_VEhCDc": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Smooth, sustained energy (not just a caffeine spike).</li><li>Better mental clarity and focus.</li><li>Fewer afternoon crashes and “I’m done by 3 PM” days.<br/></li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_gQXQJM": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>High-performers, entrepreneurs, executives.</li><li>Parents who are tired of being tired.</li><li>Anyone relying on sugar or caffeine just to feel normal.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_6k3Y7a": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>IV Energy Drip (B vitamins, amino acids, hydration).</li><li>Optional NAD+ add-on for mitochondrial support.</li><li>Infrared or Red Light Therapy for nervous system and cellular support.</li><li>Breathwork / light coaching around sleep and rhythm.<br/><br/></li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_byfKfk": {
+          "type": "accordion",
+          "settings": {
+            "question": "Sample Pathway Layout",
+            "answer": "<ul><li>Week 1–2: Load phase (2–3 drips + infrared sessions) </li><li>Week 3–4: Stabilize energy, fine-tune dosing </li><li>Week 5–6: Decide on maintenance or upgrade to performance plan<br/><br/></li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_VEhCDc",
+        "accordion_gQXQJM",
+        "accordion_6k3Y7a",
+        "accordion_byfKfk"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "ENERGY & FOCUS BOOST",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": "Outcome: Wake Up Energized. Stay Sharp All Day.",
+        "section_subheading": "<strong>4–6 weeks</strong> with weekly or bi-weekly sessions.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Start Energy & Focus Boost Plan",
+        "section_button_link": "shopify://products/energy-focus-boost",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "product": "energy-focus-boost",
+        "hide_product_title": true
+      }
+    },
+    "collapsible_content_rfnHHL": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_BDk3L7": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Stronger overall immune resilience.</li><li>Faster bounce-back when exposed to stress, travel, or illness.</li><li>Support for people constantly “picking up everything that’s going around.”</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_C7L9F3": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>Frequent travelers.</li><li>Parents / teachers / healthcare workers.</li><li>People who feel like they’re always on the edge of getting sick.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_j4ENGf": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>Immunity IV (Vitamin C, zinc, key immune-supporting nutrients).</li><li>Lymphatic drainage or compression therapy.</li><li>Cryotherapy or cold exposure to stimulate circulation and resilience.</li><li>Optional glutathione push for antioxidant support.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_4YJeeF": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Immune Prep (3-Week Series)</strong> – 3 IV Immunity Drips + 3 Lymphatic Sessions</li><li><strong>Travel Armor Plan</strong> – 1 drip before travel, 1 after return, optional cryo visit</li><li><strong>Maintenance:</strong> Monthly “Immune Top-Up” IV<br/> </li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_BDk3L7",
+        "accordion_C7L9F3",
+        "accordion_j4ENGf",
+        "accordion_4YJeeF"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "IMMUNITY SHIELD",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": "Outcome: Get Sick Less. Recover Faster.",
+        "section_subheading": "<strong>3–4 weeks </strong>with optional ongoing monthly maintenance.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Build Your Immunity Shield",
+        "section_button_link": "shopify://products/immunity-shield",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "product": "immunity-shield",
+        "hide_product_title": true
+      }
+    },
+    "collapsible_content_7GHHFQ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_HenVCy": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Deeper, more consistent sleep.</li><li>Less wired-but-tired feeling at night.</li><li>A body that slowly exits permanent fight-or-flight mode.</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_hLaH9L": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>High-stress professionals.</li><li>People who “can’t turn their brain off” at night.</li><li>Anyone tracking sleep data and not liking what they see.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_Uenx9k": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>Magnesium-rich IV or calm-focused nutritional drip.</li><li>Red Light Therapy session to support circadian balance.</li><li>Breathwork / nervous system tools (short, repeatable practices).</li><li>Optional add-ons: low-stim sauna, guided recovery session.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_rQkDmx": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Calm Reset (4-Week)</strong> – 3 IV Calm Drips + 4 Red Light Sessions</li><li><strong>Deep Sleep Focus (6-Week)</strong> – Weekly Calm Drip + Red Light + Breathwork Coaching</li><li><strong>Maintenance:</strong> Monthly Calm Drip + Red Light tune-up</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_HenVCy",
+        "accordion_hLaH9L",
+        "accordion_Uenx9k",
+        "accordion_rQkDmx"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "STRESS RECOVERY & SLEEP",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": "Outcome: A Nervous System That Actually Calms Down.",
+        "section_subheading": "<strong>4–6 weeks</strong> with weekly sessions.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Start Stress & Sleep Recovery Plan",
+        "section_button_link": "shopify://products/stress-recovery-sleep",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "product": "stress-recovery-sleep",
+        "hide_product_title": true
+      }
+    },
+    "collapsible_content_4WXgWw": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_7ztqnA": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Reduced puffiness and water retention.</li><li>Less brain fog and “sluggish” feeling.</li><li>A cleaner baseline for nutrition, fitness, and skin results.</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_YD3cdr": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>Reduced puffiness and water retention.</li><li>Less brain fog and “sluggish” feeling.</li><li>A cleaner baseline for nutrition, fitness, and skin results.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_YqbPcY": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>Detox-focused IV Drip (supporting liver and lymph).</li><li>Infrared sauna for sweat + detox.</li><li>Lymphatic compression therapy.</li><li>Gut-support suggestions (basic, not full functional medicine).</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_M4gMh7": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>4-Week Reset</strong> – 3 Detox Drips + 4 Sauna Sessions + 2 Lymphatic Sessions</li><li><strong>8-Week Deep Reset</strong> – Expanded series for clients starting from burnout or long stress cycles.</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_7ztqnA",
+        "accordion_YD3cdr",
+        "accordion_YqbPcY",
+        "accordion_M4gMh7"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "DETOX & RESET",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": "Outcome: A Nervous System That Actually Calms Down.",
+        "section_subheading": "<strong>4–8 weeks</strong> depending on starting point.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Start Detox & Reset Plan",
+        "section_button_link": "shopify://products/detox-reset",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "product": "detox-reset",
+        "hide_product_title": true
+      }
+    },
+    "collapsible_content_yd4tyF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_3J6XEV": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Faster muscle recovery and less soreness.</li><li>Improved readiness for next training sessions.</li><li>Better performance metrics (strength, time, HRV trends).</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_xw9t3x": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>Athletes, lifters, runners, cyclists.</li><li>Weekend warriors who don’t want Monday to hurt as much.</li><li>Clients stacking gym + wellness protocols.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_8cJThW": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>Athletes, lifters, runners, cyclists.</li><li>Weekend warriors who don’t want Monday to hurt as much.</li><li>Clients stacking gym + wellness protocols.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_7YRpTf": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Race Prep & Recover Pack</strong> – Pre-race IV + post-race IV + 2 Cryo Sessions</li><li><strong>Athlete Recovery Series (4-Week)</strong> – Weekly IV + 2 Cryo + 2 Compression sessions</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_3J6XEV",
+        "accordion_xw9t3x",
+        "accordion_8cJThW",
+        "accordion_7YRpTf"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "PERFORMANCE & RECOVERY",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": "Outcome: Train Harder. Recover Faster.",
+        "section_subheading": "<strong>2–6 weeks</strong> often ongoing in-season.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Build Your Performance & Recovery Plan",
+        "section_button_link": "shopify://products/performance-recovery",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "product": "performance-recovery",
+        "hide_product_title": true
+      }
+    },
+    "collapsible_content_GHwTey": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_kgU7bV": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Better energy and appetite regulation.</li><li>Support for body composition and fat metabolism.</li><li>A path that prioritizes <strong>health first</strong>, aesthetics second.</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_wDxzN8": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>Clients stuck in yo-yo cycles.</li><li>People whose energy and cravings are all over the place.</li><li>Those wanting to pair body contouring with internal support.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_TMnbT8": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>Clients stuck in yo-yo cycles.</li><li>People whose energy and cravings are all over the place.</li><li>Those wanting to pair body contouring with internal support.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_x8PUed": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Metabolic Kickstart (8-Week)</strong> – IVs + contour + basic tracking</li><li>Option to transition into <strong>Performance or Longevity</strong> plans afterward.</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_kgU7bV",
+        "accordion_wDxzN8",
+        "accordion_TMnbT8",
+        "accordion_x8PUed"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "WEIGHT OPTIMIZATION",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": "Outcome: A Metabolism That Works With You, Not Against You.",
+        "section_subheading": "<strong>8+ weeks</strong>",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Start Weight Optimization Plan",
+        "section_button_link": "shopify://products/weight-optimization",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "product": "weight-optimization",
+        "hide_product_title": true
+      }
+    },
+    "collapsible_content_BbnKPc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_abmjyq": {
+          "type": "accordion",
+          "settings": {
+            "question": "What This Outcome Delivers",
+            "answer": "<ul><li>Support for cellular health and aging.</li><li>Improvements that show up as better skin, hair, and energy.</li><li>A proactive, data-aware approach to how you age.</li></ul>",
+            "default_open": true
+          }
+        },
+        "accordion_VKPz93": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who This Is For",
+            "answer": "<ul><li>Support for cellular health and aging.</li><li>Improvements that show up as better skin, hair, and energy.</li><li>A proactive, data-aware approach to how you age.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_PhndcF": {
+          "type": "accordion",
+          "settings": {
+            "question": "Core Protocol May Include",
+            "answer": "<ul><li>NAD+ IV or IM series.</li><li>Glutathione pushes for antioxidant support.<br/> Collagen + skin-supporting formulations.</li><li>Integration with AVU Skin Bar and Med Bar for visible + internal alignment.</li></ul>",
+            "default_open": false
+          }
+        },
+        "accordion_pWzMe7": {
+          "type": "accordion",
+          "settings": {
+            "question": "Package Snapshot",
+            "answer": "<ul><li><strong>Longevity Starter (8-Week)</strong> – NAD+ Series + Glutathione + Check-ins</li><li><strong>Beauty from Within Plan</strong> – Combines IV longevity work with skin/hair protocols.</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_abmjyq",
+        "accordion_VKPz93",
+        "accordion_PhndcF",
+        "accordion_pWzMe7"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "LONGEVITY & BEAUTY FROM WITHIN",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": "Outcome: Extend Your Healthspan, Not Just Your Lifespan.",
+        "section_subheading": "<strong>8–12 weeks</strong> and beyond.",
+        "dot": true,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Explore Longevity & Beauty Plan",
+        "section_button_link": "shopify://products/longevity-beauty-from-within",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "product": "longevity-beauty-from-within",
+        "hide_product_title": true
+      }
+    },
+    "card_list_RTLL8M": {
+      "type": "card-list",
+      "blocks": {
+        "card_NcqN3t": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/octave_yun_hair_laboratory_laser_removal_Outcome-first_not_tr_393e218e-30bc-4bd7-9038-ba62eb411cfd_2.png",
+            "badge": "Efficient",
+            "badge_style": "primary",
+            "subheading": "Outcome-first, not treatment-first.",
+            "text": "You choose the result, we design the plan."
+          }
+        },
+        "card_Tp7Pq7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/octave_yun_hair_laboratory_laser_removal_--ar_23_--stylize_25_8f246175-8813-4f9b-82d1-42cc8ae2003a_2.png",
+            "badge": "Professional",
+            "badge_style": "primary",
+            "subheading": "Specialized division, hair  dedicated",
+            "text": "This is not an add-on menu — it’s a full Hair Lab."
+          }
+        },
+        "card_TQfNkt": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/octave_yun_Alma_laser__regenerative_scalp_tech_--ar_23_--styl_5b8f950f-feb5-4b75-b75d-204d1e13ae8c_1.png",
+            "badge": "Hitech",
+            "badge_style": "primary",
+            "subheading": "Alma laser + regenerative scalp tech",
+            "text": "Industry-leading hardware + proven methodology."
+          }
+        },
+        "card_K3k6wW": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/octave_yun_hair_laboratory_--ar_23_--stylize_250_--v_7_5b3e348b-f59b-4bb6-919c-971ff48f23c7_0.png",
+            "badge": "Integrated",
+            "badge_style": "primary",
+            "subheading": "Integrated with Skin & Med Bar if needed.",
+            "text": "Perfect for clients needing scalp, skin, or hormonal alignment."
+          }
+        }
+      },
+      "block_order": [
+        "card_NcqN3t",
+        "card_Tp7Pq7",
+        "card_TQfNkt",
+        "card_K3k6wW"
+      ],
+      "name": "t:sections.card-list.presets.name",
+      "settings": {
+        "text-number-visible": true,
+        "text-always-visible": true,
+        "section_heading": "Why AVU Hair Lab?",
+        "heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "subheading_tag": "h4",
+        "columns_per_row": 4,
+        "image_ratio": "3/4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_arrows": false,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "collapsible_content_txYQLW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_GTb6Ab": {
+          "type": "accordion",
+          "settings": {
+            "question": "How soon will I see regrowth results?",
+            "answer": "<p>Most clients see reduced shedding in 2–4 weeks and visible density in 8–12 weeks.</p>",
+            "default_open": true
+          }
+        },
+        "accordion_UjGina": {
+          "type": "accordion",
+          "settings": {
+            "question": "Does laser hair removal hurt?",
+            "answer": "<p>Most describe it as a warm snap. Alma technology is designed for comfort.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_Eztq8V": {
+          "type": "accordion",
+          "settings": {
+            "question": "Can I do regrowth and laser removal at the same time?",
+            "answer": "<p>On different areas — absolutely. On the <em>same</em> area — no.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_qgVnKR": {
+          "type": "accordion",
+          "settings": {
+            "question": "Are these suitable for men and women?",
+            "answer": "<p>Yes. Our protocols are gender-neutral and outcome-driven.<br/><br/></p>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_GTb6Ab",
+        "accordion_UjGina",
+        "accordion_Eztq8V",
+        "accordion_qgVnKR"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "column",
+        "icon_style": "secondary",
+        "section_heading": "Frequently Asked Questions",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_preheading": " Hair Lab Outcomes – Common Questions",
+        "section_subheading": "",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "product": "",
+        "hide_product_title": true
+      }
+    },
+    "rich_text_7tnVk3": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_layout": "row",
+        "subheading": "",
+        "heading": "Your Hair Goals Don’t Need Guesswork. Just a Plan.",
+        "section_heading_tag": "h2",
+        "heading_size": "h4",
+        "dot": true,
+        "text": "<p>Achieve Your Hair Goals with Precision, Not Guesswork. Utilize our<strong> advanced hair analysis</strong> tool to accurately determine your hair needs.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "button2_label": "",
+        "button2_link": "",
+        "button2_style": "primary",
+        "button2_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_DdUc3g",
+    "product_grid_mXjVX8",
+    "numbered_list_c8gnFK",
+    "rich_text_xxW6iy",
+    "blockquote_JQ8x6E",
+    "product_slider_X8ai6X",
+    "collapsible_content_HRiqKt",
+    "collapsible_content_rfnHHL",
+    "collapsible_content_7GHHFQ",
+    "collapsible_content_4WXgWw",
+    "collapsible_content_yd4tyF",
+    "collapsible_content_GHwTey",
+    "collapsible_content_BbnKPc",
+    "card_list_RTLL8M",
+    "collapsible_content_txYQLW",
+    "rich_text_7tnVk3"
+  ]
+}
