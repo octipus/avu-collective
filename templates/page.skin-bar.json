@@ -741,32 +741,32 @@
         "accordion_GTb6Ab": {
           "type": "accordion",
           "settings": {
-            "question": "Do I need labs before starting?",
-            "answer": "<p>Not always. Many clients start with history + assessment alone. For more complex or long-term goals, we may recommend partnering with your existing physician for labs.</p>",
+            "question": "How is the Skin Bar different from a regular facial spa?",
+            "answer": "<p>Most spas sell you a facial based on what sounds nice or what's trending. AVU Skin Bar starts with analysis—your skin type, concerns, goals, timeline—then builds a coordinated protocol using clinical-grade treatments, not just relaxation rituals.</p><p>You're not booking \"a hydrating facial.\" You're enrolling in a <strong>Clear Skin Reset</strong> or <strong>Radiance & Glow</strong> outcome with mapped sessions, progress tracking, and a home care system that works with—not against—your in-clinic treatments.</p>",
             "default_open": false
           }
         },
         "accordion_UjGina": {
           "type": "accordion",
           "settings": {
-            "question": "How fast will I feel a difference?",
-            "answer": "<p>Some outcomes (energy, recovery) can feel different after the first or second visit. Others (weight, longevity) are built over <strong>weeks to months</strong>, not days.</p>",
+            "question": "Can I combine Skin Bar treatments with injectables or lasers from the Med Bar?",
+            "answer": "<p>Absolutely—and that's exactly how AVU is designed.</p><p>Your protocol might include a <strong>Skin Bar peel series</strong> to prep your texture, then <strong>Med Bar RF microneedling</strong> to rebuild collagen, then back to <strong>Skin Bar for barrier repair</strong> post-treatment. It's one integrated plan, not separate silos.</p><p>We coordinate timing, intensity, and recovery across all bars so treatments enhance each other instead of competing or causing downtime conflicts. That's the AVU operating system advantage.</p>",
             "default_open": false
           }
         },
         "accordion_Eztq8V": {
           "type": "accordion",
           "settings": {
-            "question": "Can I combine wellness visits with skin or med spa treatments? ",
-            "answer": "<p>Yes — and you should. Many clients stack an IV with a skin treatment or recovery session to maximize time and results.</p>",
+            "question": "How long until I see results?",
+            "answer": "<p>It depends on your outcome:</p><ul><li><strong>Event-Ready Skin</strong> delivers same-day glow.</li><li><strong>Radiance & Glow</strong> shows visible improvement in 4 weeks.</li><li><strong>Clear Skin Reset</strong> and <strong>Even Tone Correction</strong> require 4–8 weeks as your skin cycles and heals.</li><li><strong>Ageless Lift</strong> builds results progressively over 8 weeks through collagen remodeling.</li></ul><p>We don't promise overnight miracles. We map realistic timelines based on biology, then track progress with photos and analysis—so you see exactly what's changing and why.</p>",
             "default_open": false
           }
         },
         "accordion_qgVnKR": {
           "type": "accordion",
           "settings": {
-            "question": "Is this a replacement for my doctor? ",
-            "answer": "<p>No. AVU Wellness is a <strong>supportive, adjunct layer</strong>, not a substitute for primary or specialist care.</p>",
+            "question": "Do I need to buy products, or can I just do the treatments?",
+            "answer": "<p>You can do treatments only—but your results will plateau fast.</p><p>Think of in-clinic sessions as the <strong>high-intensity training</strong> and your home routine as <strong>daily maintenance</strong>. Without the right products bridging your visits, your skin resets to baseline between appointments.</p><p>That's why every Skin Bar outcome includes a <strong>customized Skin OS home protocol</strong>—serums, cleansers, SPF—chosen specifically for your plan. You're not buying a generic shelf. You're getting the exact support system your skin needs to hold and build on clinical results.</p><p>We design it. You use it. Your skin stays optimized between sessions.</p>",
             "default_open": false
           }
         }
@@ -784,7 +784,7 @@
         "section_heading": "Frequently Asked Questions",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
-        "section_preheading": " Wellness Outcomes – Common Questions",
+        "section_preheading": " Skin Bar Outcomes – Common Questions",
         "section_subheading": "",
         "dot": false,
         "collapse_heading_tag": "h4",
@@ -798,8 +798,27 @@
         "hide_product_title": true
       }
     },
+    "blockquote_FtRAXn": {
+      "type": "blockquote",
+      "name": "t:sections.blockquote.name",
+      "settings": {
+        "section_subheading": "AVU Skin Bar",
+        "dot": true,
+        "blockquote": "We diagnose, we protocol, we optimize. Your skin gets a coordinated OS - not a random menu of facials.",
+        "section_blockquote_size": "h1",
+        "author_name": "",
+        "author_position": "",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "xs"
+      }
+    },
     "rich_text_7tnVk3": {
       "type": "rich-text",
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "section_layout": "row",
@@ -809,11 +828,11 @@
         "heading_size": "h4",
         "dot": true,
         "text": "<p> If you’re tired of guessing, Googling, or trying one-off “wellness trends,” AVU Wellness gives you something better: <strong>outcomes, mapped to a real plan.</strong></p>",
-        "button_label": "Book Your Wellness Assessment",
+        "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
-        "button2_label": "Talk to a Wellness Coordinator",
+        "button2_label": "",
         "button2_link": "",
         "button2_style": "primary",
         "button2_dot": true,
@@ -839,6 +858,7 @@
     "collapsible_content_BbnKPc",
     "card_list_RTLL8M",
     "collapsible_content_txYQLW",
+    "blockquote_FtRAXn",
     "rich_text_7tnVk3"
   ]
 }
