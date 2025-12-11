@@ -66,38 +66,6 @@
         "margin_bottom": "no-indent"
       }
     },
-    "product_grid_mXjVX8": {
-      "type": "product-grid",
-      "disabled": true,
-      "name": "t:sections.product-grid.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "section_heading": "Not sure which service to book?",
-        "section_heading_tag": "h2",
-        "section_heading_size": "h3",
-        "subheading": "Start with the result you want:",
-        "dot": true,
-        "line": true,
-        "product_list": [],
-        "columns_per_row": 3,
-        "show_secondary_image": false,
-        "image_ratio": "portrait",
-        "image_fit": "cover",
-        "show_collection_name": false,
-        "show_vendor": true,
-        "show_desc": false,
-        "product_heading_tag": "h3",
-        "product_heading_size": "h2",
-        "swipe_on_mobile": false,
-        "button_label": "Shop Now",
-        "button_dot": true,
-        "button_style": "primary",
-        "overlay_enable": true,
-        "overlay_opacity": 0,
-        "margin_top": "xs",
-        "margin_bottom": "xs"
-      }
-    },
     "numbered_list_c8gnFK": {
       "type": "numbered-list",
       "blocks": {
@@ -105,7 +73,7 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Diagnostic Mapping",
-            "text": "<p>Advanced scalp imaging OR skin mapping Density + shedding analysis Hair cycle stage assessment Growth inhibitors or skin sensitivity assessment Personalized goals consultation</p>"
+            "text": "<p>Advanced skin imaging and analysis<br/>Texture, tone, and elasticity assessment<br/>Collagen density and damage evaluation<br/>Pigmentation, scar depth, or fat distribution mapping<br/>Personalized outcome goals consultation</p>"
           }
         },
         "numbered_item_TCNhYF": {
@@ -825,7 +793,6 @@
   "order": [
     "main",
     "slideshow_DdUc3g",
-    "product_grid_mXjVX8",
     "numbered_list_c8gnFK",
     "rich_text_xxW6iy",
     "blockquote_JQ8x6E",
