@@ -122,21 +122,42 @@
 							</div>
 
 							{% assign collection_heading_tag = section.settings.collection_heading_tag %}
+							{% liquid
+								if block.settings.custom_url != blank
+									assign item_url = block.settings.custom_url
+									if block.settings.custom_title != blank
+										assign item_title = block.settings.custom_title
+									elsif block.settings.collection != blank
+										assign item_title = block.settings.collection.title
+									else
+										assign item_title = 'general.card.collection_name' | t
+									endif
+									assign item_aria_label = item_title
+								elsif block.settings.collection != blank
+									assign item_url = block.settings.collection.url
+									assign item_title = block.settings.collection.title
+									assign item_aria_label = block.settings.collection.title
+								else
+									assign item_url = ''
+									assign item_title = 'general.card.collection_name' | t
+									assign item_aria_label = 'general.card.collection_name' | t
+								endif
+							%}
 
 							<{{ collection_heading_tag }} class='collections-list__item-title--inner {{block.settings.collection_heading_size}}'>
-								{% if block.settings.collection != blank %}
+								{% if item_url != blank %}
 									<a
-										href='{{ block.settings.collection.url }}'
+										href='{{ item_url }}'
 										class='collections-list__link'
-										aria-label='{{ block.settings.collection.title }}'
+										aria-label='{{ item_aria_label }}'
 									>
 										<div class='{{ section.settings.content-align }}'>
-											{{ block.settings.collection.title }}
+											{{ item_title }}
 										</div>
 									</a>
 								{% else %}
 									<div class='{{ section.settings.content-align }}'>
-										{{- 'general.card.collection_name' | t -}}
+										{{ item_title }}
 									</div>
 								{% endif %}
 							</{{ collection_heading_tag }}>
@@ -464,6 +485,18 @@
 					"type": "collection",
 					"id": "collection",
 					"label": "t:sections.collections-list.blocks.settings.collection.label"
+				},
+				{
+					"type": "url",
+					"id": "custom_url",
+					"label": "t:sections.collections-list.blocks.settings.custom_url.label",
+					"info": "t:sections.collections-list.blocks.settings.custom_url.info"
+				},
+				{
+					"type": "text",
+					"id": "custom_title",
+					"label": "t:sections.collections-list.blocks.settings.custom_title.label",
+					"info": "t:sections.collections-list.blocks.settings.custom_title.info"
 				},
 				{
 					"type": "color_scheme",

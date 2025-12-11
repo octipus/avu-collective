@@ -1967,6 +1967,14 @@
 					"collection": {
 						"label": "Collection"
 					},
+					"custom_url": {
+						"label": "Custom URL",
+						"info": "Override the collection URL with a custom link. Leave blank to use the collection URL."
+					},
+					"custom_title": {
+						"label": "Custom title",
+						"info": "Override the collection title. Leave blank to use the collection title."
+					},
 					"image": {
 						"label": "Overcover image",
 						"info": "The selected image overcovers the default collection image."
