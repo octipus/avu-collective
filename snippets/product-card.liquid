@@ -79,6 +79,11 @@ defer="defer"
 	else
 		assign imgae_fit = media_fit
 	endif
+
+	comment 
+	 OVERWRITE THE DEFAULT VALUE OF SHOW VENDOR
+	endcomment 
+	assign show_vendor = true
 %}
 {%- assign product_form_id = 'quick-add-'
 	| append: section_id
@@ -438,17 +443,14 @@ defer="defer"
 	</div>
 	<div class="card-information">
 		<div class="card-information__wrapper">
-			{%- if show_vendor -%}
+			{%- if show_vendor or settings.enable_vendor_link -%}
 				<span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-				{% comment %}<div class="caption-with-letter-spacing subtitle">
-					{{ product_card_product.vendor }}
-				</div>{% endcomment %}
 				{% if settings.enable_vendor_link %}
 					<a
 						href="{{ product_card_product.vendor | url_for_vendor }}"
 						class="unstyled-link caption-with-letter-spacing vendor-link subtitle"
 					>
-						{{ product_card_product.vendor }}
+						[{{ product_card_product.vendor }}]
 					</a>
 				{% else %}
 					<div class="caption-with-letter-spacing subtitle card-vendor">
@@ -474,6 +476,11 @@ defer="defer"
 				{%- else -%}
 						</h3>
 				{%- endif -%}
+				{% if settings.show_outcome %}
+					<div class="card-information-block__outcome">
+						{{ product_card_product.metafields.custom.outcome }}
+					</div>
+				{%  endif %}
 				{% if settings.show_price %}
 				{% render 'price', product: product_card_product, price_class: '' %}
 				{% endif %}

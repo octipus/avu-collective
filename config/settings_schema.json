@@ -763,7 +763,12 @@
 				"default": true,
 				"label": "Show Price"
 			},
-
+			{
+				"type": "checkbox",
+				"id": "show_outcome",
+				"default": true,
+				"label": "Show Outcome"
+			},
 			{
 				"type": "checkbox",
 				"id": "badge_sale_show",
