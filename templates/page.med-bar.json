@@ -73,21 +73,21 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Diagnostic Mapping",
-            "text": "<p>Advanced skin imaging and analysis<br/>Texture, tone, and elasticity assessment<br/>Collagen density and damage evaluation<br/>Pigmentation, scar depth, or fat distribution mapping<br/>Personalized outcome goals consultation</p>"
+            "text": "<p>Advanced imaging reveals what's happening beneath your skin—texture, tone, elasticity, pigment, scars, fat distribution. We assess the damage, identify the blockers, and map your transformation with clinical precision.<br/></p>"
           }
         },
         "numbered_item_TCNhYF": {
           "type": "numbered_item",
           "settings": {
             "heading": "Custom Protocol Build",
-            "text": "<p>Treatments aren't chosen randomly. We create a tailored plan for you: Regrowth → follicle stimulation + renewal Removal → precise Alma laser wavelength plan</p>"
+            "text": "<p>We don't pick devices randomly. </p><ul><li><strong>Lift</strong> gets RF sequenced with laser tightening. </li><li><strong>Sculpt</strong> layers body contour with cryo.</li><li><strong>Smooth</strong> targets pigment with exact wavelengths. </li><li><strong>Renew</strong> combines resurfacing with regenerative infusion. The protocol is engineered for your biology—not pulled from a menu.</li></ul>"
           }
         },
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
             "heading": "Track, Adjust, Optimize",
-            "text": "<p>Review progress with scalp imaging or hair removal results tracking Adjust protocols based on growth or shedding cycles</p>"
+            "text": "<p>Clinical imaging tracks real change. As your skin responds, heals, and remodels, we refine the plan—adjusting intensity, timing, and tools. Your protocol evolves with you until the outcome is locked in, then we keep it there.</p>"
           }
         }
       },
