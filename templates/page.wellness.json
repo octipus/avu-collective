@@ -30,7 +30,7 @@
             "heading": "<strong>What Do You Want to Feel?</strong>",
             "text": "<p> At AVU Wellness, we don’t sell random IV drips and biohacks. We start with the outcome you want — <strong>more energy, better sleep, faster recovery, long-term vitality</strong> — and build a protocol around it.</p>",
             "text_width": "small",
-            "button_label": "Start Your Wellness plan",
+            "button_label": "",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
@@ -105,21 +105,21 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Wellness Assessment ",
-            "text": "<p>○ Deep dive intake: lifestyle, sleep, stress, meds, goals. <br>\n○ Vitals + relevant labs (if available).<br>\n○ We identify what's actually driving your low energy, stress, or recovery issues.</p>"
+            "text": "<p>In-depth assessment: lifestyle, sleep, stress, medication, objectives. Vital signs and pertinent tests (if accessible). Determine the root cause of your fatigue, stress, or recovery challenges.</p>"
           }
         },
         "numbered_item_TCNhYF": {
           "type": "numbered_item",
           "settings": {
             "heading": "Custom Protocol Design ",
-            "text": "<p>○ Your clinician designs a stacked plan: IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks.<br>\n○ Clear timeline: what happens in Week 1, Week 4, Week 8.M<br>\n○ You know exactly why each element is in your plan.</p>"
+            "text": "<p>A clinician designs a comprehensive plan including IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks. The plan outlines activities in Week 1, Week 4, and Week 8, with clear reasoning behind each element.</p>"
           }
         },
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
             "heading": "Track, Adjust, Maintain",
-            "text": "<p>○ Regular check-ins to see what's working.<br>\n○ Protocol evolves as your body responds.<br>\n○ Transition into a maintenance membership once you hit your goal.</p>"
+            "text": "<p>Scheduled check-ins to monitor progress.Adjustments made based on your body's response.Move to maintenance membership upon reaching goal.</p>"
           }
         }
       },
@@ -184,6 +184,39 @@
         "margin_bottom": "no-indent"
       }
     },
+    "product_slider_X8ai6X": {
+      "type": "product-slider",
+      "name": "t:sections.product-slider.presets.name",
+      "settings": {
+        "columns_per_row": 3,
+        "slides_per_view_mobile": "1",
+        "section_heading": "",
+        "heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "collection": "avu-wellness",
+        "product_list": [],
+        "autoplay": false,
+        "mobile_autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_style": "tertiary",
+        "product_heading_tag": "h3",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
     "collapsible_content_HRiqKt": {
       "type": "collapsible-content",
       "blocks": {
@@ -226,6 +259,7 @@
         "accordion_6k3Y7a",
         "accordion_byfKfk"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -289,6 +323,7 @@
         "accordion_j4ENGf",
         "accordion_4YJeeF"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -352,6 +387,7 @@
         "accordion_Uenx9k",
         "accordion_rQkDmx"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -415,6 +451,7 @@
         "accordion_YqbPcY",
         "accordion_M4gMh7"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -478,6 +515,7 @@
         "accordion_8cJThW",
         "accordion_7YRpTf"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -541,6 +579,7 @@
         "accordion_TMnbT8",
         "accordion_x8PUed"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -604,6 +643,7 @@
         "accordion_PhndcF",
         "accordion_pWzMe7"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -789,6 +829,7 @@
     "numbered_list_c8gnFK",
     "rich_text_xxW6iy",
     "blockquote_JQ8x6E",
+    "product_slider_X8ai6X",
     "collapsible_content_HRiqKt",
     "collapsible_content_rfnHHL",
     "collapsible_content_7GHHFQ",
