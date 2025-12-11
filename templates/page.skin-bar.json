@@ -184,6 +184,39 @@
         "margin_bottom": "no-indent"
       }
     },
+    "product_slider_eXfMhh": {
+      "type": "product-slider",
+      "name": "t:sections.product-slider.presets.name",
+      "settings": {
+        "columns_per_row": 3,
+        "slides_per_view_mobile": "1",
+        "section_heading": "",
+        "heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "collection": "avu-skin-bar",
+        "product_list": [],
+        "autoplay": false,
+        "mobile_autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_style": "tertiary",
+        "product_heading_tag": "h3",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
     "collapsible_content_HRiqKt": {
       "type": "collapsible-content",
       "blocks": {
@@ -226,6 +259,7 @@
         "accordion_6k3Y7a",
         "accordion_byfKfk"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -289,6 +323,7 @@
         "accordion_j4ENGf",
         "accordion_4YJeeF"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -352,6 +387,7 @@
         "accordion_Uenx9k",
         "accordion_rQkDmx"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -415,6 +451,7 @@
         "accordion_YqbPcY",
         "accordion_M4gMh7"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -478,6 +515,7 @@
         "accordion_8cJThW",
         "accordion_7YRpTf"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -541,6 +579,7 @@
         "accordion_TMnbT8",
         "accordion_x8PUed"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -604,6 +643,7 @@
         "accordion_PhndcF",
         "accordion_pWzMe7"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-content.name",
       "settings": {
         "section_layout": "row",
@@ -789,6 +829,7 @@
     "numbered_list_c8gnFK",
     "rich_text_xxW6iy",
     "blockquote_i7t9Ep",
+    "product_slider_eXfMhh",
     "collapsible_content_HRiqKt",
     "collapsible_content_rfnHHL",
     "collapsible_content_7GHHFQ",
