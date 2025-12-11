@@ -749,8 +749,8 @@
         "accordion_UjGina": {
           "type": "accordion",
           "settings": {
-            "question": "How fast will I feel a difference?",
-            "answer": "<p>Some outcomes (energy, recovery) can feel different after the first or second visit. Others (weight, longevity) are built over <strong>weeks to months</strong>, not days.</p>",
+            "question": "Does laser hair removal hurt?",
+            "answer": "<p>Most describe it as a warm snap. Alma technology is designed for comfort.</p>",
             "default_open": false
           }
         },
