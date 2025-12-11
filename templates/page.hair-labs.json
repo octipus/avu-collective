@@ -757,8 +757,8 @@
         "accordion_Eztq8V": {
           "type": "accordion",
           "settings": {
-            "question": "Can I combine wellness visits with skin or med spa treatments? ",
-            "answer": "<p>Yes — and you should. Many clients stack an IV with a skin treatment or recovery session to maximize time and results.</p>",
+            "question": "Can I do regrowth and laser removal at the same time?",
+            "answer": "<p>On different areas — absolutely. On the <em>same</em> area — no.</p>",
             "default_open": false
           }
         },
