@@ -80,6 +80,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "avu-hair-lab",
+            "custom_url": "shopify://pages/hair-labs",
+            "custom_title": "",
             "color_scheme": "background-3",
             "image_has_container": false,
             "collection_heading_size": "h2",
@@ -91,6 +93,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "avu-med-bar",
+            "custom_url": "",
+            "custom_title": "",
             "color_scheme": "background-3",
             "image_has_container": false,
             "collection_heading_size": "h2",
@@ -102,6 +106,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "avu-wellness",
+            "custom_url": "",
+            "custom_title": "",
             "color_scheme": "background-3",
             "image_has_container": false,
             "collection_heading_size": "h2",
@@ -113,6 +119,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "avu-skin-bar",
+            "custom_url": "",
+            "custom_title": "",
             "color_scheme": "background-3",
             "image_has_container": false,
             "collection_heading_size": "h2",
