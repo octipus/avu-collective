@@ -17,6 +17,7 @@
         "logo_info_PUBRRh": {
           "type": "logo_info",
           "settings": {
+            "logo": "shopify://shop_images/AVU_Logo_-_Collective.png",
             "logo_width": 100,
             "description": "We provide quality skincare and nutrition products to help you look and feel your best while supporting your overall beauty and well-being."
           }
