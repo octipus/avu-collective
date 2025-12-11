@@ -104,22 +104,22 @@
         "numbered_item_HcQreb": {
           "type": "numbered_item",
           "settings": {
-            "heading": "Wellness Assessment ",
-            "text": "<p>In-depth assessment: lifestyle, sleep, stress, medication, objectives. Vital signs and pertinent tests (if accessible). Determine the root cause of your fatigue, stress, or recovery challenges.</p>"
+            "heading": "Diagnostic Mapping",
+            "text": "<p>Advanced scalp imaging OR skin mapping Density + shedding analysis Hair cycle stage assessment Growth inhibitors or skin sensitivity assessment Personalized goals consultation</p>"
           }
         },
         "numbered_item_TCNhYF": {
           "type": "numbered_item",
           "settings": {
-            "heading": "Custom Protocol Design ",
-            "text": "<p>A clinician designs a comprehensive plan including IVs, light therapies, cryo, sauna, breathwork, and lifestyle tweaks. The plan outlines activities in Week 1, Week 4, and Week 8, with clear reasoning behind each element.</p>"
+            "heading": "Custom Protocol Build",
+            "text": "<p>Treatments aren't chosen randomly. We create a tailored plan for you: Regrowth → follicle stimulation + renewal Removal → precise Alma laser wavelength plan</p>"
           }
         },
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
-            "heading": "Track, Adjust, Maintain",
-            "text": "<p>Scheduled check-ins to monitor progress.Adjustments made based on your body's response.Move to maintenance membership upon reaching goal.</p>"
+            "heading": "Track, Adjust, Optimize",
+            "text": "<p>Review progress with scalp imaging or hair removal results tracking Adjust protocols based on growth or shedding cycles</p>"
           }
         }
       },
@@ -133,7 +133,7 @@
         "section_heading": "How It Works",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
-        "subheading": "Outcome → Plan → Protocol",
+        "subheading": "Outcome → Plan → Protocol → Results",
         "dot": true,
         "columns_per_row": 3,
         "swipe_on_mobile": true,
