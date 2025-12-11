@@ -93,7 +93,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "avu-med-bar",
-            "custom_url": "",
+            "custom_url": "shopify://collections/avu-med-bar",
             "custom_title": "",
             "color_scheme": "background-3",
             "image_has_container": false,
@@ -106,7 +106,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "avu-wellness",
-            "custom_url": "",
+            "custom_url": "shopify://pages/wellness",
             "custom_title": "",
             "color_scheme": "background-3",
             "image_has_container": false,
