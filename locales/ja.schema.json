@@ -2036,6 +2036,10 @@
 					"settings": {
 						"slide_img": {
 							"label": "Slide image"
+						},
+						"slide_link": {
+							"label": "スライドリンク",
+							"info": "スライド画像のオプションリンク。リンクを無効にするには空白のままにします。"
 						}
 					}
 				}

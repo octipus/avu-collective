@@ -2036,6 +2036,10 @@
 					"settings": {
 						"slide_img": {
 							"label": "Slide image"
+						},
+						"slide_link": {
+							"label": "幻燈片連結",
+							"info": "幻燈片圖片的可選連結。留空以停用連結。"
 						}
 					}
 				}

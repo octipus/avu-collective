@@ -2036,6 +2036,10 @@
 					"settings": {
 						"slide_img": {
 							"label": "Bild der Folie"
+						},
+						"slide_link": {
+							"label": "Folienlink",
+							"info": "Optionaler Link für das Folienbild. Leer lassen, um die Verlinkung zu deaktivieren."
 						}
 					}
 				}

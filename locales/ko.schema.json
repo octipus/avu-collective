@@ -2036,6 +2036,10 @@
 					"settings": {
 						"slide_img": {
 							"label": "Slide image"
+						},
+						"slide_link": {
+							"label": "슬라이드 링크",
+							"info": "슬라이드 이미지의 선택적 링크입니다. 링크를 비활성화하려면 비워두세요."
 						}
 					}
 				}

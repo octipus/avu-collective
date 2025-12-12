@@ -2036,6 +2036,10 @@
 					"settings": {
 						"slide_img": {
 							"label": "Slide image"
+						},
+						"slide_link": {
+							"label": "Slide link",
+							"info": "Optionele link voor de slide-afbeelding. Laat leeg om linken uit te schakelen."
 						}
 					}
 				}

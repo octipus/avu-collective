@@ -2036,6 +2036,10 @@
 						"settings": {
 							"slide_img": {
 								"label": "Imagen de la diapositiva"
+							},
+							"slide_link": {
+								"label": "Enlace de diapositiva",
+								"info": "Enlace opcional para la imagen de la diapositiva. Dejar en blanco para desactivar el enlace."
 							}
 						}
 					}

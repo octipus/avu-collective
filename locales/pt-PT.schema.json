@@ -2036,6 +2036,10 @@
 					"settings": {
 						"slide_img": {
 							"label": "Slide image"
+						},
+						"slide_link": {
+							"label": "Ligação do slide",
+							"info": "Ligação opcional para a imagem do slide. Deixe em branco para desativar a ligação."
 						}
 					}
 				}
