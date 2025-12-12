@@ -2506,6 +2506,10 @@
 					"settings": {
 						"slide_img": {
 							"label": "Slide image"
+						},
+						"slide_link": {
+							"label": "Slide link",
+							"info": "Optional link for the slide image. Leave blank to disable linking."
 						}
 					}
 				}

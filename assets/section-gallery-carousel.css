@@ -18,6 +18,14 @@
 .gallery-carousel__slide_img.adapt svg {
   position: unset;
 }
+.gallery-carousel__slide_link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  text-decoration: none;
+}
 .gallery-carousel__slide_img img,
 .gallery-carousel__slide_img svg {
   border-radius: var(--border-radius-main);
