@@ -165,21 +165,21 @@
           "type": "carousel_slide",
           "settings": {
             "slide_img": "shopify://shop_images/AVU_Logo_-_Med_Bar_88f259a0-ed70-468f-b9e7-e6790ac0052f.png",
-            "slide_link": ""
+            "slide_link": "shopify://pages/medbar"
           }
         },
         "carousel_slide_ADjKkN": {
           "type": "carousel_slide",
           "settings": {
             "slide_img": "shopify://shop_images/AVU_Logo_-_Wellness_c2e3bf56-45c0-4ea4-b8c6-1866b313fe97.png",
-            "slide_link": ""
+            "slide_link": "shopify://pages/wellness"
           }
         },
         "carousel_slide_tK4XBU": {
           "type": "carousel_slide",
           "settings": {
             "slide_img": "shopify://shop_images/AVU_Logo_-_Skin_Bar_9d07442e-a6ff-499d-87ef-10af90572ef3.png",
-            "slide_link": ""
+            "slide_link": "shopify://pages/skin-bar"
           }
         }
       },
