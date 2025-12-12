@@ -116,7 +116,9 @@
         "buttons_type": "icon",
         "sticky_header_type": "on-scroll-up",
         "menu_heading_tag": "h3",
-        "enable_search": true
+        "enable_search": true,
+        "enable_cart_icon": false,
+        "enable_account_icon": false
       }
     }
   },
