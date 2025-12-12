@@ -49,11 +49,11 @@
         "heading_size": "h2",
         "dot": true,
         "text": "<p> Not just another med spa. A connected ecosystem for face, skin, body, and hair that actually works together, on a plan and protocol.<br/><br/></p>",
-        "button_label": "Explore the AVU Experience",
+        "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
-        "button2_label": "Book a Skin, Med, Wellness or Hair Consult",
+        "button2_label": "",
         "button2_link": "",
         "button2_style": "primary",
         "button2_dot": true,
@@ -67,19 +67,22 @@
         "carousel_slide_DPN3nH": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/7136153.png"
+            "slide_img": "shopify://shop_images/7136153.png",
+            "slide_link": ""
           }
         },
         "carousel_slide_UQQwKV": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/012381.png"
+            "slide_img": "shopify://shop_images/012381.png",
+            "slide_link": ""
           }
         },
         "carousel_slide_qgKE6R": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/819238.png"
+            "slide_img": "shopify://shop_images/819238.png",
+            "slide_link": ""
           }
         }
       },
