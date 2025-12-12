@@ -715,6 +715,7 @@
         "card_TQfNkt",
         "card_K3k6wW"
       ],
+      "disabled": true,
       "name": "t:sections.card-list.presets.name",
       "settings": {
         "text-number-visible": true,
@@ -743,7 +744,7 @@
           "settings": {
             "question": "Do I need labs before starting?",
             "answer": "<p>Not always. Many clients start with history + assessment alone. For more complex or long-term goals, we may recommend partnering with your existing physician for labs.</p>",
-            "default_open": false
+            "default_open": true
           }
         },
         "accordion_UjGina": {
@@ -809,11 +810,11 @@
         "heading_size": "h4",
         "dot": true,
         "text": "<p> If you’re tired of guessing, Googling, or trying one-off “wellness trends,” AVU Wellness gives you something better: <strong>outcomes, mapped to a real plan.</strong></p>",
-        "button_label": "Book Your Wellness Assessment",
+        "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
-        "button2_label": "Talk to a Wellness Coordinator",
+        "button2_label": "",
         "button2_link": "",
         "button2_style": "primary",
         "button2_dot": true,
