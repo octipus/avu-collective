@@ -396,6 +396,74 @@
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
       }
+    },
+    "slideshow_column_kABx7c": {
+      "type": "slideshow-column",
+      "blocks": {
+        "split_screen_slid_BwBJyP": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "",
+            "heading": "Slide Label",
+            "text": "<p>Slide description text</p>",
+            "image": "shopify://shop_images/AVU_Logo_-_Hair_Lab_af26931f-ae64-4e9b-86c9-140081505aac.png",
+            "image_second": "shopify://shop_images/AVU_Logo_-_Hair_Lab_af26931f-ae64-4e9b-86c9-140081505aac.png",
+            "button_label": "Shop Nowwerfg",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0
+          }
+        },
+        "split_screen_slid_Citzcr": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "",
+            "heading": "Slide Label",
+            "text": "<p>Slide description text</p>",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0
+          }
+        },
+        "split_screen_slid_6Dk9Gx": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "",
+            "heading": "Slide Label",
+            "text": "<p>Slide description text</p>",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "overlay_enable": true,
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "split_screen_slid_BwBJyP",
+        "split_screen_slid_Citzcr",
+        "split_screen_slid_6Dk9Gx"
+      ],
+      "name": "t:sections.slideshow-column.name",
+      "settings": {
+        "section_layout": "full",
+        "text_alignment": "center",
+        "heading_tag": "h1",
+        "image_size": "1/1",
+        "image_size_mobile": "1/1",
+        "is_autoplay": true,
+        "slideshow_speed": 1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
     }
   },
   "order": [
@@ -407,6 +475,7 @@
     "before_after_XyBdfz",
     "testimonials_jbRNEW",
     "image_collage_ixzMfh",
-    "newsletter_fp7GUw"
+    "newsletter_fp7GUw",
+    "slideshow_column_kABx7c"
   ]
 }
