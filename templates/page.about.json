@@ -216,6 +216,7 @@
         "column_T9HDGy",
         "column_ieYBAj"
       ],
+      "disabled": true,
       "settings": {
         "layout": "horizontal-carousel",
         "section_heading": "",
@@ -226,6 +227,59 @@
         "line": true,
         "slideshow_speed": 5,
         "slides_gap": 10,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "gallery_carousel_QWBwKf": {
+      "type": "gallery-carousel",
+      "blocks": {
+        "carousel_slide_W6UmfX": {
+          "type": "carousel_slide",
+          "settings": {
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Hair_Lab_af26931f-ae64-4e9b-86c9-140081505aac.png",
+            "slide_link": "shopify://pages/hair-labs"
+          }
+        },
+        "carousel_slide_qJpNj6": {
+          "type": "carousel_slide",
+          "settings": {
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Med_Bar_88f259a0-ed70-468f-b9e7-e6790ac0052f.png",
+            "slide_link": "shopify://pages/medbar"
+          }
+        },
+        "carousel_slide_3UVdYf": {
+          "type": "carousel_slide",
+          "settings": {
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Wellness_c2e3bf56-45c0-4ea4-b8c6-1866b313fe97.png",
+            "slide_link": "shopify://pages/wellness"
+          }
+        },
+        "carousel_slide_ykgUYH": {
+          "type": "carousel_slide",
+          "settings": {
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Skin_Bar_9d07442e-a6ff-499d-87ef-10af90572ef3.png",
+            "slide_link": "shopify://pages/skin-bar"
+          }
+        }
+      },
+      "block_order": [
+        "carousel_slide_W6UmfX",
+        "carousel_slide_qJpNj6",
+        "carousel_slide_3UVdYf",
+        "carousel_slide_ykgUYH"
+      ],
+      "name": "t:sections.gallery-carousel.presets.name",
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "image_ratio": "3/2",
+        "slideshow_speed": 12,
+        "stop_btn": true,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -297,6 +351,7 @@
     "rich_text_bQ83dh",
     "numbered_list_ighUVj",
     "brand_image_9aRipG",
+    "gallery_carousel_QWBwKf",
     "image_with_text_zWPrep",
     "newsletter",
     "blockquote_3pcGLA"
