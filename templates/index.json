@@ -397,72 +397,40 @@
         "padding_bottom": "no-indent"
       }
     },
-    "slideshow_column_kABx7c": {
-      "type": "slideshow-column",
+    "gallery_carousel_qabi49": {
+      "type": "gallery-carousel",
       "blocks": {
-        "split_screen_slid_BwBJyP": {
-          "type": "split_screen_slid",
-          "settings": {
-            "color_scheme": "",
-            "heading": "Slide Label",
-            "text": "<p>Slide description text</p>",
-            "image": "shopify://shop_images/AVU_Logo_-_Hair_Lab_af26931f-ae64-4e9b-86c9-140081505aac.png",
-            "image_second": "shopify://shop_images/AVU_Logo_-_Hair_Lab_af26931f-ae64-4e9b-86c9-140081505aac.png",
-            "button_label": "Shop Nowwerfg",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0
-          }
+        "carousel_slide_Uy6GR8": {
+          "type": "carousel_slide",
+          "settings": {}
         },
-        "split_screen_slid_Citzcr": {
-          "type": "split_screen_slid",
-          "settings": {
-            "color_scheme": "",
-            "heading": "Slide Label",
-            "text": "<p>Slide description text</p>",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0
-          }
+        "carousel_slide_ijAqyg": {
+          "type": "carousel_slide",
+          "settings": {}
         },
-        "split_screen_slid_6Dk9Gx": {
-          "type": "split_screen_slid",
-          "settings": {
-            "color_scheme": "",
-            "heading": "Slide Label",
-            "text": "<p>Slide description text</p>",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "overlay_enable": true,
-            "overlay_opacity": 0
-          }
+        "carousel_slide_ADjKkN": {
+          "type": "carousel_slide",
+          "settings": {}
         }
       },
       "block_order": [
-        "split_screen_slid_BwBJyP",
-        "split_screen_slid_Citzcr",
-        "split_screen_slid_6Dk9Gx"
+        "carousel_slide_Uy6GR8",
+        "carousel_slide_ijAqyg",
+        "carousel_slide_ADjKkN"
       ],
-      "name": "t:sections.slideshow-column.name",
+      "name": "t:sections.gallery-carousel.presets.name",
       "settings": {
-        "section_layout": "full",
-        "text_alignment": "center",
-        "heading_tag": "h1",
-        "image_size": "1/1",
-        "image_size_mobile": "1/1",
-        "is_autoplay": true,
-        "slideshow_speed": 1,
-        "slideshow_delay": 3,
-        "slide_effects": "slide",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
+        "section_heading": "Here can be a short introduction to this section.",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "Discover Your Favorites.",
+        "dot": true,
+        "line": true,
+        "image_ratio": "3/2",
+        "slideshow_speed": 6,
+        "stop_btn": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     }
   },
@@ -476,6 +444,6 @@
     "testimonials_jbRNEW",
     "image_collage_ixzMfh",
     "newsletter_fp7GUw",
-    "slideshow_column_kABx7c"
+    "gallery_carousel_qabi49"
   ]
 }
