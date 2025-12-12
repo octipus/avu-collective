@@ -28,7 +28,7 @@
             "desktop_image": "shopify://shop_images/octave_yun_hero_image_for_landign_page_called_Skin_Bar_-_repr_f7db2976-5d56-4f29-ad01-fdea09e7a0b9_0.png",
             "color_scheme": "background-3",
             "heading": "<strong>Your Skin Outcome Starts Here.</strong>",
-            "text": "<p>Your goal comes first. We design the plan that gets you there, using clinical analysis, precision tech, and evolving skin protocols.<br/></p>",
+            "text": "<h4><strong>Your goals come first. We design the plan that gets you there, using clinical analysis, precision tech, and evolving skin protocols.</strong><br/></h4>",
             "text_width": "large",
             "button_label": "",
             "button_link": "",
@@ -119,7 +119,7 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Treatment Series ",
-            "text": "<p>Regular sessions combining exfoliation, detox, LED, and hydration support. Bespoke skin OS formula to enhance results between sessions.</p>"
+            "text": "<p>Regular sessions combining exfoliation, detox, LED, and hydration support. Bespoke skin care to enhance results between sessions.</p>"
           }
         }
       },
@@ -743,7 +743,7 @@
           "type": "accordion",
           "settings": {
             "question": "How is the Skin Bar different from a regular facial spa?",
-            "answer": "<p>Most spas sell you a facial based on what sounds nice or what's trending. AVU Skin Bar starts with analysis—your skin type, concerns, goals, timeline—then builds a coordinated protocol using clinical-grade treatments, not just relaxation rituals.</p><p>You're not booking \"a hydrating facial.\" You're enrolling in a <strong>Clear Skin Reset</strong> or <strong>Radiance & Glow</strong> outcome with mapped sessions, progress tracking, and a home care system that works with—not against—your in-clinic treatments.</p>",
+            "answer": "<p>Most spas sell you a facial based on what sounds nice or what's trending. AVU Skin Bar starts with analysis—your skin type, concerns, goals, timeline—then builds a coordinated protocol using clinical-grade treatments, not just relaxation rituals.</p><p><br/>You're not booking \"a hydrating facial.\" You're enrolling in a <strong>Clear Skin Reset</strong> or <strong>Radiance & Glow</strong> outcome with mapped sessions, progress tracking, and a home care system that works with—not against—your in-clinic treatments.</p>",
             "default_open": true
           }
         },
@@ -751,7 +751,7 @@
           "type": "accordion",
           "settings": {
             "question": "Can I combine Skin Bar treatments with injectables or lasers from the Med Bar?",
-            "answer": "<p>Absolutely—and that's exactly how AVU is designed.</p><p>Your protocol might include a <strong>Skin Bar peel series</strong> to prep your texture, then <strong>Med Bar RF microneedling</strong> to rebuild collagen, then back to <strong>Skin Bar for barrier repair</strong> post-treatment. It's one integrated plan, not separate silos.</p><p>We coordinate timing, intensity, and recovery across all bars so treatments enhance each other instead of competing or causing downtime conflicts. That's the AVU operating system advantage.</p>",
+            "answer": "<p>Absolutely—and that's exactly how AVU is designed.<br/><br/>Your protocol might include a <strong>Skin Bar peel series</strong> to prep your texture, then <strong>Med Bar microneedling</strong> to rebuild collagen, then back to <strong>Skin Bar for barrier repair</strong> post-treatment. It's one integrated plan, not separate silos.</p><p><br/>We coordinate timing, intensity, and recovery across all bars so treatments enhance each other instead of competing or causing downtime conflicts. That's the AVU operating system advantage.</p>",
             "default_open": false
           }
         },
@@ -767,7 +767,7 @@
           "type": "accordion",
           "settings": {
             "question": "Do I need to buy products, or can I just do the treatments?",
-            "answer": "<p>You can do treatments only—but your results will plateau fast.</p><p>Think of in-clinic sessions as the <strong>high-intensity training</strong> and your home routine as <strong>daily maintenance</strong>. Without the right products bridging your visits, your skin resets to baseline between appointments.</p><p>That's why every Skin Bar outcome includes a <strong>customized Skin OS home protocol</strong>—serums, cleansers, SPF—chosen specifically for your plan. You're not buying a generic shelf. You're getting the exact support system your skin needs to hold and build on clinical results.</p><p>We design it. You use it. Your skin stays optimized between sessions.</p>",
+            "answer": "<p>You can do treatments only—but your results will plateau fast.</p><p><br/>Think of in-clinic sessions as the <strong>high-intensity training</strong> and your home routine as <strong>daily maintenance</strong>. Without the right products bridging your visits, your skin resets to baseline between appointments.</p><p><br/>That's why every Skin Bar outcome includes a <strong>customized skin home protocol</strong>—serums, cleansers, SPF—chosen specifically for your plan. You're not buying a generic off-the-shelf. You're getting the exact support system your skin needs to hold and build on clinical results.</p><p><br/><strong>We design it. You use it. Your skin stays optimized between sessions.</strong></p>",
             "default_open": false
           }
         }
@@ -805,7 +805,7 @@
       "settings": {
         "section_subheading": "AVU Skin Bar",
         "dot": true,
-        "blockquote": "We diagnose, we protocol, we optimize. Your skin gets a coordinated OS - not a random menu of facials.",
+        "blockquote": "We design protocols, we optimize and your skin gets a coordinated treatment plan - not a random menu of facials.",
         "section_blockquote_size": "h1",
         "author_name": "",
         "author_position": "",
