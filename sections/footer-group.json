@@ -33,6 +33,7 @@
         },
         "link_list_TKHEhQ": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Shop",
             "menu": "footer-2",
@@ -41,6 +42,7 @@
         },
         "link_list_66977g": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Company",
             "menu": "footer-3",
