@@ -715,6 +715,7 @@
         "card_TQfNkt",
         "card_K3k6wW"
       ],
+      "disabled": true,
       "name": "t:sections.card-list.presets.name",
       "settings": {
         "text-number-visible": true,
@@ -743,7 +744,7 @@
           "settings": {
             "question": "How is the Skin Bar different from a regular facial spa?",
             "answer": "<p>Most spas sell you a facial based on what sounds nice or what's trending. AVU Skin Bar starts with analysis—your skin type, concerns, goals, timeline—then builds a coordinated protocol using clinical-grade treatments, not just relaxation rituals.</p><p>You're not booking \"a hydrating facial.\" You're enrolling in a <strong>Clear Skin Reset</strong> or <strong>Radiance & Glow</strong> outcome with mapped sessions, progress tracking, and a home care system that works with—not against—your in-clinic treatments.</p>",
-            "default_open": false
+            "default_open": true
           }
         },
         "accordion_UjGina": {
