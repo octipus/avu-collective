@@ -2968,6 +2968,12 @@
 					"label": "Enable search",
 					"info": "To enable the promo block, you need to add the \"Search promo\" block."
 				},
+				"enable_cart_icon": {
+					"label": "Enable cart icon"
+				},
+				"enable_account_icon": {
+					"label": "Enable account icon"
+				},
 				"enable_social": {
 					"label": "Enable social media links in mobile menu"
 				},

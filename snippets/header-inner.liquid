@@ -577,7 +577,7 @@
         </noscript>
       {%- endif -%}
 
-      {%- if shop.customer_accounts_enabled -%}
+      {%- if shop.customer_accounts_enabled and section.settings.enable_account_icon -%}
         <details-disclosure class="header__account">
           <details>
             <summary
@@ -668,31 +668,33 @@
         </details-disclosure>
       {%- endif -%}
 
-      <div class="{% if request.page_type != 'cart' %}header__cart {% else %} header__cart--page{% endif %}">
-        <a
-          href="{{ routes.cart_url }}"
-          class=" header__icon header__icon--cart link link--text type--{{ section.settings.buttons_type }}"
-          id="cart-icon-bubble"
-          aria-label="{{ 'general.cart.view' | t }}"
-        >
-					{% if section.settings.buttons_type == 'icon' or section.settings.buttons_type == 'text_and_icon'%}
-						<span class="header__top_icon">
-							{%- render 'icon-cart-header' -%}
-						</span>
-					{% endif %}
-					{% if section.settings.buttons_type == 'text' or section.settings.buttons_type == 'text_and_icon'%}	
-						<span class="header__top_text">{{ 'templates.cart.cart' | t }}</span>
-					{% endif %}
-          <div class="cart-count-bubble">
-            {%- if cart.item_count < 100 -%}
-              <span aria-hidden="true">{{ cart.item_count }}</span>
-            {%- endif -%}
-            <span class="visually-hidden">
-              {{- 'sections.header.cart_count' | t: count: cart.item_count -}}
-            </span>
-          </div>
-        </a>
-      </div>
+      {%- if section.settings.enable_cart_icon -%}
+        <div class="{% if request.page_type != 'cart' %}header__cart {% else %} header__cart--page{% endif %}">
+          <a
+            href="{{ routes.cart_url }}"
+            class=" header__icon header__icon--cart link link--text type--{{ section.settings.buttons_type }}"
+            id="cart-icon-bubble"
+            aria-label="{{ 'general.cart.view' | t }}"
+          >
+						{% if section.settings.buttons_type == 'icon' or section.settings.buttons_type == 'text_and_icon'%}
+							<span class="header__top_icon">
+								{%- render 'icon-cart-header' -%}
+							</span>
+						{% endif %}
+						{% if section.settings.buttons_type == 'text' or section.settings.buttons_type == 'text_and_icon'%}	
+							<span class="header__top_text">{{ 'templates.cart.cart' | t }}</span>
+						{% endif %}
+            <div class="cart-count-bubble">
+              {%- if cart.item_count < 100 -%}
+                <span aria-hidden="true">{{ cart.item_count }}</span>
+              {%- endif -%}
+              <span class="visually-hidden">
+                {{- 'sections.header.cart_count' | t: count: cart.item_count -}}
+              </span>
+            </div>
+          </a>
+        </div>
+      {%- endif -%}
     </div>
   </div>
 
