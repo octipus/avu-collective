@@ -99,7 +99,7 @@
         "dot": true,
         "line": false,
         "image_ratio": "3/2",
-        "slideshow_speed": 6,
+        "slideshow_speed": 9,
         "stop_btn": true,
         "margin_top": "m",
         "margin_bottom": "no-indent"
