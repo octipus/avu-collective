@@ -114,7 +114,7 @@
         "section_heading_tag": "h2",
         "heading_size": "h4",
         "dot": true,
-        "text": "<ul><li><strong>AVU Med Bar</strong> – injectables, regenerative treatments, contouring.</li><li><strong>AVU Skin Bar</strong> – lasers, facials, corrective + corrective-plus care.</li><li><strong>AVU Wellness</strong> – internal support, recovery, longevity, performance.</li><li><strong>AVU Hair Lab</strong> – hair growth, hair health, and long-term scalp care</li></ul><p></p><p>No more random services. No more “try this once and see.” Just an intelligent, outcome-driven aesthetic OS built around you.</p>",
+        "text": "<ul><li><a href=\"/pages/medbar\" title=\"MedBar\"><strong>AVU Med Bar</strong></a> – injectables, regenerative treatments, contouring.</li><li><a href=\"/pages/skin-bar\" title=\"Skin Bar\"><strong>AVU Skin Bar</strong></a> – lasers, facials, corrective + corrective-plus care.</li><li><a href=\"/pages/wellness\" title=\"Wellness\"><strong>AVU Wellness</strong></a> – internal support, recovery, longevity, performance.</li><li><a href=\"/pages/hair-labs\" title=\"Hair Labs\"><strong>AVU Hair Lab</strong></a> – hair growth, hair health, and long-term scalp care</li></ul><p></p><p>No more random services. No more “try this once and see.” Just an intelligent, outcome-driven aesthetic OS built around you.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
