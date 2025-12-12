@@ -135,6 +135,7 @@
         "collection_item_gJcrYL",
         "collection_item_LgVA6D"
       ],
+      "disabled": true,
       "settings": {
         "section_heading": "",
         "section_heading_tag": "h2",
@@ -148,6 +149,55 @@
         "image_ratio": "1/1",
         "margin_top": "xs",
         "margin_bottom": "no-indent"
+      }
+    },
+    "gallery_carousel_qabi49": {
+      "type": "gallery-carousel",
+      "blocks": {
+        "carousel_slide_Uy6GR8": {
+          "type": "carousel_slide",
+          "settings": {
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Hair_Lab_af26931f-ae64-4e9b-86c9-140081505aac.png"
+          }
+        },
+        "carousel_slide_ijAqyg": {
+          "type": "carousel_slide",
+          "settings": {
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Med_Bar_88f259a0-ed70-468f-b9e7-e6790ac0052f.png"
+          }
+        },
+        "carousel_slide_ADjKkN": {
+          "type": "carousel_slide",
+          "settings": {
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Wellness_c2e3bf56-45c0-4ea4-b8c6-1866b313fe97.png"
+          }
+        },
+        "carousel_slide_tK4XBU": {
+          "type": "carousel_slide",
+          "settings": {
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Skin_Bar_9d07442e-a6ff-499d-87ef-10af90572ef3.png"
+          }
+        }
+      },
+      "block_order": [
+        "carousel_slide_Uy6GR8",
+        "carousel_slide_ijAqyg",
+        "carousel_slide_ADjKkN",
+        "carousel_slide_tK4XBU"
+      ],
+      "name": "t:sections.gallery-carousel.presets.name",
+      "settings": {
+        "section_heading": "Here can be a short introduction to this section.",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "Discover Your Favorites.",
+        "dot": true,
+        "line": true,
+        "image_ratio": "3/2",
+        "slideshow_speed": 12,
+        "stop_btn": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     },
     "image_with_text_rCdVKJ": {
@@ -396,54 +446,18 @@
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
       }
-    },
-    "gallery_carousel_qabi49": {
-      "type": "gallery-carousel",
-      "blocks": {
-        "carousel_slide_Uy6GR8": {
-          "type": "carousel_slide",
-          "settings": {}
-        },
-        "carousel_slide_ijAqyg": {
-          "type": "carousel_slide",
-          "settings": {}
-        },
-        "carousel_slide_ADjKkN": {
-          "type": "carousel_slide",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "carousel_slide_Uy6GR8",
-        "carousel_slide_ijAqyg",
-        "carousel_slide_ADjKkN"
-      ],
-      "name": "t:sections.gallery-carousel.presets.name",
-      "settings": {
-        "section_heading": "Here can be a short introduction to this section.",
-        "section_heading_tag": "h2",
-        "section_heading_size": "h3",
-        "subheading": "Discover Your Favorites.",
-        "dot": true,
-        "line": true,
-        "image_ratio": "3/2",
-        "slideshow_speed": 12,
-        "stop_btn": true,
-        "margin_top": "s",
-        "margin_bottom": "s"
-      }
     }
   },
   "order": [
     "slideshow_PUFH8H",
     "blockquote_rwtxJE",
     "collections_list_R46PWM",
+    "gallery_carousel_qabi49",
     "image_with_text_rCdVKJ",
     "product_slider_XAHzUr",
     "before_after_XyBdfz",
     "testimonials_jbRNEW",
     "image_collage_ixzMfh",
-    "newsletter_fp7GUw",
-    "gallery_carousel_qabi49"
+    "newsletter_fp7GUw"
   ]
 }
