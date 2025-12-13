@@ -35,8 +35,8 @@
             "button_dot": true,
             "button_style": "primary",
             "overlay_enable": true,
-            "overlay_opacity": 0,
-            "overlay_opacity_mobile": 0
+            "overlay_opacity": 0.3,
+            "overlay_opacity_mobile": 0.3
           }
         }
       },
