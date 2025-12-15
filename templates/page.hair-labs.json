@@ -28,7 +28,7 @@
             "desktop_image": "shopify://shop_images/octave_yun_hair_SCALP_WELLNESS__MAINTENANCE_--ar_169_--styliz_fcee97d9-df10-49f7-9976-36abe3ffcf49_3.png",
             "color_scheme": "background-3",
             "heading": "<strong>Regrow What You’ve Lost. Remove What You Don’t Want.</strong>",
-            "text": "<p>Your hair goals are personal — and they require precision. At AVU Hair Lab, we design outcome-driven plans for only two things:<strong>bringing hair back</strong> and <strong>removing hair for good.</strong></p>",
+            "text": "<h3>Your hair goals are personal — and they require precision. At AVU Hair Lab, we design outcome driven plans for only two things: <strong>bringing hair back</strong> and <strong>removing hair for good.</strong></h3>",
             "text_width": "large",
             "button_label": "",
             "button_link": "",
@@ -105,7 +105,7 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Diagnostic Mapping",
-            "text": "<p>Advanced scalp imaging OR skin mapping Density + shedding analysis Hair cycle stage assessment Growth inhibitors or skin sensitivity assessment Personalized goals consultation</p>"
+            "text": "<p>Advanced scalp imaging or skin assessment will help achieve a personalized protocol.</p>"
           }
         },
         "numbered_item_TCNhYF": {
@@ -119,7 +119,7 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Track, Adjust, Optimize",
-            "text": "<p>Review progress with scalp imaging or hair removal results tracking Adjust protocols based on growth or shedding cycles</p>"
+            "text": "<p>Review progress with scalp imaging or hair removal results tracking.  Adjust protocols based on growth or shedding cycles.</p>"
           }
         }
       },
