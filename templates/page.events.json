@@ -33,7 +33,7 @@
         "heading": "Coming soon",
         "section_heading_tag": "h2",
         "heading_size": "h1",
-        "text": "<p>We currently don't host any events. Register your interest below and keep an eye on this space for any future events!</p>",
+        "text": "<p>We currently don't host any events. </p><p>Register your interest below and keep an eye on this space for any future events!</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -83,6 +83,7 @@
         "column_X9ajqM",
         "forms_inline_iqU3ND"
       ],
+      "disabled": true,
       "name": "Event Registration",
       "settings": {
         "section_heading": "",
@@ -98,11 +99,29 @@
         "margin_top": "m",
         "margin_bottom": "m"
       }
+    },
+    "newsletter_dQNdVG": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "background-1",
+        "v_align": "row",
+        "heading": "<strong>Always evolving. Never chasing hype. Join us!</strong>",
+        "section_heading_tag": "h2",
+        "heading_size": "h2",
+        "newsletter_text": "",
+        "section_button_style": "primary",
+        "button_dot": false,
+        "margin_top": "m",
+        "margin_bottom": "m",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_zi94BN",
-    "multicolumn_czHHzz"
+    "multicolumn_czHHzz",
+    "newsletter_dQNdVG"
   ]
 }
