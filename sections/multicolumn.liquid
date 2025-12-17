@@ -35,39 +35,40 @@
 
         <div class="multicolumn-list__wrapper multicolumn-list__wrapper--{{ columns_per_row }} multicolumn-list__wrapper--{{ content_alignment }} {% if swipe_on_mobile and section.blocks.size > 1 %}swiper-wrapper{% endif %}">
           {%- for block in section.blocks -%}
-            <div
-              class="multicolumn-card multicolumn-list__item multicolumn-card--{{ content_alignment }} {% if swipe_on_mobile and section.blocks.size > 1 %}swiper-slide{% endif %}"
-              {{ block.shopify_attributes }}
-            >
-              {%- if block.settings.button_link != blank and block.settings.full_link -%}
-                <a
-                  href="{{ block.settings.button_link }}"
-                  class="multicolumn__link-overlay"
-                  aria-label="{{ block.settings.heading }}"
-                ></a>
-              {%- endif -%}
+            {% if block.type == 'column' %}
+              <div
+                class="multicolumn-card multicolumn-list__item multicolumn-card--{{ content_alignment }} {% if swipe_on_mobile and section.blocks.size > 1 %}swiper-slide{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+                {%- if block.settings.button_link != blank and block.settings.full_link -%}
+                  <a
+                    href="{{ block.settings.button_link }}"
+                    class="multicolumn__link-overlay"
+                    aria-label="{{ block.settings.heading }}"
+                  ></a>
+                {%- endif -%}
 
-              {% liquid
-                assign image_size = block.settings.image_size
-                assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
+                {% liquid
+                  assign image_size = block.settings.image_size
+                  assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
 
-                case image_size
-                  when 'adapt'
-                    if block.settings.video != blank
-                      assign section_size = 1 | divided_by: block.settings.video.aspect_ratio | times: 100 | append: '%'
-                    else
-                      assign section_size = 1 | divided_by: block.settings.image.aspect_ratio | times: 100 | append: '%'
-                    endif
-                endcase
-              %}
-              {% if block.settings.image != blank or block.settings.video != blank %}
-                {% if block.settings.icon == 'none' %}
-                  <div
-                    class="multicolumn-card__picture {{ image_size }}"
-                  >
-                    {%- assign image_classes = 'jarallax-img ' | append: block.settings.image_width -%}
+                  case image_size
+                    when 'adapt'
+                      if block.settings.video != blank
+                        assign section_size = 1 | divided_by: block.settings.video.aspect_ratio | times: 100 | append: '%'
+                      else
+                        assign section_size = 1 | divided_by: block.settings.image.aspect_ratio | times: 100 | append: '%'
+                      endif
+                  endcase
+                %}
+                {% if block.settings.image != blank or block.settings.video != blank %}
+                  {% if block.settings.icon == 'none' %}
+                    <div
+                      class="multicolumn-card__picture {{ image_size }}"
+                    >
+                      {%- assign image_classes = 'jarallax-img ' | append: block.settings.image_width -%}
 
-                    {%- capture aspect_ratio_media -%}
+                      {%- capture aspect_ratio_media -%}
 											--slide-height: {{ section_size }};
 											{% if block.settings.video == blank %}
 													aspect-ratio: {{ image_size }};
@@ -76,106 +77,109 @@
 											{% endif %}
 									{%- endcapture -%}
 
-                    <div class="multicolumn-card__light-mode {% if block.settings.dark_mode_image == blank %} dark-image-blank {% endif %}">
-                      {%- if block.settings.video != blank -%}
-                        {% liquid
-                          assign video_height = block.settings.video.sources[0].width | divided_by: block.settings.video.aspect_ratio
-                        %}
-                        {{
-                          block.settings.video
-                          | video_tag:
-                            width: block.settings.video.sources[0].width,
-                            height: video_height,
-                            autoplay: true,
-                            loop: true,
-                            controls: false,
-                            muted: true,
-                            style: aspect_ratio_media
-                        }}
-                      {% elsif block.settings.image != blank %}
-                        {% assign image_height = block.settings.image.width
-                          | divided_by: block.settings.image.aspect_ratio
-                        %}
-                        {{
-                          block.settings.image
-                          | image_url: width: 3840
-                          | image_tag:
-                            loading: 'lazy',
-                            width: block.settings.image.width,
-                            height: image_height,
-                            sizes: '100vw (min-width: 767px) 50vw',
-                            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
-                            class: image_classes,
-                            style: aspect_ratio_media
-                        }}
-                      {%- endif -%}
-                    </div>
+                      <div class="multicolumn-card__light-mode {% if block.settings.dark_mode_image == blank %} dark-image-blank {% endif %}">
+                        {%- if block.settings.video != blank -%}
+                          {% liquid
+                            assign video_height = block.settings.video.sources[0].width | divided_by: block.settings.video.aspect_ratio
+                          %}
+                          {{
+                            block.settings.video
+                            | video_tag:
+                              width: block.settings.video.sources[0].width,
+                              height: video_height,
+                              autoplay: true,
+                              loop: true,
+                              controls: false,
+                              muted: true,
+                              style: aspect_ratio_media
+                          }}
+                        {% elsif block.settings.image != blank %}
+                          {% assign image_height = block.settings.image.width
+                            | divided_by: block.settings.image.aspect_ratio
+                          %}
+                          {{
+                            block.settings.image
+                            | image_url: width: 3840
+                            | image_tag:
+                              loading: 'lazy',
+                              width: block.settings.image.width,
+                              height: image_height,
+                              sizes: '100vw (min-width: 767px) 50vw',
+                              widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                              class: image_classes,
+                              style: aspect_ratio_media
+                          }}
+                        {%- endif -%}
+                      </div>
 
-                    <div class="multicolumn-card__dark-mode {% if block.settings.dark_mode_image == blank and block.settings.video == blank %} image-blank {% endif %}">
-                      {%- if block.settings.video != blank -%}
-                        {{
-                          block.settings.video
-                          | video_tag:
-                            width: block.settings.video.sources[0].width,
-                            height: video_height,
-                            autoplay: true,
-                            loop: true,
-                            controls: false,
-                            muted: true,
-                            style: aspect_ratio_media
-                        }}
-                      {%- elsif block.settings.dark_mode_image != blank -%}
-                        {%- assign image_height = block.settings.dark_mode_image.width
-                          | divided_by: block.settings.dark_mode_image.aspect_ratio
-                        -%}
-                        {{
-                          block.settings.dark_mode_image
-                          | image_url: width: 3840
-                          | image_tag:
-                            loading: 'lazy',
-                            width: block.settings.dark_mode_image.width,
-                            height: image_height,
-                            sizes: '100vw (min-width: 767px) 50vw',
-                            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
-                            class: image_classes,
-                            style: aspect_ratio_media
-                        }}
-                      {%- endif -%}
+                      <div class="multicolumn-card__dark-mode {% if block.settings.dark_mode_image == blank and block.settings.video == blank %} image-blank {% endif %}">
+                        {%- if block.settings.video != blank -%}
+                          {{
+                            block.settings.video
+                            | video_tag:
+                              width: block.settings.video.sources[0].width,
+                              height: video_height,
+                              autoplay: true,
+                              loop: true,
+                              controls: false,
+                              muted: true,
+                              style: aspect_ratio_media
+                          }}
+                        {%- elsif block.settings.dark_mode_image != blank -%}
+                          {%- assign image_height = block.settings.dark_mode_image.width
+                            | divided_by: block.settings.dark_mode_image.aspect_ratio
+                          -%}
+                          {{
+                            block.settings.dark_mode_image
+                            | image_url: width: 3840
+                            | image_tag:
+                              loading: 'lazy',
+                              width: block.settings.dark_mode_image.width,
+                              height: image_height,
+                              sizes: '100vw (min-width: 767px) 50vw',
+                              widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                              class: image_classes,
+                              style: aspect_ratio_media
+                          }}
+                        {%- endif -%}
+                      </div>
                     </div>
+                  {% endif %}
+                {%- endif -%}
+
+                {%- if block.settings.icon != 'none' -%}
+                  <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--extra_small">
+                    {% render 'icon-pack', icon: block.settings.icon %}
                   </div>
-                {% endif %}
-              {%- endif -%}
-
-              {%- if block.settings.icon != 'none' -%}
-                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--extra_small">
-                  {% render 'icon-pack', icon: block.settings.icon %}
-                </div>
-              {%- endif -%}
-              {%- if block.settings.heading != blank or block.settings.text != blank -%}
-                <div class="multicolumn-card__info">
-                  {%- if block.settings.heading != blank -%}
-                    {% assign card_heading_tag = section.settings.card_heading_tag %}
-                    <{{ card_heading_tag }} class="multicolumn-card__heading {{ section.settings.card_heading_size }}">
-                      {{ block.settings.heading | escape }}
-                    </{{ card_heading_tag }}>
-                  {%- endif -%}
-                  {%- if block.settings.text != blank -%}
-                    <p class="multicolumn-card__text richtext__content">
-                      {{ block.settings.text }}
-                    </p>
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-              {%- if block.settings.button_label != blank -%}
-                {% render 'button',
-                  btn_label: block.settings.button_label,
-                  btn_link: block.settings.button_link,
-                  btn_style: block.settings.button_style,
-                  button_dot: block.settings.button_dot,
-                  add_classes: 'multicolumn-card__button'
-                %}
-              {%- endif -%}
-            </div>
+                {%- endif -%}
+                {%- if block.settings.heading != blank or block.settings.text != blank -%}
+                  <div class="multicolumn-card__info">
+                    {%- if block.settings.heading != blank -%}
+                      {% assign card_heading_tag = section.settings.card_heading_tag %}
+                      <{{ card_heading_tag }} class="multicolumn-card__heading {{ section.settings.card_heading_size }}">
+                        {{ block.settings.heading | escape }}
+                      </{{ card_heading_tag }}>
+                    {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                      <p class="multicolumn-card__text richtext__content">
+                        {{ block.settings.text }}
+                      </p>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.button_label != blank -%}
+                  {% render 'button',
+                    btn_label: block.settings.button_label,
+                    btn_link: block.settings.button_link,
+                    btn_style: block.settings.button_style,
+                    button_dot: block.settings.button_dot,
+                    add_classes: 'multicolumn-card__button'
+                  %}
+                {%- endif -%}
+              </div>
+            {% else %}
+              {% render block %}
+            {% endif %}
           {%- endfor -%}
         </div>
       </div>
