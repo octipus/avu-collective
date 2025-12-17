@@ -31,6 +31,7 @@
       "blocks": {
         "simple_mega_menu_hQQgWt": {
           "type": "simple_mega_menu",
+          "disabled": true,
           "settings": {
             "simple_mega_menu_trigger": "About"
           }
