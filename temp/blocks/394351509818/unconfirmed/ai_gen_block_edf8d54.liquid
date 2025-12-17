@@ -1,6 +1,402 @@
+{% doc %}
+  @prompt
+    google map location setcion
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-google-map-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+
+  .ai-google-map__container-{{ ai_gen_id }} {
+    width: 100%;
+    padding: {{ block.settings.section_padding_top }}px 0 {{ block.settings.section_padding_bottom }}px;
+  }
+
+  .ai-google-map__wrapper-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .ai-google-map__wrapper-{{ ai_gen_id }} {
+      flex-direction: {{ block.settings.layout }};
+      gap: 60px;
+    }
+
+    .ai-google-map__wrapper-{{ ai_gen_id }}--row-reverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .ai-google-map__content-{{ ai_gen_id }} {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ai-google-map__heading-{{ ai_gen_id }} {
+    margin: 0;
+    color: {{ block.settings.heading_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    line-height: 1.2;
+  }
+
+  .ai-google-map__description-{{ ai_gen_id }} {
+    margin: 0;
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.6;
+  }
+
+  .ai-google-map__info-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .ai-google-map__info-item-{{ ai_gen_id }} {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .ai-google-map__icon-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    color: {{ block.settings.icon_color }};
+  }
+
+  .ai-google-map__info-text-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .ai-google-map__info-link-{{ ai_gen_id }} {
+    color: {{ block.settings.link_color }};
+    text-decoration: none;
+  }
+
+  .ai-google-map__info-link-{{ ai_gen_id }}:hover {
+    text-decoration: underline;
+  }
+
+  .ai-google-map__map-container-{{ ai_gen_id }} {
+    flex: 1;
+    min-height: 400px;
+    position: relative;
+    border-radius: {{ block.settings.map_border_radius }}px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+  }
+
+  .ai-google-map__iframe-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    border: none;
+    display: block;
+  }
+
+  .ai-google-map__placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-google-map__heading-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.8);
+    }
+
+    .ai-google-map__map-container-{{ ai_gen_id }} {
+      min-height: 300px;
+    }
+
+    .ai-google-map__iframe-{{ ai_gen_id }} {
+      min-height: 300px;
+    }
+
+    .ai-google-map__placeholder-{{ ai_gen_id }} {
+      min-height: 300px;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    .ai-google-map__container-{{ ai_gen_id }} {
+      width: {{ block.settings.desktop_width_percent }}%;
+      margin: 0 auto;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-google-map-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-google-map__container-{{ ai_gen_id }}">
+    <div class="ai-google-map__wrapper-{{ ai_gen_id }} {% if block.settings.layout == 'row-reverse' %}ai-google-map__wrapper-{{ ai_gen_id }}--row-reverse{% endif %}">
+      <div class="ai-google-map__content-{{ ai_gen_id }}">
+        {% if block.settings.heading != blank %}
+          <h2 class="ai-google-map__heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+        {% endif %}
+
+        {% if block.settings.description != blank %}
+          <div class="ai-google-map__description-{{ ai_gen_id }}">
+            {{ block.settings.description }}
+          </div>
+        {% endif %}
+
+        <div class="ai-google-map__info-{{ ai_gen_id }}">
+          {% if block.settings.address != blank %}
+            <div class="ai-google-map__info-item-{{ ai_gen_id }}">
+              <svg class="ai-google-map__icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <p class="ai-google-map__info-text-{{ ai_gen_id }}">{{ block.settings.address }}</p>
+            </div>
+          {% endif %}
+
+          {% if block.settings.phone != blank %}
+            <div class="ai-google-map__info-item-{{ ai_gen_id }}">
+              <svg class="ai-google-map__icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <p class="ai-google-map__info-text-{{ ai_gen_id }}">
+                <a href="tel:{{ block.settings.phone | replace: ' ', '' }}" class="ai-google-map__info-link-{{ ai_gen_id }}">
+                  {{ block.settings.phone }}
+                </a>
+              </p>
+            </div>
+          {% endif %}
+
+          {% if block.settings.email != blank %}
+            <div class="ai-google-map__info-item-{{ ai_gen_id }}">
+              <svg class="ai-google-map__icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <p class="ai-google-map__info-text-{{ ai_gen_id }}">
+                <a href="mailto:{{ block.settings.email }}" class="ai-google-map__info-link-{{ ai_gen_id }}">
+                  {{ block.settings.email }}
+                </a>
+              </p>
+            </div>
+          {% endif %}
+
+          {% if block.settings.hours != blank %}
+            <div class="ai-google-map__info-item-{{ ai_gen_id }}">
+              <svg class="ai-google-map__icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <p class="ai-google-map__info-text-{{ ai_gen_id }}">{{ block.settings.hours }}</p>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="ai-google-map__map-container-{{ ai_gen_id }}">
+        {% if block.settings.map_url != blank %}
+          <iframe
+            class="ai-google-map__iframe-{{ ai_gen_id }}"
+            src="{{ block.settings.map_url }}"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        {% else %}
+          <div class="ai-google-map__placeholder-{{ ai_gen_id }}">
+            Add your Google Maps embed URL in the block settings
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Google map location",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Map"
+    },
+    {
+      "type": "text",
+      "id": "map_url",
+      "label": "Google Maps embed URL",
+      "info": "Get the embed URL from Google Maps: Share > Embed a map > Copy HTML"
+    },
+    {
+      "type": "range",
+      "id": "map_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Map border radius",
+      "default": 10
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Visit our store"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Come visit us at our location. We'd love to see you!</p>"
+    },
+    {
+      "type": "textarea",
+      "id": "address",
+      "label": "Address",
+      "default": "123 Main Street, New York, NY 10001"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Phone number",
+      "default": "+1 (555) 123-4567"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Email"
+    },
+    {
+      "type": "textarea",
+      "id": "hours",
+      "label": "Business hours",
+      "default": "Mon-Fri: 9am-6pm\nSat-Sun: 10am-4pm"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Desktop layout",
+      "options": [
+        {
+          "value": "row",
+          "label": "Content left, map right"
+        },
+        {
+          "value": "row-reverse",
+          "label": "Map left, content right"
+        }
+      ],
+      "default": "row"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#3f3f3f"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#3f3f3f"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#3f3f3f"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link color",
+      "default": "#3f3f3f"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Google map location"
+    }
+  ],
+  "tag": null
+}
 {% endschema %}
