@@ -77,9 +77,9 @@
             "image_width": "full",
             "image_size": "16/9",
             "icon": "none",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
-            "button_label": "View Details",
+            "heading": "What to Expect When You Arrive",
+            "text": "AVU isn't a typical clinic. When you walk in, you're entering an operating system for your skin, hair, body, and wellness—not a device showroom.",
+            "button_label": "",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
@@ -91,10 +91,25 @@
           "settings": {
             "image_width": "full",
             "image_size": "16/9",
-            "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
-            "button_label": "View Details",
+            "icon": "none",
+            "heading": "Your First Visit:",
+            "text": "We start with analysis, not assumptions. Expect diagnostic imaging, goal mapping, and a clear protocol explanation before any treatment begins. No pressure, no upselling—just a structured plan built for your timeline and outcomes.",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_MQeaeT": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "none",
+            "heading": "Parking & Accessibility:",
+            "text": "Ample parking available on-site. Our facility is fully accessible with ground-level entry.",
+            "button_label": "",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
@@ -104,7 +119,8 @@
       },
       "block_order": [
         "column_yRDGEV",
-        "column_9VzNMQ"
+        "column_9VzNMQ",
+        "column_MQeaeT"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
@@ -113,7 +129,7 @@
         "section_heading_size": "h1",
         "subheading": "",
         "dot": true,
-        "columns_per_row": 2,
+        "columns_per_row": 3,
         "content_alignment": "left",
         "swipe_on_mobile": true,
         "card_heading_tag": "h4",
