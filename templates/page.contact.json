@@ -44,7 +44,7 @@
             "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.853961449282!2d-88.13445492346!3d42.05583677122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb1e8e8e8e8e8%3A0x0!2s6%20Executive%20Ct%2C%20South%20Barrington%2C%20IL%2060010!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus",
             "map_border_radius": 10,
             "heading": "Visit AVU",
-            "description": "<p>Come visit us at our location. We'd love to see you!</p>",
+            "description": "<p>Located in South Barrington's Executive Court, AVU is easily accessible from I-90 and serves clients throughout the greater Chicago area including Barrington, Schaumburg, Palatine, and surrounding communities.</p>",
             "address": "6 Executive Court\nSouth Barrington, IL 60010",
             "phone": "(847) 350-1640",
             "email": "hello@avubrands.com",
@@ -67,6 +67,60 @@
         "ai_gen_block_edf8d54_4ePX9c"
       ],
       "settings": {}
+    },
+    "multicolumn_UWaEVK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yRDGEV": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "none",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "View Details",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_9VzNMQ": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "View Details",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_yRDGEV",
+        "column_9VzNMQ"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "subheading": "",
+        "dot": true,
+        "columns_per_row": 2,
+        "content_alignment": "left",
+        "swipe_on_mobile": true,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
     },
     "gallery_carousel_ACpwCD": {
       "type": "gallery-carousel",
@@ -118,6 +172,7 @@
     "main",
     "form",
     "17659706402bd01d5a",
+    "multicolumn_UWaEVK",
     "gallery_carousel_ACpwCD"
   ]
 }
