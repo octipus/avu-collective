@@ -21,6 +21,7 @@
     },
     "image_with_text_zi94BN": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "color_scheme": "",
@@ -76,12 +77,13 @@
         "column_X9ajqM": {
           "type": "column",
           "settings": {
-            "image_width": "icon",
+            "image": "shopify://shop_images/IMG_5542.jpg",
+            "image_width": "full",
             "image_size": "16/9",
-            "icon": "globe",
-            "heading": "Highlight a Key Benefit",
+            "icon": "none",
+            "heading": "7th of January 2026",
             "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
-            "button_label": "View Details",
+            "button_label": "",
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
