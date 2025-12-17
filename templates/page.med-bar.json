@@ -27,8 +27,8 @@
           "settings": {
             "desktop_image": "shopify://shop_images/octave_yun_Luxurious_modern_medical_aesthetics_clinic_interio_f1bf4e77-a914-4c8a-b6b4-ea69259d0070_0.png",
             "color_scheme": "background-3",
-            "heading": "The Clinical Layer of Your Skin OS",
-            "text": "<p>Where lasers, RF, and regenerative tech plug into your personalized protocol. Med Bar doesn't guess—it builds, tracks, and optimizes your transformation.</p>",
+            "heading": "The Clinical Layer of Your Skin",
+            "text": "<p>Where lasers, RF, and regenerative devices plug into your personalized protocol. Med Bar doesn't guess It builds, tracks, and optimizes your transformation through science.</p>",
             "text_width": "small",
             "button_label": "",
             "button_link": "",
@@ -105,21 +105,21 @@
           "type": "numbered_item",
           "settings": {
             "heading": "Diagnostic Mapping",
-            "text": "<p>Advanced imaging reveals what's happening beneath your skin—texture, tone, elasticity, pigment, scars, fat distribution. We assess the damage, identify the blockers, and map your transformation with clinical precision.</p>"
+            "text": "<p>Advanced imaging reveals what's happening beneath your skin- texture, tone, elasticity, pigment, scars, fat distribution. We assess the damage, identify the blockers, and map your transformation with clinical precision.</p>"
           }
         },
         "numbered_item_TCNhYF": {
           "type": "numbered_item",
           "settings": {
             "heading": "Custom Protocol Build",
-            "text": "<p>We don't pick devices randomly. </p><ul><li><strong>Lift</strong> gets RF sequenced with laser tightening. </li><li><strong>Sculpt</strong> layers body contour with cryo.</li><li><strong>Smooth</strong> targets pigment with exact wavelengths. </li><li><strong>Renew</strong> combines resurfacing with regenerative infusion. </li></ul><p>The protocol is engineered for your biology—not pulled from a menu.</p>"
+            "text": "<p>We don't pick devices randomly. </p><ul><li><strong>Lift</strong> gets RF sequenced with laser tightening. </li><li><strong>Sculpt</strong> layers body contour with laser.</li><li><strong>Smooth</strong> targets pigment with exact wavelengths. </li><li><strong>Renew</strong> combines resurfacing with regenerative infusion. </li></ul><p>The protocol is engineered for your biology- not pulled from a menu.</p>"
           }
         },
         "numbered_item_qm4mMk": {
           "type": "numbered_item",
           "settings": {
             "heading": "Track, Adjust, Optimize",
-            "text": "<p>Clinical imaging tracks real change. As your skin responds, heals, and remodels, we refine the plan—adjusting intensity, timing, and tools. Your protocol evolves with you until the outcome is locked in, then we keep it there.</p>"
+            "text": "<p>Clinical imaging tracks real change. As your skin responds, heals, and remodels, we refine the plan- adjusting intensity, timing, and tools. Your protocol evolves with you until the outcome is locked in, then we keep it there.</p>"
           }
         }
       },
@@ -172,7 +172,7 @@
       "settings": {
         "section_subheading": "What Do You Want to Achieve?",
         "dot": true,
-        "blockquote": "Med Bar protocols are built around one question: What does your confidence need to rebuild?",
+        "blockquote": "Med Bar protocols are built around one question: What is the outcome you want to achieve?",
         "section_blockquote_size": "h1",
         "author_name": "",
         "author_position": "",
@@ -743,7 +743,7 @@
           "type": "accordion",
           "settings": {
             "question": "How is Med Bar different from a regular laser or injectable clinic?",
-            "answer": "<p>Most clinics are device showrooms. You walk in asking for \"Morpheus8\" or \"filler,\" and they book you for exactly that—no questions asked.</p><p>Med Bar starts with diagnostic mapping: advanced imaging, structural analysis, and outcome goals. Then we build a <strong>protocol</strong>—not a single treatment. That might mean RF microneedling sequenced with laser tightening and cryo recovery, timed to your skin's healing cycles.</p>",
+            "answer": "<p>Most clinics are device showrooms. You walk in asking for \"Morpheus8\" or \"filler,\" and they book you for exactly that—no questions asked.<br/><br/>Med Bar starts with diagnostic mapping: advanced imaging, structural analysis, and outcome goals. Then we build a protocol- not a single treatment. That might mean microneedling sequenced with laser tightening, timed to your skin's healing cycles.</p>",
             "default_open": true
           }
         },
@@ -751,7 +751,7 @@
           "type": "accordion",
           "settings": {
             "question": "Can I combine Med Bar treatments with Skin Bar or Hair Lab services?",
-            "answer": "<p>Absolutely—and that's the entire point of AVU's operating system.</p><p>Your plan might include <strong>Med Bar fractional laser</strong> to rebuild texture, then <strong>Skin Bar barrier repair</strong> to optimize healing, then back to <strong>Med Bar for maintenance tightening</strong>. Or <strong>Hair Lab PRP microneedling</strong> coordinated with <strong>Med Bar recovery protocols</strong> to accelerate results.</p><p>We map timing, intensity, and recovery across all bars so treatments enhance each other instead of causing conflicts or unnecessary downtime. One ecosystem, one plan, maximum efficiency.</p>",
+            "answer": "<p>Absolutely—and that's the entire point of AVU's bespoke system<br/><br/>Your plan might include <strong>Med Bar fractional laser</strong> to rebuild texture, then <strong>Skin Bar barrier repair</strong> to optimize healing, then back to <strong>Med Bar for maintenance tightening</strong>. Or <strong>Hair Lab TED hair growth</strong> coordinated with <strong>Med Bar recovery protocols</strong> to accelerate results.<br/><br/>We map timing, intensity, and recovery across all bars so treatments enhance each other instead of causing conflicts or unnecessary downtime. One ecosystem, one plan, maximum efficiency.</p>",
             "default_open": false
           }
         },
@@ -759,7 +759,7 @@
           "type": "accordion",
           "settings": {
             "question": "Are Med Bar treatments painful? What's the downtime?",
-            "answer": "<p>It depends on your outcome and pain tolerance—but we manage both aggressively.</p><p><strong>Lift & Tighten</strong> (RF microneedling) involves heat and needles, so we use numbing and cryo recovery to minimize discomfort. Expect 1–3 days of redness. <strong>Contour & Sculpt</strong> has minimal discomfort and zero downtime. <strong>Spotless & Smooth</strong> lasers feel like a rubber band snap; downtime is 3–7 days of flaking. <strong>Acne Scar Renewal</strong> involves controlled injury, so we pre-plan numbing, LED therapy, and healing protocols—downtime is 5–7 days.</p><p>We don't sugarcoat it, but we also don't leave you to tough it out. Every protocol includes a <strong>recovery plan</strong>: LED, oxygen therapy, barrier rebuilding, and timeline expectations up front.</p>",
+            "answer": "<p>It depends on your outcome and pain tolerance—but we manage both aggressively.<br/><br/><strong>Lift & Tighten</strong> involves ClearLift laser which is no pain, no downtime and offer as instant lift. <strong>Contour & Sculpt</strong> has minimal discomfort and zero downtime. <strong>Spotless & Smooth</strong> lasers feel like a rubber band snap. <strong>Acne Scar Renewal</strong> involves with laser and LED protocol.<br/><br/>Every protocol includes a <strong>recovery plan</strong>: LED, oxygen therapy, barrier rebuilding, and timeline expectations up front.</p>",
             "default_open": false
           }
         },
@@ -767,7 +767,7 @@
           "type": "accordion",
           "settings": {
             "question": "How long until I see results, and how many sessions do I need?",
-            "answer": "<p>Real structural change doesn't happen overnight—and anyone promising instant results is lying.</p><p><strong>Lift & Tighten</strong> requires 6–10 weeks as collagen remodels. <strong>Contour & Sculpt</strong> shows visible fat reduction in 8–12 weeks. <strong>Spotless & Smooth</strong> delivers noticeable clarity in 4–8 weeks. <strong>Wrinkle Rewind</strong> softens lines progressively over 6 weeks. <strong>Acne Scar Renewal</strong> needs 8–10 weeks of tissue remodeling.</p><p>Sessions vary by outcome: some need 3–4 treatments spaced 4–6 weeks apart; others are single-session with maintenance. We map this during diagnostic analysis—so you know the timeline, cost, and commitment before you start. No surprises, no upselling mid-protocol.</p><p>We track progress with clinical imaging so you see exactly what's changing, when, and why.</p>",
+            "answer": "<p>Real structural change doesn't happen overnight—and anyone promising instant results is lying.<br/><br/><strong>Lift & Tighten</strong> requires 6–10 weeks as collagen remodels but you will see an instant result the day of.  <strong>Spotless & Smooth</strong> delivers noticeable clarity in 4–8 weeks. <strong>Wrinkle Rewind</strong> softens lines progressively over 6 weeks. <strong>Acne Scar Renewal</strong> needs 8–10 weeks of tissue remodeling.<br/><br/>Sessions vary by outcome: some need 3–4 treatments spaced 4–6 weeks apart; others are single-session with maintenance. We map this during diagnostic analysis—so you know the timeline, cost, and commitment before you start. No surprises, no upselling mid-protocol.<br/><br/>We track progress with clinical imaging so you see exactly what's changing, when, and why.</p>",
             "default_open": false
           }
         }
