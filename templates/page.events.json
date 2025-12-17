@@ -50,11 +50,11 @@
             "form_id": "793747",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
-            "form_alignment": "center",
+            "form_alignment": "flex-end",
             "padding_top": 0,
             "padding_bottom": 24,
             "padding_right": 0,
@@ -65,14 +65,88 @@
       "block_order": [
         "forms_inline_EKmT37"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
+      }
+    },
+    "multicolumn_czHHzz": {
+      "type": "multicolumn",
+      "blocks": {
+        "forms_inline_iqU3ND": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "793747",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        },
+        "column_X9ajqM": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "View Details",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_j7zXka": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "View Details",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_iqU3ND",
+        "column_X9ajqM",
+        "column_j7zXka"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "section_heading": "Key features here",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "subheading": "Highlight product categories or brand values",
+        "dot": true,
+        "columns_per_row": 2,
+        "content_alignment": "left",
+        "swipe_on_mobile": true,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "m",
+        "margin_bottom": "m"
       }
     }
   },
   "order": [
     "main",
     "image_with_text_zi94BN",
-    "1765965596ed3eecfe"
+    "1765965596ed3eecfe",
+    "multicolumn_czHHzz"
   ]
 }
