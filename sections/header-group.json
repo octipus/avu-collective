@@ -62,6 +62,7 @@
         },
         "mega_menu_ThkztG": {
           "type": "mega_menu",
+          "disabled": true,
           "settings": {
             "mega_menu_trigger": "Brands",
             "menu_1_heading": "",
