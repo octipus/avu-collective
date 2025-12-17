@@ -21,15 +21,15 @@
     },
     "form": {
       "type": "contact-form",
-      "disabled": true,
       "settings": {
-        "content_align": "left",
+        "content_align": "center",
         "heading": "Get in Touch",
         "heading_tag": "h2",
         "heading_size": "h2",
-        "text": "Some text for your contact form. You can use multiple lines of text",
+        "text": "",
         "additional_text": "Additional text for contact form",
-        "image_ratio": "16/9",
+        "image": "shopify://shop_images/OxyPro-Platinum-6.webp",
+        "image_ratio": "4/3",
         "button_style": "primary",
         "margin_top": "m",
         "margin_bottom": "m"
