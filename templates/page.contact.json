@@ -19,22 +19,6 @@
         "margin_bottom": "no-indent"
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "content_align": "center",
-        "heading": "Get in Touch",
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "text": "",
-        "additional_text": "",
-        "image": "shopify://shop_images/OxyPro-Platinum-6.webp",
-        "image_ratio": "4/3",
-        "button_style": "primary",
-        "margin_top": "m",
-        "margin_bottom": "m"
-      }
-    },
     "17659706402bd01d5a": {
       "type": "_blocks",
       "blocks": {
@@ -43,8 +27,8 @@
           "settings": {
             "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.853961449282!2d-88.13445492346!3d42.05583677122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb1e8e8e8e8e8%3A0x0!2s6%20Executive%20Ct%2C%20South%20Barrington%2C%20IL%2060010!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus",
             "map_border_radius": 10,
-            "heading": "Visit AVU",
-            "description": "<p>Located in South Barrington's Executive Court, AVU is easily accessible from I-90 and serves clients throughout the greater Chicago area including Barrington, Schaumburg, Palatine, and surrounding communities.</p>",
+            "heading": "Visit AVU Flagship Location",
+            "description": "<p>We welcome you to book a visit to our 15,000 sq/ft flagship location in South Barrington's Executive Court, AVU is easily accessible from I-90 and serves clients throughout the greater Chicago area including Barrington, Schaumburg, Palatine, and surrounding communities.</p>",
             "address": "6 Executive Court\nSouth Barrington, IL 60010",
             "phone": "(847) 350-1640",
             "email": "hello@avubrands.com",
@@ -65,6 +49,39 @@
       },
       "block_order": [
         "ai_gen_block_edf8d54_4ePX9c"
+      ],
+      "settings": {}
+    },
+    "blocks_JkzraM": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_edf8d54_PANAVH": {
+          "type": "ai_gen_block_edf8d54",
+          "settings": {
+            "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.853961449282!2d-88.13445492346!3d42.05583677122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb1e8e8e8e8e8%3A0x0!2s6%20Executive%20Ct%2C%20South%20Barrington%2C%20IL%2060010!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus",
+            "map_border_radius": 10,
+            "heading": "AVU Deer Park - Coming Soon",
+            "description": "<p>We’re excited to welcome you soon at our Deer Park location, built to serve clients across the greater Barrington area and beyond. Join the waitlist for early access to appointments, events, and launch specials.</p>",
+            "address": "21660 W Field Parkway\nDeer Park, IL 60010",
+            "phone": "",
+            "email": "",
+            "hours": "",
+            "layout": "row",
+            "desktop_width_percent": 100,
+            "section_padding_top": 40,
+            "section_padding_bottom": 40,
+            "heading_size": 32,
+            "text_size": 16,
+            "heading_color": "#3f3f3f",
+            "text_color": "#3f3f3f",
+            "icon_color": "#3f3f3f",
+            "link_color": "#3f3f3f"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_edf8d54_PANAVH"
       ],
       "settings": {}
     },
@@ -182,13 +199,30 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "content_align": "center",
+        "heading": "Get in Touch",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "text": "",
+        "additional_text": "",
+        "image": "shopify://shop_images/OxyPro-Platinum-6.webp",
+        "image_ratio": "4/3",
+        "button_style": "primary",
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
     }
   },
   "order": [
     "main",
-    "form",
     "17659706402bd01d5a",
+    "blocks_JkzraM",
     "multicolumn_UWaEVK",
-    "gallery_carousel_ACpwCD"
+    "gallery_carousel_ACpwCD",
+    "form"
   ]
 }
