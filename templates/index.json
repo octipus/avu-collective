@@ -180,28 +180,28 @@
         "carousel_slide_Uy6GR8": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Hair_Lab_4e704d40-5015-414d-8259-82fa37608252.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Hair_Lab.png",
             "slide_link": "shopify://pages/hair-labs"
           }
         },
         "carousel_slide_ijAqyg": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Med_Bar_88f259a0-ed70-468f-b9e7-e6790ac0052f.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Med_Bar_9bab987a-1541-4fa0-b88a-4f899f62dd38.png",
             "slide_link": "shopify://pages/medbar"
           }
         },
         "carousel_slide_ADjKkN": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Wellness_c2e3bf56-45c0-4ea4-b8c6-1866b313fe97.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Wellness_2ffcc108-0b37-439b-88f5-afcca10f1c90.png",
             "slide_link": "shopify://pages/wellness"
           }
         },
         "carousel_slide_tK4XBU": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Skin_Bar_9d07442e-a6ff-499d-87ef-10af90572ef3.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Skin_Bar_52a4b750-c8e0-4792-b41f-bcc8f544028c.png",
             "slide_link": "shopify://pages/skin-bar"
           }
         }
@@ -212,6 +212,7 @@
         "carousel_slide_ADjKkN",
         "carousel_slide_tK4XBU"
       ],
+      "custom_css": [],
       "name": "t:sections.gallery-carousel.presets.name",
       "settings": {
         "section_heading": "Click to Discover Your Favorites.",
