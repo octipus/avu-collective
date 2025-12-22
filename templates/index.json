@@ -151,13 +151,36 @@
         "margin_bottom": "no-indent"
       }
     },
+    "image_with_text_rCdVKJ": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "image_position": "image_left",
+        "content_alignment": "left",
+        "image": "shopify://shop_images/octave_yun_skincare_treatment_--ar_34_--stylize_250_--v_7_89032c85-8731-43fe-8f69-d97ee8906b47_1.png",
+        "image_size": "3/4",
+        "subheading": "Technology as infrastructure",
+        "dot": true,
+        "heading": "Integrated brands, one ecosystem. ",
+        "section_heading_tag": "h2",
+        "heading_size": "h3",
+        "text": "<p>Instead of separate protocols, AVU connects:</p><ul><li><a href=\"/pages/medbar\" title=\"MedBar\">Med Bar</a> – lasers, injectables, regenerative</li><li><a href=\"/pages/skin-bar\" title=\"Skin Bar\">Skin Bar</a> – facials, peels, bespoke Skin OS home care</li><li><a href=\"/pages/hair-labs\" title=\"Hair Labs\">Hair Lab</a> – hair restoration, scalp health, TED, exosomes</li><li><a href=\"/pages/wellness\" title=\"Wellness\">Wellness</a> – metabolic, recovery, sleep, stress, performance</li></ul><p><strong>One plan, many levers—so you’re not trying to fix multiple issues with a single device. We tailor outcome driven protocols that are data-driven and customized to fit your evolving needs.</strong><br/><br/></p>",
+        "button_label": "Discover Why",
+        "button_link": "shopify://pages/about",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
     "gallery_carousel_qabi49": {
       "type": "gallery-carousel",
       "blocks": {
         "carousel_slide_Uy6GR8": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Hair_Lab_af26931f-ae64-4e9b-86c9-140081505aac.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Hair_Lab_4e704d40-5015-414d-8259-82fa37608252.png",
             "slide_link": "shopify://pages/hair-labs"
           }
         },
@@ -197,34 +220,11 @@
         "subheading": "",
         "dot": true,
         "line": true,
-        "image_ratio": "21/9",
+        "image_ratio": "16/9",
         "slideshow_speed": 12,
-        "stop_btn": true,
+        "stop_btn": false,
         "margin_top": "xs",
         "margin_bottom": "no-indent"
-      }
-    },
-    "image_with_text_rCdVKJ": {
-      "type": "image-with-text",
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "image_position": "image_left",
-        "content_alignment": "left",
-        "image": "shopify://shop_images/octave_yun_skincare_treatment_--ar_34_--stylize_250_--v_7_89032c85-8731-43fe-8f69-d97ee8906b47_1.png",
-        "image_size": "3/4",
-        "subheading": "Technology as infrastructure",
-        "dot": true,
-        "heading": "Integrated brands, one ecosystem. ",
-        "section_heading_tag": "h2",
-        "heading_size": "h3",
-        "text": "<p>Instead of separate protocols, AVU connects:</p><ul><li><a href=\"/pages/medbar\" title=\"MedBar\">Med Bar</a> – lasers, injectables, regenerative</li><li><a href=\"/pages/skin-bar\" title=\"Skin Bar\">Skin Bar</a> – facials, peels, bespoke Skin OS home care</li><li><a href=\"/pages/hair-labs\" title=\"Hair Labs\">Hair Lab</a> – hair restoration, scalp health, TED, exosomes</li><li><a href=\"/pages/wellness\" title=\"Wellness\">Wellness</a> – metabolic, recovery, sleep, stress, performance</li></ul><p><strong>One plan, many levers—so you’re not trying to fix multiple issues with a single device. We tailor outcome driven protocols that are data-driven and customized to fit your evolving needs.</strong><br/><br/></p>",
-        "button_label": "Discover Why",
-        "button_link": "shopify://pages/about",
-        "button_style": "primary",
-        "button_dot": true,
-        "margin_top": "s",
-        "margin_bottom": "s"
       }
     },
     "product_slider_XAHzUr": {
@@ -255,7 +255,7 @@
         "show_sku": false,
         "show_vendor": false,
         "show_desc": false,
-        "margin_top": "xl",
+        "margin_top": "m",
         "margin_bottom": "no-indent"
       }
     },
@@ -456,8 +456,8 @@
     "slideshow_PUFH8H",
     "blockquote_rwtxJE",
     "collections_list_R46PWM",
-    "gallery_carousel_qabi49",
     "image_with_text_rCdVKJ",
+    "gallery_carousel_qabi49",
     "product_slider_XAHzUr",
     "before_after_XyBdfz",
     "testimonials_jbRNEW",
