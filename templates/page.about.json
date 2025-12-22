@@ -44,7 +44,7 @@
       "settings": {
         "section_layout": "row",
         "subheading": "",
-        "heading": "AVU: Integrative Rejuvenation",
+        "heading": "AVU Collective: Integrative Rejuvenation",
         "section_heading_tag": "h2",
         "heading_size": "h2",
         "dot": true,
@@ -231,44 +231,45 @@
         "margin_bottom": "no-indent"
       }
     },
-    "gallery_carousel_QWBwKf": {
+    "gallery_carousel_MHLB6T": {
       "type": "gallery-carousel",
       "blocks": {
-        "carousel_slide_W6UmfX": {
+        "carousel_slide_xwmG7B": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Hair_Lab_af26931f-ae64-4e9b-86c9-140081505aac.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Hair_Lab.png",
             "slide_link": "shopify://pages/hair-labs"
           }
         },
-        "carousel_slide_qJpNj6": {
+        "carousel_slide_GbDTxw": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Med_Bar_88f259a0-ed70-468f-b9e7-e6790ac0052f.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Med_Bar_9bab987a-1541-4fa0-b88a-4f899f62dd38.png",
             "slide_link": "shopify://pages/medbar"
           }
         },
-        "carousel_slide_3UVdYf": {
+        "carousel_slide_fxyxcY": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Wellness_c2e3bf56-45c0-4ea4-b8c6-1866b313fe97.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Wellness_2ffcc108-0b37-439b-88f5-afcca10f1c90.png",
             "slide_link": "shopify://pages/wellness"
           }
         },
-        "carousel_slide_ykgUYH": {
+        "carousel_slide_xEERPg": {
           "type": "carousel_slide",
           "settings": {
-            "slide_img": "shopify://shop_images/AVU_Logo_-_Skin_Bar_9d07442e-a6ff-499d-87ef-10af90572ef3.png",
+            "slide_img": "shopify://shop_images/AVU_Logo_-_Skin_Bar_52a4b750-c8e0-4792-b41f-bcc8f544028c.png",
             "slide_link": "shopify://pages/skin-bar"
           }
         }
       },
       "block_order": [
-        "carousel_slide_W6UmfX",
-        "carousel_slide_qJpNj6",
-        "carousel_slide_3UVdYf",
-        "carousel_slide_ykgUYH"
+        "carousel_slide_xwmG7B",
+        "carousel_slide_GbDTxw",
+        "carousel_slide_fxyxcY",
+        "carousel_slide_xEERPg"
       ],
+      "custom_css": [],
       "name": "t:sections.gallery-carousel.presets.name",
       "settings": {
         "section_heading": "",
@@ -276,11 +277,11 @@
         "section_heading_size": "h3",
         "subheading": "",
         "dot": true,
-        "line": true,
-        "image_ratio": "3/2",
+        "line": false,
+        "image_ratio": "16/9",
         "slideshow_speed": 12,
-        "stop_btn": true,
-        "margin_top": "no-indent",
+        "stop_btn": false,
+        "margin_top": "xs",
         "margin_bottom": "no-indent"
       }
     },
@@ -351,7 +352,7 @@
     "rich_text_bQ83dh",
     "numbered_list_ighUVj",
     "brand_image_9aRipG",
-    "gallery_carousel_QWBwKf",
+    "gallery_carousel_MHLB6T",
     "image_with_text_zWPrep",
     "newsletter",
     "blockquote_3pcGLA"
