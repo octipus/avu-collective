@@ -117,6 +117,10 @@
         "buttons_type": "icon",
         "sticky_header_type": "on-scroll-up",
         "menu_heading_tag": "h3",
+        "enable_embed_modal": false,
+        "embed_modal_label": "Book Now",
+        "embed_modal_button_style": "secondary",
+        "embed_modal_content": "",
         "enable_search": true,
         "enable_cart_icon": false,
         "enable_account_icon": false
