@@ -117,10 +117,10 @@
         "buttons_type": "icon",
         "sticky_header_type": "on-scroll-up",
         "menu_heading_tag": "h3",
-        "enable_embed_modal": false,
+        "enable_embed_modal": true,
         "embed_modal_label": "Book Now",
-        "embed_modal_button_style": "secondary",
-        "embed_modal_content": "",
+        "embed_modal_button_style": "primary",
+        "embed_modal_content": "<iframe src=\"https://www.joinblvd.com/b/avu-collective/widget#/cart/menu/Other%20Memberships/p_7b729075-9f73-4397-84d4-fde146048bbd\"></iframe>",
         "enable_search": true,
         "enable_cart_icon": false,
         "enable_account_icon": false
