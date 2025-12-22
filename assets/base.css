@@ -2162,14 +2162,17 @@ deferred-media {
   align-items: center;
   justify-content: center;
   padding: 0;
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 2rem;
+  height: 2rem;
   overflow: hidden;
   color: rgb(var(--color-foreground));
   background-color: transparent;
   cursor: pointer;
   border: none;
   transition: opacity var(--duration-default);
+  background-color: rgb(var(--color-button));
+  border-radius: var(--border-radius-button);
+  padding: 0.5rem;
 }
 .modal-close-button:hover {
   opacity: 0.7;
@@ -3810,6 +3813,26 @@ details[open] > .header__icon--account::after {
 .header .search__content::-webkit-scrollbar-thumb {
   background-color: rgb(var(--color-border));
   border-radius: 2rem;
+}
+.product-popup-modal__content .header__embed-content {
+  width: 100%;
+  max-width: 100%;
+}
+.product-popup-modal__content .header__embed-content iframe,
+.product-popup-modal__content .header__embed-content video,
+.product-popup-modal__content .header__embed-content embed,
+.product-popup-modal__content .header__embed-content object {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.product-popup-modal__content .header__embed-content iframe {
+  min-height: 400px;
+}
+@media screen and (min-width: 750px) {
+  .product-popup-modal__content .header__embed-content iframe {
+    min-height: 500px;
+  }
 }
 .header .search__form {
   width: 100%;

@@ -1044,6 +1044,7 @@
                     >
                       {% render 'icon-close' %}
                     </button>
+                    {% if block.settings.page != blank or block.settings.heading != blank %}
                     <h3 class="product-popup-modal__title">
                       {% if block.settings.page != blank %}
                         {{ block.settings.page.title }}
@@ -1051,6 +1052,7 @@
                         {{ block.settings.heading }}
                       {% endif %}
                     </h3>
+                    {% endif %}
                     <div class="product-popup-modal__content">
                       {% if block.settings.page != blank %}
                         <div class="rte{% if settings.rte_type == 'custom' %} rte__container{% endif %}">

@@ -2964,6 +2964,18 @@
 				"header": {
 					"content": "Search"
 				},
+				"enable_embed_modal": {
+					"label": "Enable embedded content modal"
+				},
+				"embed_modal_label": {
+					"label": "Button label",
+					"default": "Watch",
+					"info": "Label text for the embedded content button"
+				},
+				"embed_modal_content": {
+					"label": "Embedded content",
+					"info": "Paste your embed code here (e.g., YouTube, Vimeo, iframe, etc.)"
+				},
 				"enable_search": {
 					"label": "Enable search",
 					"info": "To enable the promo block, you need to add the \"Search promo\" block."

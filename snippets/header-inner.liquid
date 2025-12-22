@@ -115,6 +115,24 @@
       </nav>
     {%- endif -%}
 
+    {%- if section.settings.enable_embed_modal and section.settings.embed_modal_content != blank and section.settings.header_type == 'bottom-menu' -%}
+      <div class="header__embed-modal">
+        <modal-opener
+          class="no-js-hidden"
+          data-modal="#HeaderEmbedModal-{{ section.id }}"
+        >
+          <button
+            id="HeaderEmbedPopup-{{ section.id }}"
+            class="button button--{{ section.settings.embed_modal_button_style | default: 'secondary' }} button--primary-size focus-inset"
+            type="button"
+            aria-haspopup="dialog"
+          >
+            <span>{{ section.settings.embed_modal_label | default: 'Watch' }}</span>
+          </button>
+        </modal-opener>
+      </div>
+    {%- endif -%}
+
     {%- if section.settings.header_type == 'bottom-menu' and section.settings.enable_search  -%}
       {% if request.page_type != 'search' %}
         <details-modal class="header__search header__search_desktop">
@@ -456,6 +474,24 @@
     {%- endif -%}
 
     <div class="header__icons-wrapper">
+      {%- if section.settings.enable_embed_modal and section.settings.embed_modal_content != blank and section.settings.header_type == 'top-menu' -%}
+        <div class="header__embed-modal">
+          <modal-opener
+            class="no-js-hidden"
+            data-modal="#HeaderEmbedModal-{{ section.id }}"
+          >
+            <button
+              id="HeaderEmbedPopup-{{ section.id }}"
+              class="button button--{{ section.settings.embed_modal_button_style | default: 'secondary' }} button--primary-size focus-inset"
+              type="button"
+              aria-haspopup="dialog"
+            >
+              <span>{{ section.settings.embed_modal_label | default: 'Watch' }}</span>
+            </button>
+          </modal-opener>
+        </div>
+      {%- endif -%}
+
       {%- if section.settings.header_type == 'top-menu' and section.settings.enable_search -%}
         {% if request.page_type != 'search' %}
           <details-modal class="header__search header__search_desktop">
@@ -794,4 +830,33 @@
       </div>
     {% endif %}
   </nav>
+{%- endif -%}
+
+{%- if section.settings.enable_embed_modal and section.settings.embed_modal_content != blank -%}
+  <modal-dialog
+    id="HeaderEmbedModal-{{ section.id }}"
+    class="product-popup-modal"
+  >
+    <div
+      role="dialog"
+      aria-label="{{ section.settings.embed_modal_label | default: 'Embedded content' }}"
+      aria-modal="true"
+      class="product-popup-modal__dialog"
+      tabindex="-1"
+    >
+      <button
+        id="ModalClose-{{ section.id }}"
+        type="button"
+        class="product-popup-modal__close modal-close-button focus-inset"
+        aria-label="{{ 'accessibility.close' | t }}"
+      >
+        {% render 'icon-close' %}
+      </button>
+      <div class="product-popup-modal__content">
+        <div class="header__embed-content">
+          {{ section.settings.embed_modal_content }}
+        </div>
+      </div>
+    </div>
+  </modal-dialog>
 {%- endif -%}
