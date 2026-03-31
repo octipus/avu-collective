@@ -96,6 +96,7 @@
             "custom_url": "shopify://collections/avu-med-bar",
             "custom_title": "",
             "color_scheme": "background-3",
+            "image": "shopify://shop_images/IMG_2750.jpg",
             "image_has_container": false,
             "collection_heading_size": "h2",
             "overlay_enable": false,
