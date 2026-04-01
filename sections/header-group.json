@@ -29,6 +29,37 @@
     "header": {
       "type": "header",
       "blocks": {
+        "mega_menu_nqGrAb": {
+          "type": "mega_menu",
+          "settings": {
+            "mega_menu_trigger": "Services",
+            "menu_1_heading": "This is where a key link goes",
+            "menu_1": "",
+            "menu_2_heading": "This is where a key link goes",
+            "menu_2": "",
+            "show_promo_block_1": true,
+            "color_scheme_1": "background-1",
+            "heading_1": "There may be some category here",
+            "button_link_1": "",
+            "overlay_opacity_1": 0,
+            "match_color_1": false,
+            "show_promo_block_2": true,
+            "color_scheme_2": "background-1",
+            "heading_2": "There may be some category here",
+            "button_link_2": "",
+            "overlay_opacity_2": 0,
+            "match_color_2": false,
+            "show_promo_block_3": true,
+            "color_scheme_3": "background-1",
+            "heading_3": "There may be some category here",
+            "button_link_3": "",
+            "overlay_opacity_3": 0,
+            "match_color_3": false,
+            "bottom_text": "This is where a CTA goes",
+            "bottom_button_label": "Use this for a “Shop Now” link",
+            "bottom_button_link": ""
+          }
+        },
         "simple_mega_menu_hQQgWt": {
           "type": "simple_mega_menu",
           "disabled": true,
@@ -96,6 +127,7 @@
         }
       },
       "block_order": [
+        "mega_menu_nqGrAb",
         "simple_mega_menu_hQQgWt",
         "search_promo",
         "mega_menu_ThkztG"
