@@ -53,7 +53,7 @@
           "settings": {
             "characteristics": false,
             "heading": "Service Outcome",
-            "description": "{{ product.metafields.custom.service_outcome | metafield_tag }}",
+            "description": "<p>Hydration and Glow</p>",
             "button_show": false,
             "button_label": "",
             "button_link": "",
@@ -77,7 +77,7 @@
           "settings": {
             "characteristics": false,
             "heading": "Core Protocol may Include",
-            "description": "{{ product.metafields.custom.may_include | metafield_tag }}",
+            "description": "<p>Hydrafacial and Clearlift</p>",
             "button_show": false,
             "button_label": "",
             "button_link": "",
